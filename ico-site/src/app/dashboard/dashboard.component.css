@@ -1,0 +1,7 @@
+.container-fluid{
+    height: 500px;
+    padding: 0!important;
+    background: url('../../assets/icons/HeroBannerBG.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

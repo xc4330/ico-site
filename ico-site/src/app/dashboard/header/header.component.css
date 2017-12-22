@@ -1,0 +1,28 @@
+.navbar{
+    background: rgba(0, 0, 0, 0.24);
+    border: 0;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: white;
+}
+
+.navbar-brand{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: white;
+    padding: 10px;
+}
+
+.brand-logo{
+    height: 100%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.brand-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
