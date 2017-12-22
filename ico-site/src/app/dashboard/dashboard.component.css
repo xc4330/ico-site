@@ -5,3 +5,31 @@
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
+.brand-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-logo{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.brand-title, .brand-desc{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brand-desc{
+    width: 30%;
+    color: rgb(173, 226, 252);
+    font-size: 0.9em;
+    text-align: center;
+}
+  
