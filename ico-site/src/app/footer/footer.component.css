@@ -1,0 +1,28 @@
+footer
+{
+  padding-top: 50px;
+  background: #23262d;
+}
+
+footer nav .nav-link
+{
+  font-size: 0.8em;
+  color: #bebec0;
+}
+
+.social-buttons
+{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.social-buttons a
+{
+  margin: 0 5px 0 5px;
+}
+
+nav
+{
+  padding-bottom: 30px;
+}
