@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -9,6 +9,7 @@ import { AboutComponent } from './about/about.component';
 import { EventComponent } from './event/event.component';
 import { TeamComponent } from './team/team.component';
 import { HeaderComponent } from './dashboard/header/header.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 
 @NgModule({
@@ -19,10 +20,12 @@ import { HeaderComponent } from './dashboard/header/header.component';
     AboutComponent,
     EventComponent,
     TeamComponent,
-    HeaderComponent
+    HeaderComponent,
+    CarouselComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgbModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]
