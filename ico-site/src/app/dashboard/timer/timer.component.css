@@ -1,0 +1,10 @@
+.timer-container{
+    background-image: url('../../../assets/icons/coutdown.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    top: 100px;
+    right: 50px;
+}
