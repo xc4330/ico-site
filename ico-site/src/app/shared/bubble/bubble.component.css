@@ -1,0 +1,57 @@
+.bubble-container-problem{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: lightgrey;
+    width: 350px;
+    height: 480px;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bubble-container-solution{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: lightgrey;
+    width: 290px;
+    height: 500px;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+}
+
+.image{
+
+}
+
+.title-problem{
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 20px;
+    height: 90px;
+}
+
+.title-solution{
+    text-align: left;
+    font-size: 1.2em;
+    padding: 20px;
+}
+
+.text{
+    text-align: left;
+    color: grey;
+    font-size: 1em;
+    font-weight: lighter;
+    padding: 0px 20px 40px 20px;
+}

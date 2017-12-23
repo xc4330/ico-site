@@ -11,6 +11,9 @@ import { TeamComponent } from './team/team.component';
 import { HeaderComponent } from './dashboard/header/header.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { StageComponent } from './event/stage/stage.component';
+import { ProblemComponent } from './problem/problem.component';
+import { BubbleComponent } from './shared/bubble/bubble.component';
+import { SolutionComponent } from './solution/solution.component';
 
 
 @NgModule({
@@ -23,7 +26,10 @@ import { StageComponent } from './event/stage/stage.component';
     TeamComponent,
     HeaderComponent,
     CarouselComponent,
-    StageComponent
+    StageComponent,
+    ProblemComponent,
+    BubbleComponent,
+    SolutionComponent
   ],
   imports: [
     BrowserModule,
