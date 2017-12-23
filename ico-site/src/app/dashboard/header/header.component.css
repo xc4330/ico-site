@@ -26,6 +26,12 @@
   border-bottom: 2px solid white;
   
 }
+
+.navbar-nav .nav-item:hover
+{
+  border-bottom: 2px solid white;
+  
+}
 /* 
 .brand-title{
     display: flex;
