@@ -1,32 +1,34 @@
 .navbar{
-    background: rgba(0, 0, 0, 0.24);
-    border: 0;
-}
-
-.navbar-default .navbar-nav>li>a{
-    color: white;
+  background: rgba(0, 0, 0, 0.24);
+  border: 0;
 }
 
 .navbar-brand{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    color: white;
-    padding: 10px;
-}
-
-.navbar-brand:hover,.navbar-brand:focus {
-    color: white;
+  color: white;
 }
 
 .brand-logo{
-    height: 100%;
-    margin-right: 20px;
-    margin-left: 20px;
+  height: 100%;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 80px;
 }
 
+.navbar-nav .nav-item .nav-link
+{
+  color: white;
+  margin-bottom: 4px;
+
+}
+
+.navbar-nav .nav-item.active
+{
+  border-bottom: 2px solid white;
+  
+}
+/* 
 .brand-title{
     display: flex;
     flex-direction: row;
     align-items: center;
-}
+} */
