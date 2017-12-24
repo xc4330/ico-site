@@ -1,5 +1,6 @@
 footer
 {
+  padding: 50px 0 20px 0;
   background: #23262d;
 }
 
@@ -21,9 +22,19 @@ footer nav .nav-link
   margin: 0 5px 0 5px;
 }
 
+.social-buttons a img
+{
+  width: 35px;
+}
+
 nav
 {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  align-items: center;
+  margin-bottom: 30px;
+}
+
+.copyright-text
+{
+  font-size: 0.6em;
+  color: #bebec0;
+  margin-left: 15px;
 }
