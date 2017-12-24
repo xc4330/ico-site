@@ -1,0 +1,21 @@
+.container-fluid{
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: rgb(250, 250, 250);
+}
+
+.title{
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.roadmap-container{
+    margin-top: 100px;
+}
+
+.nav-pills .nav-link.active{
+    color:red!important;
+}

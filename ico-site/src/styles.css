@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+.nav-pills .nav-link{
+    color: grey;
+    background: white;
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 0;
+    border: solid 1px lightgrey;
+    border-width: 1px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background: rgb(0, 150, 197);
+    color: white;
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 0;
+    border: solid 1px rgb(0, 150, 197);
+    border-width: 1px;
+    
+}

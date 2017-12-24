@@ -1,0 +1,88 @@
+.phase-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 80%;
+    margin: auto;
+}
+
+.indicator{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 110px;
+}
+
+.line-high-current, .line-high-past{
+    width: 5px;
+    background: rgb(0,150,197);
+    height: 8%;
+}
+
+.line-high-future{
+    width: 5px;
+    background: rgb(222, 222, 222);
+    height: 8%;
+}
+
+
+.dot-current, .dot-past{
+    height: 15%;
+    width: 0;
+    padding-left: 15%;
+    background: rgb(0,150,197);
+    border-radius: 50%;
+}
+
+.dot-future{
+    height: 15%;
+    width: 0;
+    padding-left: 15%;
+    background: rgb(150, 150, 150);
+    border-radius: 50%;
+}
+
+.line-low-current, .line-low-future{
+    width: 5px;
+    background: rgb(222, 222, 222);
+    height: 77%;
+}
+
+.line-low-past{
+    width: 5px;
+    background: rgb(0,150,197);
+    height: 77%;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 90%;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    font-size: 1.4em;
+}
+
+.title>div{
+    margin-right: 5px;
+}
+
+.time{
+    color:rgb(0,150,197);
+}
+
+.desc{
+    font-size: 1em;
+    color: rgb(122, 122, 122);
+}
