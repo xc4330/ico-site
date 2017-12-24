@@ -1,6 +1,5 @@
 footer
 {
-  padding-top: 50px;
   background: #23262d;
 }
 
@@ -24,5 +23,7 @@ footer nav .nav-link
 
 nav
 {
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
 }
