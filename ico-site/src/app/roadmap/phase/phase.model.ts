@@ -5,6 +5,7 @@ export class Phase {
         public time: string,
         public desc: string,
         public status: string,
+        public isFirst: boolean,
         public isLast: boolean,
     ){}
   }
