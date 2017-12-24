@@ -1,0 +1,53 @@
+.phase-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 80%;
+    margin: auto;
+}
+
+.indicator{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+}
+
+.line-high-current{
+    width: 3px;
+    background: rgb(222, 222, 222);
+    height: 5px;
+}
+
+.dot-current{
+    height: 15px;
+    width: 15px;
+    background: rgb(0,150,197);
+    border-radius: 50%;
+}
+
+.line-low-current{
+    width: 3px;
+    background: rgb(222, 222, 222);
+    height: 75px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 90%;
+    margin-bottom: 40px;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}

@@ -15,6 +15,8 @@ import { ProblemComponent } from './problem/problem.component';
 import { BubbleComponent } from './shared/bubble/bubble.component';
 import { SolutionComponent } from './solution/solution.component';
 import { FooterComponent } from './footer/footer.component';
+import { RoadmapComponent } from './roadmap/roadmap.component';
+import { PhaseComponent } from './roadmap/phase/phase.component';
 
 
 @NgModule({
@@ -31,7 +33,9 @@ import { FooterComponent } from './footer/footer.component';
     ProblemComponent,
     BubbleComponent,
     SolutionComponent,
-    FooterComponent
+    FooterComponent,
+    RoadmapComponent,
+    PhaseComponent
   ],
   imports: [
     BrowserModule,
