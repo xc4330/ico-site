@@ -1,6 +1,6 @@
 footer
 {
-  padding-top: 50px;
+  padding: 50px 0 20px 0;
   background: #23262d;
 }
 
@@ -29,5 +29,12 @@ footer nav .nav-link
 
 nav
 {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.copyright-text
+{
+  font-size: 0.6em;
+  color: #bebec0;
+  margin-left: 15px;
 }
