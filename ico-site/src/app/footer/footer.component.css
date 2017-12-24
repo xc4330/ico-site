@@ -22,6 +22,11 @@ footer nav .nav-link
   margin: 0 5px 0 5px;
 }
 
+.social-buttons a img
+{
+  width: 35px;
+}
+
 nav
 {
   padding-bottom: 30px;

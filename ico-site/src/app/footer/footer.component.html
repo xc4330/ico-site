@@ -1,12 +1,8 @@
 <footer>
   <div class="container-fluid">
-    <nav class="nav">
-      <a class="nav-link active" href="#">About Morpheus</a>
-      <a class="nav-link" href="#">Solution</a>
-      <a class="nav-link" href="#">White Paper</a>
-      <a class="nav-link" href="#">Token Events</a>
-      <a class="nav-link" href="#">Team</a>
-      <a class="nav-link" href="#">Bounty</a>
+    <nav class="nav" >
+      
+      <a class="nav-link" *ngFor='let navlink of navlinks' href='{{navlink.link}}'>{{navlink.label}}</a>
 
       <div class="social-buttons ml-auto">
         <a href="#">
