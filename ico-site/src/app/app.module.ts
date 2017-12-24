@@ -14,6 +14,7 @@ import { StageComponent } from './event/stage/stage.component';
 import { ProblemComponent } from './problem/problem.component';
 import { BubbleComponent } from './shared/bubble/bubble.component';
 import { SolutionComponent } from './solution/solution.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { SolutionComponent } from './solution/solution.component';
     StageComponent,
     ProblemComponent,
     BubbleComponent,
-    SolutionComponent
+    SolutionComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
