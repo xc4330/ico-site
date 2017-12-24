@@ -1,3 +1,28 @@
-<p>
-  team works!
-</p>
+<div class="container-fluid">
+  <div class="title">
+    <h1>Our Team</h1>
+  </div>
+  <div class="container-fluid member-container">
+    <div class="row">
+        <div class="col"
+          *ngFor="let member of members">
+          <app-member
+          [info]="member">
+          </app-member>
+        </div>
+    </div>
+  </div>
+  <div class="title">
+      <h1>Founding Advisors</h1>
+    </div>
+    <div class="container-fluid member-container">
+      <div class="row">
+          <div class="col"
+            *ngFor="let advisor of advisors">
+            <app-member
+            [info]="advisor">
+            </app-member>
+          </div>
+      </div>
+    </div>
+</div>

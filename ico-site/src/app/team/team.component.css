@@ -1,0 +1,11 @@
+
+.container-fluid .member-container{
+    padding-left: 6%;
+    padding-right: 4%;
+}
+
+.title{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
