@@ -1,18 +1,26 @@
-<div class="stage-container-normal">
-  <div class="header-normal">
-    <div class="title-normal">
+<div class="stage-container-{{currentStage.status}}">
+  <div class="header-{{currentStage.status}}">
+    <div class="title-{{currentStage.status}}">
       {{currentStage.title}}
     </div>
-    <div class="subtitle-normal">
+    <div class="subtitle-{{currentStage.status}}">
       {{currentStage.subTitle}}
     </div>
   </div>
-  <div class="body-normal">
-    <div class="date-normal">
+  <div 
+    class="finished"
+    *ngIf="currentStage.status === 'ended'">
+    STAGE FINISHED
+  </div>
+  <div class="body-{{currentStage.status}}">
+    <div class="date-{{currentStage.status}}">
       {{currentStage.dateString}}
     </div>
-    <div class="time-normal">
+    <div class="time-{{currentStage.status}}">
       {{currentStage.timeString}}
     </div>
+    <button 
+      class="btn btn-primary buy-btn"
+      *ngIf="currentStage.status === 'ongoing'">Buy Token</button>
   </div>
 </div>

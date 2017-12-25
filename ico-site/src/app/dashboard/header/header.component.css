@@ -12,20 +12,29 @@
 .navbar-nav .nav-item .nav-link
 {
   color: white;
-  margin-bottom: 4px;
+}
 
+.navbar-nav .nav-item{
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
+  border-top: 2px solid rgba(255, 255, 255, 0);
+  border-left: 2px solid rgba(255, 255, 255, 0);
+  border-right: 2px solid rgba(255, 255, 255, 0);
 }
 
 .navbar-nav .nav-item.active
 {
   border-bottom: 2px solid white;
-  
+  border-top: 2px solid rgba(255, 255, 255, 0);
+  border-left: 2px solid rgba(255, 255, 255, 0);
+  border-right: 2px solid rgba(255, 255, 255, 0);
 }
 
 .navbar-nav .nav-item:hover
 {
   border-bottom: 2px solid white;
-  
+  border-top: 2px solid rgba(255, 255, 255, 0);
+  border-left: 2px solid rgba(255, 255, 255, 0);
+  border-right: 2px solid rgba(255, 255, 255, 0);
 }
 /* 
 .brand-title{
