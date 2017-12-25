@@ -8,6 +8,7 @@ footer nav .nav-link
 {
   font-size: 0.8em;
   color: #bebec0;
+  cursor: pointer;
 }
 
 .social-buttons
