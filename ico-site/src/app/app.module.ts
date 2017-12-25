@@ -20,7 +20,7 @@ import { PhaseComponent } from './roadmap/phase/phase.component';
 import { MemberComponent } from './team/member/member.component';
 import { BenefitsComponent } from './benefits/benefits.component';
 import { ReasonComponent } from './reason/reason.component';
-
+import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 
 @NgModule({
   declarations: [
@@ -46,6 +46,7 @@ import { ReasonComponent } from './reason/reason.component';
   imports: [
     BrowserModule,
     NgbModule.forRoot(),
+    ScrollToModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
