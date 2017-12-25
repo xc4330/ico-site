@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { NavigationLink, NavigationLinks } from '../../../data/navlink';
 import { Navigation } from 'selenium-webdriver';
 
@@ -10,11 +10,14 @@ import { Navigation } from 'selenium-webdriver';
 export class HeaderComponent implements OnInit {
 
   navlinks: NavigationLink[];
+  @Output() clickEvent = new EventEmitter<string>();
 
   constructor() { }
 
   ngOnInit() {
     this.navlinks = NavigationLinks;
   }
-
+  onLinkClicked(label:string){
+    this.clickEvent.emit(label)
+  }
 }

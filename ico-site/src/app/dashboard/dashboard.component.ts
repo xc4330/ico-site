@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { Logs } from 'selenium-webdriver';
 import { log } from 'util';
 
@@ -9,9 +9,15 @@ import { log } from 'util';
 })
 export class DashboardComponent implements OnInit {
 
+  @Output() navClickEvent = new EventEmitter<string>();
   constructor() { }
 
   ngOnInit() {
+  }
+
+  onNavLinkClicked(label:string){
+    console.log("dashboard " + label)
+    this.navClickEvent.emit(label)
   }
 
 }
