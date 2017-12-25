@@ -1,0 +1,94 @@
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.features{
+    position: absolute;
+    height: 950px;
+    width: 950px;
+}
+
+.circle-1{
+    width: 950px;
+    height: 950px;
+    border: solid lightgray 1px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-2{
+    width: 630px;
+    height: 630px;
+    border: solid lightgray 1px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-3{
+    width: 330px;
+    height: 330px;
+    border: solid lightgray 1px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0,150,197);
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+.dot-1, .dot-2, .dot-3, .dot-4, .dot-5 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.dot-1, .dot-2 {
+    background: rgb(0,150,197);
+}
+
+.dot-3, .dot-4, .dot-5 {
+    border: solid lightgray 1px; 
+    background: white;
+}
+
+.dot-1 {
+    top: 80px;
+    left: 175px;
+}
+
+.dot-2 {
+    right: 240px;
+    bottom: 40px;
+}
+
+
+.dot-3 {
+    top: 210px;
+    right: 270px;
+}
+
+
+.dot-4 {
+    top: 480px;
+    left: 145px;
+}
+
+.dot-5 {
+    top: 480px;
+    right: -14px;
+}
+

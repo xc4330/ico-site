@@ -21,6 +21,8 @@ import { MemberComponent } from './team/member/member.component';
 import { BenefitsComponent } from './benefits/benefits.component';
 import { ReasonComponent } from './reason/reason.component';
 import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
+import { AdvantageComponent } from './advantage/advantage.component';
+import { FeatureComponent } from './advantage/feature/feature.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +43,9 @@ import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
     PhaseComponent,
     MemberComponent,
     BenefitsComponent,
-    ReasonComponent
+    ReasonComponent,
+    AdvantageComponent,
+    FeatureComponent
   ],
   imports: [
     BrowserModule,
