@@ -18,6 +18,7 @@ import { FooterComponent } from './footer/footer.component';
 import { RoadmapComponent } from './roadmap/roadmap.component';
 import { PhaseComponent } from './roadmap/phase/phase.component';
 import { MemberComponent } from './team/member/member.component';
+import { BenefitsComponent } from './benefits/benefits.component';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { MemberComponent } from './team/member/member.component';
     FooterComponent,
     RoadmapComponent,
     PhaseComponent,
-    MemberComponent
+    MemberComponent,
+    BenefitsComponent
   ],
   imports: [
     BrowserModule,

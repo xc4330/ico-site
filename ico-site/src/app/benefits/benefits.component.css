@@ -1,0 +1,22 @@
+.benefits-section
+{
+  padding: 10% 0 0 6%;
+}
+
+p
+{
+  padding: 2em 0 2em 0;
+  color: #666;
+}
+
+button
+{
+  border-radius: 0;
+  margin-right: 15px;
+}
+
+.btn-primary
+{
+  background: rgb(0, 150, 197);
+  border-color: rgb(0, 150, 197);
+}
