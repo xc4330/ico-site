@@ -1,9 +1,12 @@
 <footer>
   <div class="container-fluid">
     <nav class="nav">
-      
-      <a class="nav-link" *ngFor='let navlink of navlinks' href='{{navlink.link}}'>{{navlink.label}}</a>
-
+      <a 
+        class="nav-link" 
+        *ngFor='let navlink of navlinks' 
+        (click)="onLinkClicked(navlink.label)">
+          {{navlink.label}}
+      </a>
       <div class="social-buttons ml-auto">
         <a href="#">
           <img src="./assets/icons/SocialMedia01.png">
@@ -28,7 +31,12 @@
         </a>
       </div>
     </nav>
-
-    <div class="copyright-text">© Morpheus Lab. Inc | 2017 All rights reserved</div>
+    <div class="copyright-container">
+      <div>© Morpheus Lab. Inc | 2017 All rights reserved</div>
+      <button 
+        class="btn go-btn"
+        (click)="onLinkClicked('Dashboard')">
+      </button>
+    </div>
   </div>
 </footer>

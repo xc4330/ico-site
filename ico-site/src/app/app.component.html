@@ -1,5 +1,5 @@
 <app-dashboard 
-    id="dashboard"
+    id="Dashboard"
     (navClickEvent)='triggerScrollTo($event)'>
 </app-dashboard>
 <app-carousel id="AboutMorpheus"></app-carousel>
@@ -10,4 +10,6 @@
 <app-benefits id=""></app-benefits>
 <app-roadmap id=""></app-roadmap>
 <app-team id="Team"></app-team>
-<app-footer id=""></app-footer>
+<app-footer 
+    (navClickEvent)='triggerScrollTo($event)'>
+</app-footer>

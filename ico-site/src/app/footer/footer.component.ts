@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { NavigationLink, NavigationLinks } from '../../data/navlink';
 
 @Component({
@@ -9,11 +9,15 @@ import { NavigationLink, NavigationLinks } from '../../data/navlink';
 export class FooterComponent implements OnInit {
 
   navlinks: NavigationLink[];
-
+  @Output() navClickEvent = new EventEmitter<string>();
   constructor() { }
 
   ngOnInit() {
     this.navlinks = NavigationLinks;
+  }
+
+  onLinkClicked(label:string){
+    this.navClickEvent.emit(label)
   }
 
 }

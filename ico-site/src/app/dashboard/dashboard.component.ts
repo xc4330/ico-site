@@ -16,7 +16,6 @@ export class DashboardComponent implements OnInit {
   }
 
   onNavLinkClicked(label:string){
-    console.log("dashboard " + label)
     this.navClickEvent.emit(label)
   }
 

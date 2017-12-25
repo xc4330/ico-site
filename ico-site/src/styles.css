@@ -19,5 +19,59 @@
     border-radius: 0;
     border: solid 1px rgb(0, 150, 197);
     border-width: 1px;
-    
+}
+
+:focus{
+    outline: none;
+}
+
+.carousel-item {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.carousel-control-prev{
+    opacity: 1;
+    width: 5%;
+}
+
+.carousel-control-next{
+    opacity: 1;
+    width: 5%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url('./assets/icons/prev.png')!important;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 70px;
+    height: 80px;
+}
+
+.carousel-indicators {
+    top:110%!important;
+}
+
+
+.carousel-control-next-icon{
+    background-image: url('./assets/icons/next.png')!important;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 70px;
+    height: 80px;
+}
+
+.carousel-indicators li{
+    background: lightgrey;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.carousel-indicators .active{
+    background: rgb(0,150,197)
 }

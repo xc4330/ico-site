@@ -32,9 +32,27 @@ nav
   margin-bottom: 30px;
 }
 
-.copyright-text
+.copyright-container
 {
   font-size: 0.6em;
   color: #bebec0;
-  margin-left: 15px;
+  padding-left: 15px;
+  padding-right: 4px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.go-btn, .go-btn:active{
+  background-image: url('../../assets/icons/gototop.png')!important;
+  height: 35px;
+  width: 35px;
+  background-size: 100% 100%;
+  border-radius: 50%;
+  border: none;
+}
+
+.go-btn:focus{
+  outline:none!important;
 }
