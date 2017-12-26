@@ -2,14 +2,17 @@
   <div class="title">
     <h1>Token Events</h1>
   </div>
-  <div class="stages">
-    <app-stage  
-      *ngFor="let stage of stages"
-      [stage]="stage"
-      >
-    </app-stage>
+  <div class="row">
+    <div class="col"
+      *ngFor="let stage of stages">
+      <app-stage
+      [stage]="stage">
+      </app-stage>
+    </div>
   </div>
   <div class="desc">
       Pre-ICO bonus only Eligible for Accredited Institutional Investors or Investors planning to invest more than $50,000. 
   </div>
+  <div class="pattern-left"></div>
+  <div class="pattern-right"></div>
 </div>

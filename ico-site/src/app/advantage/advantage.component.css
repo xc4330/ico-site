@@ -4,8 +4,13 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+h1{
+    width:100%;
+    text-align: center;
 }
 
 .features{
@@ -90,5 +95,36 @@
 .dot-5 {
     top: 480px;
     right: -14px;
+}
+
+.title {
+    display: none;
+}
+
+.row {
+    display: none;
+    margin-top: 50px;
+}
+
+@media(max-width: 1212px){
+    .title, .row {
+        display: inherit;
+    }
+
+    .container-fluid{
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    .dot-1, .dot-2, .dot-3, .dot-4, .dot-5, .circle-1, .features {
+        display: none;
+    }
+
+    .col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 

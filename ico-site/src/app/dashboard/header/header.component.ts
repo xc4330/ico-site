@@ -24,6 +24,7 @@ export class HeaderComponent implements OnInit {
     this.navlinks = NavigationLinks;
   }
   onLinkClicked(label:string){
+    this.toggleState()
     this.clickEvent.emit(label)
   }
 }

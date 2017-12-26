@@ -45,3 +45,10 @@
     font-size: 1em;
     color: rgb(97, 97, 97)
 }
+
+@media(max-width: 991px){
+    .member-container{
+        width: 360px;
+        height: auto;
+    }
+}
