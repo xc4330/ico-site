@@ -5,6 +5,8 @@
     justify-content: flex-start;
     width: 80%;
     margin: auto;
+    --dot-size: 15px;
+    --line-high-height: 9px;
 }
 
 .indicator{
@@ -19,28 +21,26 @@
 .line-high-current, .line-high-past{
     width: 5px;
     background: rgb(0,150,197);
-    height: 8%;
+    height: var(--line-high-height);
 }
 
 .line-high-future{
     width: 5px;
     background: rgb(222, 222, 222);
-    height: 8%;
+    height: var(--line-high-height);
 }
 
 
 .dot-current, .dot-past{
-    height: 15%;
-    width: 0;
-    padding-left: 15%;
+    height: var(--dot-size);
+    width: var(--dot-size);;
     background: rgb(0,150,197);
     border-radius: 50%;
 }
 
 .dot-future{
-    height: 15%;
-    width: 0;
-    padding-left: 15%;
+    height: var(--dot-size);
+    width: var(--dot-size);;
     background: rgb(150, 150, 150);
     border-radius: 50%;
 }
@@ -48,13 +48,13 @@
 .line-low-current, .line-low-future{
     width: 5px;
     background: rgb(222, 222, 222);
-    height: 77%;
+    height: calc(100% - var(--dot-size) - var(--line-high-height))
 }
 
 .line-low-past{
     width: 5px;
     background: rgb(0,150,197);
-    height: 77%;
+    height: calc(100% - var(--dot-size) - var(--line-high-height))
 }
 
 .text{
