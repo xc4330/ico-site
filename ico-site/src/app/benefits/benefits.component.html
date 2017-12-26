@@ -6,7 +6,14 @@
     <div class="col-7 benefits-section">
       <h1>Benefits of Token</h1>
       <p>Only MIT tokens will be accepted as the subscription fees for our next generation BPaaS. Purchase MIT tokens for your company’s use or sell it to another company who needs blockchain development.
+        <br><br>
+        This consist of Platform subscription payment, Application usage fee and Distributorship licensing fee as stated below:
       </p>
+      <ol>
+        <li *ngFor="let listitem of listitems">{{listitem.label}}
+          <div class="li-desc" [innerHTML]="listitem.desc"> </div>
+        </li>
+      </ol>
 
       <button type="button" class="btn btn-lg btn-outline-secondary">Learn More</button>
       <button type="button" class="btn btn-lg btn-primary">Read Whitepaper</button>
@@ -24,7 +31,7 @@
       </div>
 
       <div class="card-section card-section-2">
-        <img src="./assets/icons/Benefit01.png">
+        <img src="./assets/icons/Benefit02.png">
         <div class="card-title">
           Distributorship Licensing Fee
         </div>
