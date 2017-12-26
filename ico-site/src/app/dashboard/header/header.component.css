@@ -12,6 +12,7 @@
 .navbar-nav .nav-item .nav-link
 {
   color: white;
+  cursor: pointer;
 }
 
 .navbar-nav .nav-item{
