@@ -6,12 +6,30 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    position: relative;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.col {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 12px;
+    margin-top: 12px;
 }
 
 .title{
     color: white;
+    z-index: 1;
 }
 
 .desc{
@@ -20,12 +38,40 @@
     color: rgb(173, 226, 252);
     font-size: 0.9em;
     text-align: center;
+    z-index: 1;
 }
 
-.stages{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 85%;
+.pattern-left{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-image: url('../../assets/icons/BGShape1.png');
+    width: 100%;
+    height: 60%;
+    background-size: auto 100%;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+.pattern-right{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url('../../assets/icons/BGShape2.png');
+    width: 100%;
+    height: 60%;
+    background-size: auto 100%;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+@media(max-width: 991px){
+    .pattern-right, .pattern-left {
+        display: none;
+    }
+
+    .desc{
+        margin-top: 30px;
+    }
 }

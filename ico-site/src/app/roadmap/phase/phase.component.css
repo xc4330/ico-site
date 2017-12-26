@@ -1,12 +1,12 @@
 .phase-container {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
+    /* flex-direction: row; */
+    /* align-items: flex-start;
+    justify-content: flex-start; */
     width: 80%;
     margin: auto;
-    --dot-size: 15px;
-    --line-high-height: 9px;
+    --dot-size: 16px;
+    --line-high-height: 10px;
 }
 
 .indicator{
@@ -15,17 +15,17 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 125px;
+    /* height: 124px; */
 }
 
 .line-high-current, .line-high-past{
-    width: 5px;
+    width: 4px;
     background: rgb(0,150,197);
     height: var(--line-high-height);
 }
 
 .line-high-future{
-    width: 5px;
+    width: 4px;
     background: rgb(222, 222, 222);
     height: var(--line-high-height);
 }
@@ -46,15 +46,15 @@
 }
 
 .line-low-current, .line-low-future{
-    width: 5px;
+    width: 4px;
     background: rgb(222, 222, 222);
-    height: calc(100% - var(--dot-size) - var(--line-high-height))
+    height: calc(100% - var(--dot-size) - var(--line-high-height) + 1px)
 }
 
 .line-low-past{
-    width: 5px;
+    width: 4px;
     background: rgb(0,150,197);
-    height: calc(100% - var(--dot-size) - var(--line-high-height))
+    height: calc(100% - var(--dot-size) - var(--line-high-height) + 1px)
 }
 
 .text{
@@ -63,19 +63,13 @@
     align-items: flex-start;
     justify-content: flex-start;
     width: 90%;
+    margin-top: calc(var(--line-high-height)/2 - 0.3em);
+    padding-bottom: 20px;
 }
 
 .title{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
     width: 100%;
     font-size: 1.4em;
-}
-
-.title>div{
-    margin-right: 10px;
 }
 
 .time{
@@ -89,4 +83,26 @@
 
 .phase{
     font-weight: bold;
+}
+
+@media(max-width: 991px){
+    .phase-container {
+        width: 100%;
+    }
+
+    .indicator{
+        /* height: 164px; */
+    }
+    
+
+    .text {
+        margin-top: calc(var(--line-high-height)/2);
+    }
+
+    .title{
+        font-size: 1em;
+    }
+    .phase {
+        display: none;
+    }
 }

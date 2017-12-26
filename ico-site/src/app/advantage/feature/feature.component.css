@@ -55,3 +55,9 @@
     font-size: 0.9em;
     text-align: center;
 }
+
+@media(max-width: 1212px){
+    .feature-container-1, .feature-container-2, .feature-container-3, .feature-container-4, .feature-container-5{
+        position: inherit;
+    }
+}
