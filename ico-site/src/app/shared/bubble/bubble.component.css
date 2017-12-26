@@ -8,6 +8,8 @@
     overflow: hidden;
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .bubble-container-solution{
@@ -18,8 +20,8 @@
     width: 290px;
     height: 500px;
     overflow: hidden;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .icon{
@@ -28,10 +30,6 @@
     justify-content: center;
     align-items: center;
     height: 180px;
-}
-
-.image{
-
 }
 
 .title-problem{
@@ -45,6 +43,7 @@
 .title-solution{
     text-align: left;
     font-size: 1.2em;
+    font-weight: bold;
     padding: 20px;
 }
 
@@ -54,4 +53,31 @@
     font-size: 1em;
     font-weight: lighter;
     padding: 0px 20px 40px 20px;
+}
+
+@media(max-width: 991px){
+    .icon{
+        display: none
+    }
+
+    .title-problem{
+        height: auto;
+    }
+
+    .title-solution{
+        height: auto;
+    }
+
+    .bubble-container-problem{
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .bubble-container-solution{
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 350px;
+    }
 }
