@@ -1,13 +1,19 @@
 .container-fluid{
-    height: 700px;
+    height: 680px;
     padding: 0!important;
     background: url('../../assets/icons/HeroBannerBG.png');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-position: 50% 0;
+    background-size: 100% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .brand-container{
     height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,5 +37,11 @@
     color: rgb(173, 226, 252);
     font-size: 0.9em;
     text-align: center;
+}
+
+@media(max-width: 991px){
+    .brand-container{
+        display: none;
+    }
 }
   
