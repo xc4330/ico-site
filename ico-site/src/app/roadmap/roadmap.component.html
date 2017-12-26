@@ -13,7 +13,12 @@
     </ngb-tab>
     <ngb-tab title="Business">
       <ng-template ngbTabContent>
-        ...
+        <div class="roadmap-container">
+          <app-phase
+            *ngFor="let phase of bizPhases"
+            [content]="phase"
+          ></app-phase>
+        </div>
       </ng-template>
     </ngb-tab>
   </ngb-tabset>

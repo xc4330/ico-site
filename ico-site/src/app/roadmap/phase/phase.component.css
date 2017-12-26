@@ -15,7 +15,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 110px;
+    height: 125px;
 }
 
 .line-high-current, .line-high-past{
@@ -75,7 +75,7 @@
 }
 
 .title>div{
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .time{
@@ -85,4 +85,8 @@
 .desc{
     font-size: 1em;
     color: rgb(122, 122, 122);
+}
+
+.phase{
+    font-weight: bold;
 }

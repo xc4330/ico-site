@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Phase } from './phase/phase.model';
 import { PACKAGE_ROOT_URL } from '@angular/core/src/application_tokens';
 import { NgbTabsetConfig } from '@ng-bootstrap/ng-bootstrap';
-import { techPhases } from '../../data/roadmapPhases'
+import { techPhases, bizPhases } from '../../data/roadmapPhases'
 
 @Component({
   selector: 'app-roadmap',
@@ -12,6 +12,7 @@ import { techPhases } from '../../data/roadmapPhases'
 })
 export class RoadmapComponent implements OnInit {
   techPhases: Phase[] = techPhases;
+  bizPhases: Phase[] = bizPhases;
   constructor(config: NgbTabsetConfig) {
     config.justify = 'center';
     config.type = 'pills';
