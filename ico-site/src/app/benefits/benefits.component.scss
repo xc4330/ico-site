@@ -1,11 +1,11 @@
 .benefits-section
 {
-  padding: 10% 0 0 6%;
+  padding: 3% 0 3% 6%;
 }
 
 p
 {
-  padding: 2em 0 2em 0;
+  padding: 2em 0 1em 0;
   color: #666;
 }
 
@@ -80,3 +80,19 @@ button
 {
   left: 28rem;
 }
+
+ol
+{
+  margin-bottom: 2em;
+  li
+  {
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 0.5em;
+  }
+  .li-desc
+  {
+    font-weight: normal;
+  }
+}
+
