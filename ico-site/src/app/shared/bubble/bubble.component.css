@@ -3,11 +3,13 @@
     border-width: 2px;
     border-radius: 20px;
     border-color: lightgrey;
-    width: 350px;
+    max-width: 350px;
     height: 480px;
     overflow: hidden;
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .bubble-container-solution{
@@ -15,9 +17,11 @@
     border-width: 2px;
     border-radius: 20px;
     border-color: lightgrey;
-    width: 290px;
+    max-width: 290px;
     height: 500px;
     overflow: hidden;
+    margin-top: 40px;
+    margin-bottom: 40px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -28,10 +32,7 @@
     justify-content: center;
     align-items: center;
     height: 180px;
-}
-
-.image{
-
+    margin-top: 20px;
 }
 
 .title-problem{
@@ -39,13 +40,15 @@
     font-size: 1.2em;
     font-weight: bold;
     padding: 20px;
-    height: 90px;
+    height: auto;
 }
 
 .title-solution{
     text-align: left;
     font-size: 1.2em;
+    font-weight: bold;
     padding: 20px;
+    height: auto;
 }
 
 .text{
@@ -54,4 +57,81 @@
     font-size: 1em;
     font-weight: lighter;
     padding: 0px 20px 40px 20px;
+}
+
+@media(max-width: 1360px){
+
+    .bubble-container-problem{
+        height: 440px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        max-width: 320px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .bubble-container-solution{
+        height: 500px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        max-width: 270px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .icon{
+        height: 140px;
+    }
+}
+
+@media(max-width: 1000px){
+    .icon{
+        display: none
+    }
+
+    .bubble-container-problem{
+        height: 280px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 45vw;
+        max-width: 45vw;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .bubble-container-solution{
+        height: 300px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 45vw;
+        max-width: 45vw;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media(max-width: 760px){
+    .icon{
+        display: none
+    }
+
+    .bubble-container-problem{
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 90vw;
+        max-width: 90vw;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .bubble-container-solution{
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 90vw;
+        max-width: 90vw;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }

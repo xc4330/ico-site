@@ -26,8 +26,8 @@
 }
 
 .carousel-item {
-    padding-left: 5%;
-    padding-right: 5%;
+    /* padding-left: 5%;
+    padding-right: 5%; */
 }
 
 .carousel-control-prev{
@@ -74,4 +74,28 @@
 
 .carousel-indicators .active{
     background: rgb(0,150,197)
+}
+
+h1{
+    font-size: 2em;
+}
+
+.row{
+    margin-right:0;
+    margin-left:0;
+}
+
+@media(max-width: 1000px){
+
+    .carousel-control-next-icon{
+        display: none;
+    }
+    .carousel-control-prev-icon{
+        display: none;
+    }
+
+    iframe {
+        width:100%!important
+    }
+    
 }

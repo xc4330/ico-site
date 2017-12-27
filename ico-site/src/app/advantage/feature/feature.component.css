@@ -55,3 +55,37 @@
     font-size: 0.9em;
     text-align: center;
 }
+
+@media(max-width: 1360px){
+    .feature-container-1{
+        top: 20px;
+        left: 315px;
+    }
+    
+    .feature-container-2{
+        top: 240px;
+        left: -20px;
+    }
+    
+    .feature-container-3{
+        bottom: -50px;
+        left: 30px;
+    }
+    
+    .feature-container-4{
+        bottom: -50px;
+        right: 30px;
+    }
+    
+    .feature-container-5{
+        top: 240px;
+        right: -20px;
+    }
+}
+
+
+@media(max-width: 1000px){
+    .feature-container-1, .feature-container-2, .feature-container-3, .feature-container-4, .feature-container-5{
+        position: inherit;
+    }
+}

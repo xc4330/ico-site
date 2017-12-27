@@ -1,13 +1,20 @@
 .container-fluid{
-    height: 700px;
+    height: 780px;
     padding: 0!important;
     background: url('../../assets/icons/HeroBannerBG.png');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .brand-container{
     height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,5 +38,53 @@
     color: rgb(173, 226, 252);
     font-size: 0.9em;
     text-align: center;
+}
+
+.pattern-left{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-image: url('../../assets/icons/BGLinesLeft.png');
+    width: 100%;
+    height: 80%;
+    background-size: auto 100%;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+.pattern-right{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: url('../../assets/icons/BGLinesRight.png');
+    width: 100%;
+    height: 80%;
+    background-size: auto 100%;
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+.pattern-bottom{
+    position: absolute;
+    bottom: 0;
+    background-image: url('../../assets/icons/BGLinesBottom.png');
+    width: 100%;
+    height: 100%;
+    background-size: 100% auto;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+@media(max-width: 1000px){
+    .container-fluid{
+        height: 600px;
+    }
+    .brand-container{
+        display: none;
+    }
+    .pattern-left, .pattern-right {
+        display: none;
+    }
 }
   

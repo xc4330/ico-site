@@ -4,8 +4,13 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+h1{
+    width:100%;
+    text-align: center;
 }
 
 .features{
@@ -90,5 +95,80 @@
 .dot-5 {
     top: 480px;
     right: -14px;
+}
+
+.title {
+    display: none;
+}
+
+.row {
+    display: none;
+    margin-top: 50px;
+}
+
+@media(max-width: 1360px){
+    .circle-1{
+        width: 760px;
+        height: 760px;
+    }
+    
+    .circle-2{
+        width: 504px;
+        height: 504px;
+    }
+
+    .circle-3{
+        width: 264px;
+        height: 264px;
+    }
+
+    .dot-1 {
+        top: 145px;
+        left: 245px;
+    }
+    
+    .dot-2 {
+        right: 280px;
+        bottom: 125px;
+    }
+    
+    
+    .dot-3 {
+        top: 295px;
+        right: 270px;
+    }
+    
+    
+    .dot-4 {
+        top: 540px;
+        left: 222px;
+    }
+    
+    .dot-5 {
+        top: 500px;
+        right: 83px;
+    }
+}
+
+@media(max-width: 1000px){
+    .title, .row {
+        display: inherit;
+    }
+
+    .container-fluid{
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    .dot-1, .dot-2, .dot-3, .dot-4, .dot-5, .circle-1, .features {
+        display: none;
+    }
+
+    .col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
