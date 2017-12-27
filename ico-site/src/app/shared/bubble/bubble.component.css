@@ -26,12 +26,43 @@
     margin-right: 10px;
 }
 
-.icon{
+.bubble-container-benefit{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: lightgrey;
+    min-width: 300px;
+    height: 400px;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: white;
+}
+
+.icon-problem{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 180px;
+    margin-top: 20px;
+}
+
+.icon-solution{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    margin-top: 20px;
+}
+
+.icon-benefit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
     margin-top: 20px;
 }
 
@@ -44,6 +75,14 @@
 }
 
 .title-solution{
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 20px;
+    height: auto;
+}
+
+.title-benefit{
     text-align: left;
     font-size: 1.2em;
     font-weight: bold;

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { BenefitsListItem } from './benefits.model';
+import { Bubble } from '../shared/bubble/bubble.model';
 
 @Component({
   selector: 'app-benefits',
@@ -9,6 +10,12 @@ import { BenefitsListItem } from './benefits.model';
 export class BenefitsComponent implements OnInit {
 
   listitems: BenefitsListItem[];
+  benefits: Bubble[] = [
+    new Bubble('Platform Subscription Payment','../../assets/icons/Benefit01.png','Payment for different tiers of services','benefit'),
+    new Bubble('Applications Usage Fee','../../assets/icons/Benefit02.png','Download to use wide range of applications in our app store with exclusive benefits. Download to customise or engage the application owner to customise for you','benefit'),
+    new Bubble('Distributorship Licensing Fee','../../assets/icons/Benefit03.png','Financial settlement for various tiers of licensing. Resources support and sharing','benefit'),
+    new Bubble('Token Swapping and Trading','../../assets/icons/Benefit04.png','Token swap among apps within the network. Traded on Cryptocurrency exchangeg','benefit'),
+  ]
 
   constructor() { }
 
@@ -16,18 +23,18 @@ export class BenefitsComponent implements OnInit {
     this.listitems = [
       {
         label: 'Platform Subscription Payment',
-        desc: 'Payment for different tiers of services '
+        desc: 'Payment for different tiers of services'
       },
       {
-        label: 'Applications usage fee',
+        label: 'Applications Usage Fee',
         desc: 'Download to use wide range of applications in our app store with exclusive benefits. <br> Download to customise or engage the application owner to customise for you'
       },
       {
-        label: 'Distributorship licensing fee',
+        label: 'Distributorship Licensing Fee',
         desc: 'Financial settlement for various tiers of licensing <br> Resources support and sharing'
       },
       {
-        label: 'Token Swapping and trading',
+        label: 'Token Swapping and Trading',
         desc: 'Token swap among apps within the network <br> Traded on Cryptocurrency exchangeg'
       }
     ]
