@@ -3,7 +3,7 @@
     border-width: 1px;
     border-radius: 10px;
     border-color: white;
-    width: 350px;
+    width: 230px;
     margin-left: 20px;
     margin-right: 20px;
     overflow: hidden;
@@ -120,10 +120,4 @@
     border-radius: 0;
     background: rgb(0,150,197);
     margin-top: 15px;
-}
-
-@media(max-width: 1023px){
-    .stage-container-new, .stage-container-ongoing, .stage-container-ended{
-        width:350px;
-    }
 }
