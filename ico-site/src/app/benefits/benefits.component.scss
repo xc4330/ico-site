@@ -2,7 +2,7 @@
   padding-right: 0;
   padding-left: 0;
   overflow: hidden;
-  --card-section-width: 500px;
+  --card-section-width: 455px;
 }
 
 .header-image{
@@ -26,11 +26,15 @@
   overflow-y: hidden;
   overflow-x: scroll;
   z-index: 1;
-  
+  -webkit-overflow-scrolling: touch;
+}
+
+.col{
+  max-width: calc(100% - var(--card-section-width) - 30px);
 }
 
 .card-placeholder{
-  min-width: 180px;
+  min-width: 136px;
   height: 400px;
 }
 
@@ -41,7 +45,7 @@
 
 .benefits-section
 {
-  padding: 3% 0 3% 6%;
+  padding: 4%;
 }
 
 p
@@ -69,7 +73,7 @@ button
 .iphone-image
 {
   z-index: 2;
-  right: 123px;
+  right: 78px;
   top: -100px;
   position: absolute;
   pointer-events: none;
@@ -81,7 +85,7 @@ button
   width: 330px;
   height: 600px;
   position: absolute;
-  right: 178px;
+  right: 130px;
   top: 0;
 }
 
@@ -124,6 +128,24 @@ ol
   .li-desc
   {
     font-weight: normal;
+  }
+}
+
+@media (max-width: 1020px) {
+  .iphone-image{
+    display: none
+  }
+
+  .blue-background{
+    display: none;
+  }
+
+  .card-container{
+    display: none;
+  }
+
+  .col{
+    max-width: 100%;
   }
 }
 
