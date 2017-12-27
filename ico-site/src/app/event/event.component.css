@@ -15,6 +15,7 @@
 .stages{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     overflow-y: scroll;
     width: 100vw;
     align-items: center;
@@ -83,8 +84,13 @@
     z-index: 0;
 }
 
-@media(max-width: 1023px){
+@media(max-width: 1365px){
     .pattern-right, .pattern-left {
         display: none;
     }
+
+    .stages{
+        justify-content: flex-start;
+    }
+    
 }
