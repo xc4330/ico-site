@@ -14,7 +14,7 @@ export class BenefitsComponent implements OnInit {
     new Bubble('Platform Subscription Payment','../../assets/icons/Benefit01.png','Payment for different tiers of services','benefit'),
     new Bubble('Applications Usage Fee','../../assets/icons/Benefit02.png','Download to use wide range of applications in our app store with exclusive benefits. Download to customise or engage the application owner to customise for you','benefit'),
     new Bubble('Distributorship Licensing Fee','../../assets/icons/Benefit03.png','Financial settlement for various tiers of licensing. Resources support and sharing','benefit'),
-    new Bubble('Token Swapping and Trading','../../assets/icons/Benefit04.png','Token swap among apps within the network. Traded on Cryptocurrency exchangeg','benefit'),
+    new Bubble('Token Swapping and Trading','../../assets/icons/Benefit04.png','Token swap among apps within the network. Traded on Cryptocurrency exchange','benefit'),
   ]
 
   constructor() { }
