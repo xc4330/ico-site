@@ -8,7 +8,6 @@ import { Component, OnInit } from '@angular/core';
 export class AboutComponent implements OnInit {
 
   constructor() { } 
-  private iPadImg = require("../../assets/icons/iPad.png");
 
   ngOnInit() {
   }
