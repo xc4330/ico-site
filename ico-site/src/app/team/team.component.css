@@ -1,4 +1,10 @@
-.container-fluid .member-container{
+.container-fluid{
+    padding-bottom: 45px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.row {
     padding-left: 8%;
     padding-right: 4%;
     padding-top: 0px;
@@ -17,13 +23,13 @@ h1 {
     padding-left: 0;
     padding-right: 0;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
-@media(max-width: 1023px){
-    .container-fluid .member-container{
-        padding-left: 0px;
-        padding-right: 0px;
+@media(max-width: 1000px){
+    .row {
+        padding-left: 4%;
+        padding-right: 0;
     }
 }
