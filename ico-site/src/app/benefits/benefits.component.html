@@ -1,7 +1,5 @@
-
-
 <div class="container-fluid">
-  <img src='./assets/icons/BenefitBG.jpg'>
+  <img class="header-image" src='./assets/icons/BenefitBG.jpg'>
   <div class="row">
     <div class="col-7 benefits-section">
       <h1>Benefits of Token</h1>
@@ -14,14 +12,12 @@
           <div class="li-desc" [innerHTML]="listitem.desc"> </div>
         </li>
       </ol>
-
       <button type="button" class="btn btn-lg btn-outline-secondary">Learn More</button>
       <button type="button" class="btn btn-lg btn-primary">Read Whitepaper</button>
     </div>
-    
-    <div class="col-5 iphone-section">
-      <img src='./assets/icons/iphone.png' class="iphone-image">
-      <div class="blue-background"></div>
+  
+    <!-- <img src='./assets/icons/iphone.png' class="iphone-image"> -->
+    <div class="card-container">
       <div class="card-section card-section-1">
         <img src="./assets/icons/Benefit01.png">
         <div class="card-title">
@@ -29,7 +25,6 @@
         </div>
         <div class="card-desc">Payment for different tier of service</div>
       </div>
-
       <div class="card-section card-section-2">
         <img src="./assets/icons/Benefit02.png">
         <div class="card-title">
@@ -38,5 +33,6 @@
         <div class="card-desc">Financial settlement for various needs of licensing. <br><br> Resources support and sharing</div>
       </div>
     </div>
+
   </div>
 </div>

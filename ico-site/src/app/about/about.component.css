@@ -1,0 +1,54 @@
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.title{
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+
+.text{
+    color: darkgrey;
+    margin-bottom: 20px;
+    width: 80%;
+    text-align: center;
+}
+
+.screens{
+    height: 450px;
+    overflow-y: hidden ;
+    overflow-x: scroll ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 45px;
+}
+
+.image {
+    max-height: 100%;
+    width: auto;
+}
+
+@media(max-width: 1150px){
+    .screens{
+        justify-content: flex-start;
+    }
+}
+
+@media(max-width: 760px){
+    .screens{
+        justify-content: flex-start;
+        height: 200px;
+        width: 90%;
+    }
+    .image {
+        height: auto;
+        max-height: auto;
+        width: 100%;
+    }
+}
