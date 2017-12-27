@@ -1,4 +1,3 @@
-
 .container-fluid .member-container{
     padding-left: 8%;
     padding-right: 4%;
@@ -11,11 +10,20 @@ h1 {
 
 .title{
     text-align: center;
+    margin-bottom: 20px;
 }
 
-@media(max-width: 991px){
+.col {
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width: 1023px){
     .container-fluid .member-container{
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }

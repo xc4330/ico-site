@@ -20,7 +20,7 @@
     color:red!important;
 }
 
-@media(max-width: 991px){
+@media(max-width: 1023px){
     .roadmap-container{
         margin-top: 20px;
     }

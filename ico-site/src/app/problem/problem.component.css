@@ -18,9 +18,10 @@
 
 .col{
     align-content: center;
-    justify-content: space-evenly;
+    justify-content: center;
     display: flex;
-    flex-direction: row;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 h1{

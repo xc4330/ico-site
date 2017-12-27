@@ -58,7 +58,7 @@ nav
   outline:none!important;
 }
 
-@media(max-width: 991px){
+@media(max-width: 1023px){
   .nav{
     display: none;
   }
