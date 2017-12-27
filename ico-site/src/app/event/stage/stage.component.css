@@ -120,7 +120,7 @@
     margin-top: 15px;
 }
 
-@media(max-width: 991px){
+@media(max-width: 1023px){
     .stage-container-new, .stage-container-ongoing, .stage-container-ended{
         width:350px;
     }

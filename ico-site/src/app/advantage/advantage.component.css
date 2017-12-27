@@ -106,7 +106,51 @@ h1{
     margin-top: 50px;
 }
 
-@media(max-width: 1212px){
+@media(max-width: 1360px){
+    .circle-1{
+        width: 760px;
+        height: 760px;
+    }
+    
+    .circle-2{
+        width: 504px;
+        height: 504px;
+    }
+
+    .circle-3{
+        width: 264px;
+        height: 264px;
+    }
+
+    .dot-1 {
+        top: 145px;
+        left: 245px;
+    }
+    
+    .dot-2 {
+        right: 280px;
+        bottom: 125px;
+    }
+    
+    
+    .dot-3 {
+        top: 295px;
+        right: 270px;
+    }
+    
+    
+    .dot-4 {
+        top: 540px;
+        left: 222px;
+    }
+    
+    .dot-5 {
+        top: 500px;
+        right: 83px;
+    }
+}
+
+@media(max-width: 1000px){
     .title, .row {
         display: inherit;
     }
