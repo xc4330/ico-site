@@ -9,9 +9,8 @@ import { stages } from '../../data/events';
 })
 export class EventComponent implements OnInit {
   stages: Stage[] = stages
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
   }
-
 }

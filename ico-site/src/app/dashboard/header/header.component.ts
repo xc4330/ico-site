@@ -11,13 +11,20 @@ export class HeaderComponent implements OnInit {
 
   navlinks: NavigationLink[];
   @Output() clickEvent = new EventEmitter<string>();
+  isCollapsed = true;   // store state
 
   constructor() { }
+
+  toggleState() { // click handler
+      let bool = this.isCollapsed;
+      this.isCollapsed = bool === false ? true : false; 
+  }
 
   ngOnInit() {
     this.navlinks = NavigationLinks;
   }
   onLinkClicked(label:string){
+    this.toggleState()
     this.clickEvent.emit(label)
   }
 }

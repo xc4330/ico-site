@@ -57,3 +57,12 @@ nav
 .go-btn:focus{
   outline:none!important;
 }
+
+@media(max-width: 1023px){
+  .nav{
+    display: none;
+  }
+  footer{
+    padding: 20px 0 20px 0;
+  }
+}

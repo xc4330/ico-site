@@ -15,7 +15,8 @@ export class AppComponent {
     console.log(target)
     target = target.replace(/\s/g,''); 
     const config: ScrollToConfigOptions = {
-      target: target
+      target: target,
+      offset: -57,
     };
     this._scrollToService.scrollTo(config);
   }
