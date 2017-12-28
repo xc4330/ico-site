@@ -34,12 +34,14 @@
     width: 4px;
     background: rgb(0,150,197);
     height: var(--line-high-height);
+    z-index: 0;
 }
 
 .line-high-future{
     width: 4px;
     background: rgb(222, 222, 222);
     height: var(--line-high-height);
+    z-index: 0;
 }
 
 
@@ -48,6 +50,7 @@
     width: var(--dot-size);;
     background: rgb(0,150,197);
     border-radius: 50%;
+    z-index: 1;
 }
 
 .dot-future{
@@ -55,6 +58,7 @@
     width: var(--dot-size);;
     background: rgb(150, 150, 150);
     border-radius: 50%;
+    z-index: 1;
 }
 
 .line-low-current, .line-low-future{
