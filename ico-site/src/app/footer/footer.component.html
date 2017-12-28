@@ -1,12 +1,15 @@
 <footer>
   <div class="container-fluid">
     <nav class="nav">
-      <a 
-        class="nav-link" 
-        *ngFor='let navlink of navlinks' 
-        (click)="onLinkClicked(navlink.label)">
-          {{navlink.label}}
-      </a>
+      <ul class="nav-links" >
+        <li 
+          class="nav-item" 
+          *ngFor='let navlink of navlinks'
+          (click) = "onLinkClicked(navlink.label)">
+          <a *ngIf="navlink.link != '#'" class="nav-link" href={{navlink.link}}>{{navlink.label}}</a>
+          <a *ngIf="navlink.link == '#'" class="nav-link">{{navlink.label}}</a>
+        </li>
+      </ul>
       <div class="social-buttons ml-auto">
         <a href="#">
           <img src="./assets/icons/SocialMedia01.png">
@@ -19,15 +22,6 @@
         </a>
         <a href="#">
           <img src="./assets/icons/SocialMedia04.png">
-        </a>
-        <a href="#">
-          <img src="./assets/icons/SocialMedia05.png">
-        </a>
-        <a href="#">
-          <img src="./assets/icons/SocialMedia06.png">
-        </a>
-        <a href="#">
-          <img src="./assets/icons/SocialMedia07.png">
         </a>
       </div>
     </nav>

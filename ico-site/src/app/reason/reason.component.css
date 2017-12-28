@@ -5,6 +5,8 @@
   align-content: center;
   justify-content: center;
   min-height: 700px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 
 .whymorpheus
@@ -15,11 +17,13 @@
   flex-direction:column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 45px;
 }
 
 .whymorpheus h1
 {
-  margin-bottom: 20px;
+  margin-top: 45px;
+  margin-bottom: 45px;
 }
 
 button

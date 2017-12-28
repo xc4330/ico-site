@@ -118,13 +118,13 @@
         margin-right: 3px;
     }
 
-    .icon{
+    .icon-problem, .icon-solution{
         height: 140px;
     }
 }
 
 @media(max-width: 1000px){
-    .icon{
+    .icon-problem, .icon-solution{
         display: none
     }
 
@@ -150,7 +150,7 @@
 }
 
 @media(max-width: 760px){
-    .icon{
+    .icon-problem, .icon-solution{
         display: none
     }
 

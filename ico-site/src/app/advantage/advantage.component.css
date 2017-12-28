@@ -52,6 +52,8 @@ h1{
     color: white;
     font-size: 2em;
     text-align: center;
+    animation: glowing 2000ms infinite;
+    animation-timing-function: ease-in-out;
 }
 
 .dot-1, .dot-2, .dot-3, .dot-4, .dot-5 {

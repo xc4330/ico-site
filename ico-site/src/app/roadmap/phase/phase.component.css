@@ -18,6 +18,18 @@
     /* height: 124px; */
 }
 
+  @keyframes glowing {
+    0% { box-shadow: 0 0 3px -5px rgba(0, 150, 197,0.8); }
+    /* 40% { box-shadow: 0 0 3px 10px rgba(0, 150, 197,0.5); }
+    60% { box-shadow: 0 0 3px 15px rgba(0, 150, 197,0.3); } */
+    100% { box-shadow: 0 0 3px 20px rgba(0, 151, 197, 0); }
+  }
+  
+  .dot-current, .dot-past {
+    animation: glowing 2000ms infinite;
+    animation-timing-function: ease-in-out;
+  }
+
 .line-high-current, .line-high-past{
     width: 4px;
     background: rgb(0,150,197);

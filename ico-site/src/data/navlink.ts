@@ -17,7 +17,7 @@ export let NavigationLinks: NavigationLink[] =
   },
   {
     label: 'White Paper',
-    link: '#'
+    link: './assets/documents/WhitePaper.pdf'
   },
   {
     label: 'Token Events',

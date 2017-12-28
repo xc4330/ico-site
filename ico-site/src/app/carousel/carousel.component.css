@@ -2,7 +2,7 @@ ngb-carousel.carousel.slide{
     width:100%;
 }
 .container-fluid{
-    height: 600px;
+
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -12,7 +12,7 @@ ngb-carousel.carousel.slide{
 .slide {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
 }
 

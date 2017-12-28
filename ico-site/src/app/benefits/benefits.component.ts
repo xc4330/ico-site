@@ -35,7 +35,7 @@ export class BenefitsComponent implements OnInit {
       },
       {
         label: 'Token Swapping and Trading',
-        desc: 'Token swap among apps within the network <br> Traded on Cryptocurrency exchangeg'
+        desc: 'Token swap among apps within the network <br> Traded on Cryptocurrency exchange'
       }
     ]
   }
