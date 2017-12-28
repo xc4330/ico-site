@@ -19,7 +19,8 @@
           class="nav-item" 
           *ngFor='let navlink of navlinks'
           (click) = "onLinkClicked(navlink.label)">
-          <a class="nav-link">{{navlink.label}}</a>
+          <a *ngIf="navlink.link != '#'" class="nav-link" href={{navlink.link}}>{{navlink.label}}</a>
+          <a *ngIf="navlink.link == '#'" class="nav-link">{{navlink.label}}</a>
         </li>
       </ul>
     </div>

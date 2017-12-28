@@ -7,13 +7,14 @@
         <br><br>
         This consist of Platform subscription payment, Application usage fee and Distributorship licensing fee as stated below:
       </p>
-      <ol>
+      <ul>
         <li *ngFor="let listitem of listitems">{{listitem.label}}
           <div class="li-desc" [innerHTML]="listitem.desc"> </div>
         </li>
-      </ol>
-      <button type="button" class="btn btn-lg btn-outline-secondary">Learn More</button>
-      <button type="button" class="btn btn-lg btn-primary">Read Whitepaper</button>
+      </ul>
+      <!-- <button type="button" class="btn btn-lg btn-outline-secondary">Learn More</button> -->
+      <!-- <button type="button" class="btn whitepaper-btn">Read Whitepaper</button> -->
+      <a class="btn whitepaper-btn" href="./assets/documents/WhitePaper.pdf">Read Whitepaper</a>
     </div>
   
     <img src='./assets/icons/iphone.png' class="iphone-image">

@@ -9,7 +9,7 @@
     padding-top: 45px;
     padding-bottom: 45px;
     position: relative;
-    height: 580px;
+    height: 620px;
 }
 
 .stages{
@@ -23,6 +23,8 @@
     position: absolute;
     top: 130px;
     -webkit-overflow-scrolling: touch;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .row {

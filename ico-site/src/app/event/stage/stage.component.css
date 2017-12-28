@@ -121,3 +121,13 @@
     background: rgb(0,150,197);
     margin-top: 15px;
 }
+
+@keyframes glowing-stage {
+    0% { box-shadow: 0 0 3px -5px rgba(255, 255, 255, 0.8); }
+    100% { box-shadow: 0 0 3px 20px rgba(255, 255, 255, 0); }
+  }
+  
+  .stage-container-ongoing {
+    animation: glowing-stage 2000ms infinite;
+    animation-timing-function: ease-in-out;
+  }
