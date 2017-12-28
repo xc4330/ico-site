@@ -149,6 +149,15 @@
     width: 60%;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+}
+
+.fb-share-button{
+    /* background-image: url('../../../assets/icons/SocialMedia02.png');
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    overflow: hidden; */
 }
 
 @media(max-width: 1112px){
