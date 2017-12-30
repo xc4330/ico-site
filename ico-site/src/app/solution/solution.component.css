@@ -24,7 +24,28 @@
     padding-right: 0;
 }
 
+.row{
+    margin-right: 0;
+margin-left: 0;
+margin-top: 45px;
+margin-bottom: 45px;
+}
+
 h1{
     width:100%;
     text-align: center;
+}
+
+@media(max-width: 1360px){
+    
+}
+
+@media(max-width: 1000px){
+    .col{
+        margin-top: 15px;
+    }
+}
+
+@media(max-width: 760px){
+
 }
