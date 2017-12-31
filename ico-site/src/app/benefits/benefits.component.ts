@@ -9,6 +9,8 @@ import { Bubble } from '../shared/bubble/bubble.model';
 })
 export class BenefitsComponent implements OnInit {
 
+  showMore: boolean = false;
+  showMoreLabel: string = "Show More";
   listitems: BenefitsListItem[];
   benefits: Bubble[] = [
     new Bubble('Platform Subscription Payment','../../assets/icons/Benefit01.png','Payment for different tiers of services','benefit'),
@@ -19,8 +21,17 @@ export class BenefitsComponent implements OnInit {
 
   constructor() { }
 
+  toggleShowMore(){
+    this.showMore = !this.showMore;
+    this.showMoreLabel = this.showMore ? "Show Less" : "Show More";
+  }
+
   ngOnInit() {
     this.listitems = [
+      {
+        label: 'Main Uses of MIT:',
+        desc: ''
+      },
       {
         label: 'Platform Subscription Payment',
         desc: 'Payment for different tiers of services'

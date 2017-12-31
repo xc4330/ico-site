@@ -19,7 +19,7 @@
   flex-direction:row;
   justify-content: flex-start ;
   align-content: center;
-  top: 10%;
+  top: 95px;
   right: 0;
   height: 400px;
   width: var(--card-section-width);
@@ -55,11 +55,12 @@
 .benefits-section
 {
   padding: 8%;
+  min-height: 700px;
 }
 
 p
 {
-  padding: 2em 0 1em 0;
+  padding: 10px 0 10px 0;
   color: #666;
 }
 
@@ -73,6 +74,12 @@ button
 {
   background: rgb(0, 150, 197);
   border-color: rgb(0, 150, 197);
+}
+
+.mroe-btn{
+  border:solid 1px #666;
+  color: #666;
+  background: white;
 }
 
 .iphone-section
@@ -146,6 +153,10 @@ ul
 @media (max-width: 1020px) {
   .iphone-image{
     display: none
+  }
+
+  .benefits-section{
+    min-height: 400px;
   }
 
   .blue-background{
