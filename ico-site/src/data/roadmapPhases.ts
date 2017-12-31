@@ -6,7 +6,7 @@ export const techPhases: Phase[] = [
     new Phase('2', 'Co-creation And Group Development','April 2018','Enhancements of DevOps tooling to support co-working and group development. We will enable microservice–based blockchain application development and allow exposure of the application services as APIs. Multichain is supported in this phase.','future',false,false),
     new Phase('3', 'Commercialisation Phase','Q3 2018','Enable users to manage their monthly usage of the platform, hence permitting the commercialisation of our service.','future',false,false),
     new Phase('4', 'User Experience Enhancement.','Q4 2018','Building a new set of capabilities to empower and encourage our users to try different blockchains and find the most suitable for their product by evaluating different features of different blockchains using our platform.','future',false,false),
-    new Phase('5','Interoperability Between Blockchains','Future, 2019','','future',false,false),
+    new Phase('5','Interoperability Between Blockchains','Future, 2019','','future',false,true),
   ]
 
   export const bizPhases: Phase[] = [
