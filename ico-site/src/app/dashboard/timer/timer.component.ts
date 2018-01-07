@@ -8,12 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class TimerComponent implements OnInit {
 
   constructor() { }
-  stageTitle1: string = "PRE ICO PLATINUM";
+  stageTitle1: string = "Early-bird Premium Bonus";
   stageTitle2: string = "BONUS SALE";
-  stageTitle3: string = "stage ends in:";
+  stageTitle3: string = "stage starts in:";
 
-  badgeLabel1: string = "50% OFF";
-  badgeLabel2: string = "5% BONUS";
+  badgeLabel1: string = "40% Bonus";
+  badgeLabel2: string = "";
 
   days: string = '00';
   hours: string = '00';

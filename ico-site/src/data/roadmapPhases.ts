@@ -13,7 +13,7 @@ export const techPhases: Phase[] = [
     new Phase('1','','Q3 2016','Idea and founder been handpicked by SGInnovate (Singpaore government initiative).','past', true, false),
     new Phase('2','','June 2017','Founding advisory team joined in August. Received and in discuss with global names on distributorship and strategic partnership. Top 5 (out of global 22 bidders) in Smart Dubai Government.','past', false, false),
     new Phase('3','','Oct 2017','Received initial Seed investment. Signed MoU on smart nation projects in middle east region and more in finalising stage. Completed Whitepaper, soft marketing launch & Pre-ICO sales in December. Government Polytechnic in Singapore in discussion of a 5-campus implementation of our solution and co-create curriculum.','current', false, false),
-    new Phase('4','','Feb 2018 (Southeast Asia)','Launch Official token sales. Official partnership campaign for Southeast Asia Region.','future', false, false),
+    new Phase('4','','Feb 2018 (Southeast Asia)','Launch token pre-sales. Official partnership campaign for Southeast Asia Region.','future', false, false),
     new Phase('5','','June 2018','Official partnership campaign for Rest of Asia and UAE Region. Launch Blockchain Lab initiative across Southeast Asia in all established innovation labs, accelerators, co-working space, colleges and Universities.','future', false, false),
     new Phase('6','','Future ','Launch blockchain lab across rest of Asia and UAE in innovation labs, accelerators, co-working spaces, college and universities. Sales activities launch in rest of Asia and UAE.','future', false, true),
   ]
