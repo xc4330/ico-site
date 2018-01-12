@@ -1,7 +1,7 @@
 .container-fluid{
     height: 780px;
     padding: 0!important;
-    background: url('../../assets/icons/HeroBannerBG.png');
+    background: url('../../assets/img/BannerBG01.png');
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: 100% 100%;
@@ -19,6 +19,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 5;
 }
 
 .brand-logo{
@@ -75,6 +76,63 @@
     background-repeat: no-repeat;
     z-index: 1;
 }
+
+/* SEA ANIMATION */
+.sea-box{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.sea-box img{
+  vertical-align: top;
+}
+.sea-box:after,.sea-box:before{
+  content: "";
+  position: absolute;
+  left:0;
+  top:-10%;
+  width: 100%;
+  height: 100%;
+  background:url(../../assets/img/sea_light.png) left top no-repeat;
+  background-size:100% 100%;
+  -webkit-transform-origin:top;
+  transform-origin:top;
+}
+.sea-box:after{ 
+  -webkit-animation: light 8s infinite alternate;
+  animation: light 8s infinite alternate;
+}
+.sea-box:before{
+  -webkit-animation: lightTwo 5s infinite  alternate;
+  animation: lightTwo 5s infinite  alternate;
+}
+.sea-main{
+  position: absolute;
+  left:0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  background: url(../../assets/img/BannerBlackShadow.png) left top no-repeat;
+  background-size:100% 100%;
+}
+@keyframes light  {
+  0% {-webkit-transform:rotate(0deg);opacity: 1;}
+  100% { -webkit-transform: rotate(10deg);opacity: 0.1;}
+}
+@-webkit-keyframes light  {
+  0% {-webkit-transform:rotate(0deg);opacity: 1;}
+  100% { -webkit-transform: rotate(10deg);opacity: 0.1;}
+}
+@keyframes lightTwo  {
+  0% {-webkit-transform:rotate(10deg);opacity: 1;}
+  100% { -webkit-transform: rotate(0deg);opacity: 0.8;}
+}
+@-webkit-keyframes lightTwo  {
+  0% {-webkit-transform:rotate(10deg);opacity: 1;}
+  100% { -webkit-transform: rotate(0deg);opacity: 0.8;}
+}
+/* END OF SEA ANIMATION*/
 
 @media(max-width: 1000px){
     .container-fluid{
