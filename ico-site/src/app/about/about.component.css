@@ -35,6 +35,62 @@
     width: auto;
 }
 
+.poster-main{
+    position: relative;
+    margin: 10px auto;
+}
+
+.poster-main:after{
+    content: "";
+    position: absolute;
+    left: 49.5%;
+    top: -13.5%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: 117%;
+    width: 69%;
+    background:url(../../assets/img/carousel/iPad.png) left top no-repeat;
+    background-size:100% 100%;
+    z-index: 10;
+    pointer-events:none;
+} 
+
+.poster-main a,.poster-main img{
+    display:block;
+}
+
+.poster-main .poster-list{
+    width: 1000px;
+    height: 500px;
+}
+
+.poster-main .poster-list .poster-item{ 
+    width: 200px;
+    height: 500px;
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+.poster-main .poster-btn{ 
+    position:absolute;
+    top:50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index:10; 
+    cursor:pointer;  
+    width: 5%;
+    max-width: 20px;
+}
+
+.poster-main .poster-prev-btn{
+    left:-8%; 
+}
+
+.poster-main .poster-next-btn{
+    right:-8%; 
+}
+
 @media(max-width: 1150px){
     .screens{
         justify-content: flex-start;
