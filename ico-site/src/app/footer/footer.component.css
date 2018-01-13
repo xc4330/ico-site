@@ -65,6 +65,10 @@ nav
   outline:none!important;
 }
 
+.hide{
+  display: none !important;
+}
+
 .persistent-footer{
   width: 100%;
   background: rgba(76, 76, 76, .95);
