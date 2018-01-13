@@ -3,6 +3,7 @@ export class Member {
         public photoUrl: string, 
         public profileUrl: string,
         public name: string,
+        public country: string,
         public desc1: string,
         public desc2: string,
         public type: string,

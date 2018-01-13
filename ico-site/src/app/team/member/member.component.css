@@ -34,6 +34,15 @@
     border-radius: 50%;
 }
 
+.country{
+    font-weight: bold;
+    color: #505050;
+}
+
+.profile-icon{
+    margin-top: -3px;
+}
+
 .text{
     display: flex;
     flex-direction: column;
@@ -43,10 +52,13 @@
     padding-left: 5%;
 }
 
+a.team-link{
+    color: #0076ba;
+}
+
 .name{
     font-weight: bold;
     font-size: 1.3em;
-    color: black;
 }
 
 .desc1{
