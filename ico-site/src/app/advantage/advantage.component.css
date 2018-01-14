@@ -27,6 +27,13 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: scale(0);
+    opacity: 0;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
 }
 
 .circle-2{
@@ -37,6 +44,13 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: scale(0);
+    opacity: 0;
+    -webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -ms-transition: 1.5s;
+    -o-transition: 1.5s;
+    transition: 1.5s;
 }
 
 .circle-3{
@@ -52,8 +66,37 @@ h1{
     color: white;
     font-size: 2em;
     text-align: center;
+    transform: scale(0);
+    opacity: 0;
     animation: glowing 2000ms infinite;
     animation-timing-function: ease-in-out;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+
+.expand .circle-1,
+.expand .circle-2,
+.expand .circle-3{
+    transform: scale(1);
+    opacity: 1;
+}
+
+.dot{
+    transform: scale(0);
+    opacity: 0;
+    -webkit-transition: 3.5s;
+    -moz-transition: 3.5s;
+    -ms-transition: 3.5s;
+    -o-transition: 3.5s;
+    transition: 3.5s;
+}
+
+.expand .dot{
+    transform: scale(1);
+    opacity: 1;
 }
 
 .dot-1, .dot-2, .dot-3, .dot-4, .dot-5 {
@@ -150,6 +193,11 @@ h1{
         top: 500px;
         right: 83px;
     }
+}
+
+.shrink{
+    transform: scale(0);
+    opacity: 0;
 }
 
 @media(max-width: 1000px){
