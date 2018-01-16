@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { tokenDist } from '../../data/token-dist-data';
+import { tokenDist, financeDist } from '../../data/distribution-data';
 
 @Component({
-  selector: 'app-token-distribution',
-  templateUrl: './token-distribution.component.html',
-  styleUrls: ['./token-distribution.component.css']
+  selector: 'app-distribution',
+  templateUrl: './distribution.component.html',
+  styleUrls: ['./distribution.component.css']
 })
 
-export class TokenDistComponent implements OnInit {
+export class DistributionComponent implements OnInit {
 
   view: '';
 
@@ -26,7 +26,7 @@ export class TokenDistComponent implements OnInit {
   tooltipDisabled = true;
 
   constructor() {
-    Object.assign(this, {tokenDist});
+    Object.assign(this, {tokenDist, financeDist});
     $(document).ready(function(){
       var _h = $(window).height();
       var fromTop = $('.pie.container-fluid').offset().top;

@@ -22,7 +22,7 @@ import { RoadmapComponent } from './roadmap/roadmap.component';
 import { PhaseComponent } from './roadmap/phase/phase.component';
 import { MemberComponent } from './team/member/member.component';
 import { BenefitsComponent } from './benefits/benefits.component';
-import { TokenDistComponent } from './token-distribution/token-distribution.component';
+import { DistributionComponent } from './distribution/distribution.component';
 import { ReasonComponent } from './reason/reason.component';
 import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 import { AdvantageComponent } from './advantage/advantage.component';
@@ -47,7 +47,7 @@ import { FeatureComponent } from './advantage/feature/feature.component';
     PhaseComponent,
     MemberComponent,
     BenefitsComponent,
-    TokenDistComponent,
+    DistributionComponent,
     ReasonComponent,
     AdvantageComponent,
     FeatureComponent

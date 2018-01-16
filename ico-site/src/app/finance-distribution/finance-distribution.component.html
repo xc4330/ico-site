@@ -3,7 +3,7 @@
     <ngx-charts-pie-chart
       [view]="view"
       [scheme]="colorScheme"
-      [results]="tokenDist"
+      [results]="financeDist"
       [legend]="showLegend"
       [explodeSlices]="explodeSlices"
       [labels]="showLabels"
@@ -11,59 +11,49 @@
       [arcWidth]="arcWidth"
       [tooltipDisabled]="tooltipDisabled">
     </ngx-charts-pie-chart>
-  	<div class="pie-title">Token<br>Distribution</div>
+  	<div class="pie-title">Finance<br>Distribution</div>
   	<div class="pie-stat reserve">
-  		<div class="value">20%</div>
-  		<div class="label">Reserve Fund</div>
+  		<div class="value">45%</div>
+  		<div class="label">Platform Development & Operations</div>
   	</div>
   	<div class="pie-stat foundation">
   		<div class="value">20%</div>
-  		<div class="label">Foundation</div>
+  		<div class="label">Marketing</div>
   	</div>
   	<div class="pie-stat sales">
   		<div class="value">25%</div>
-  		<div class="label">Token Sales</div>
+  		<div class="label">Research & Development</div>
   	</div>
   	<div class="pie-stat community">
   		<div class="value">15%</div>
-  		<div class="label">Community</div>
-  	</div>
-  	<div class="pie-stat team">
-  		<div class="value">20%</div>
-  		<div class="label">Team</div>
+  		<div class="label">Others, Legal</div>
   	</div>
   </div>
 
   <div class="bar-stats">
-  	<ul>
+  	<ul>  
   		<li>
   			<div class="bar reserve"></div>
   			<div class="desc">
-  				<span class="label">Reserve Fund</span>&nbsp;<span class="value">20%</span>
+  				<span class="label">Platform Development & Operations</span>&nbsp;<span class="value">45%</span>
   			</div>
   		</li>
   		<li>
   			<div class="bar sales"></div>
   			<div class="desc">
-  				<span class="label">Token Sales</span>&nbsp;<span class="value">25%</span>
+  				<span class="label">Marketing</span>&nbsp;<span class="value">20%</span>
   			</div>
   		</li>
   		<li>
   			<div class="bar foundation"></div>
   			<div class="desc">
-  				<span class="label">Foundation</span>&nbsp;<span class="value">20%</span>
+  				<span class="label">Research & Development</span>&nbsp;<span class="value">25%</span>
   			</div>
   		</li>
   		<li>
   			<div class="bar community"></div>
   			<div class="desc">
-  				<span class="label">Community</span>&nbsp;<span class="value">15%</span>
-  			</div>
-  		</li>
-  		<li>
-  			<div class="bar team"></div>
-  			<div class="desc">
-  				<span class="label">Team</span>&nbsp;<span class="value">20%</span>
+  				<span class="label">Others, Legal</span>&nbsp;<span class="value">15%</span>
   			</div>
   		</li>
   	</ul>
