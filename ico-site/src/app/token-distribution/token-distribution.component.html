@@ -1,0 +1,71 @@
+<div class="container-fluid pie">
+  <div class="pie-box">
+    <ngx-charts-pie-chart
+      [view]="view"
+      [scheme]="colorScheme"
+      [results]="tokenDist"
+      [legend]="showLegend"
+      [explodeSlices]="explodeSlices"
+      [labels]="showLabels"
+      [doughnut]="doughnut"
+      [arcWidth]="arcWidth"
+      [tooltipDisabled]="tooltipDisabled">
+    </ngx-charts-pie-chart>
+  	<div class="pie-title">Token<br>Distribution</div>
+  	<div class="pie-stat reserve">
+  		<div class="value">20%</div>
+  		<div class="label">Reserve Fund</div>
+  	</div>
+  	<div class="pie-stat foundation">
+  		<div class="value">20%</div>
+  		<div class="label">Foundation</div>
+  	</div>
+  	<div class="pie-stat sales">
+  		<div class="value">25%</div>
+  		<div class="label">Token Sales</div>
+  	</div>
+  	<div class="pie-stat community">
+  		<div class="value">15%</div>
+  		<div class="label">Community</div>
+  	</div>
+  	<div class="pie-stat team">
+  		<div class="value">20%</div>
+  		<div class="label">Team</div>
+  	</div>
+  </div>
+
+  <div class="bar-stats">
+  	<ul>
+  		<li>
+  			<div class="bar reserve"></div>
+  			<div class="desc">
+  				<span class="label">Reserve Fund</span>&nbsp;<span class="value">20%</span>
+  			</div>
+  		</li>
+  		<li>
+  			<div class="bar sales"></div>
+  			<div class="desc">
+  				<span class="label">Token Sales</span>&nbsp;<span class="value">25%</span>
+  			</div>
+  		</li>
+  		<li>
+  			<div class="bar foundation"></div>
+  			<div class="desc">
+  				<span class="label">Foundation</span>&nbsp;<span class="value">20%</span>
+  			</div>
+  		</li>
+  		<li>
+  			<div class="bar community"></div>
+  			<div class="desc">
+  				<span class="label">Community</span>&nbsp;<span class="value">15%</span>
+  			</div>
+  		</li>
+  		<li>
+  			<div class="bar team"></div>
+  			<div class="desc">
+  				<span class="label">Team</span>&nbsp;<span class="value">20%</span>
+  			</div>
+  		</li>
+  	</ul>
+  </div>
+</div>

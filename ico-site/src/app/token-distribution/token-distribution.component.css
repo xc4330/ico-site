@@ -1,0 +1,155 @@
+.container-fluid{
+    display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+    padding-bottom: 5em;
+}
+
+.title{
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+
+.pie-box{
+    margin: 1em 2em 1em 2em;
+    width: 45%;
+    height: 500px;
+    position: relative;
+}
+
+.pie-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 1em;
+    text-align: center;
+    position: relative;
+    float: left;
+    top: 500%;
+    left: 50%;
+    transform: translate(-50%, -450%);
+}
+
+.pie-stat{
+    display: block;
+    text-align: left;
+    line-height: 1.5em;
+    color: #4b4b4b;
+    position: absolute;
+}
+
+.pie-stat > .value{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.pie-stat > .label{
+    font-size: 1em;
+}
+
+.pie-stat.reserve{
+    top: 3%;
+    right: 20%;
+}
+
+.pie-stat.foundation{
+    top: 65%;
+    right: 12%;
+}
+
+.pie-stat.sales{
+    bottom: -8%;
+    left: 44%;
+}
+
+.pie-stat.community{
+    top: 55%;
+    left: 10%;
+}
+
+.pie-stat.team{
+    top: 3%;
+    left: 25%;
+}
+
+.bar-stats{
+    width: 40%;
+    display: block;
+}
+
+.bar-stats > ul{
+    list-style: none;
+}
+
+.bar-stats > ul li{
+    display: block;
+    padding: 1em;
+}
+
+.bar{
+    margin-top: 9px;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    position: relative;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    background: url('../../assets/img/gradient-bar.png') no-repeat;
+    margin-right: 13px;
+    width: 0%;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+}
+
+.bar-stats.display .bar.sales{
+    width: 62.5%;
+}
+
+.bar-stats.display .bar.community{
+    width: 37.5%;
+}
+
+.bar-stats.display .bar{
+    width: 50%;
+}
+
+.desc{
+    display: inline-block;
+}
+
+.desc > .label{
+    color: #717171;
+}
+
+.desc > .value{
+    font-weight: bold;
+    color: black;
+}
+
+@media(max-width: 1150px){
+    .screens{
+        justify-content: flex-start;
+    }
+}
+
+@media(max-width: 760px){
+    .screens{
+        justify-content: flex-start;
+        height: 200px;
+        width: 90%;
+    }
+    .image {
+        height: auto;
+        max-height: auto;
+        width: 100%;
+    }
+}
