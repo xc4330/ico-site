@@ -10,21 +10,31 @@ export class AboutComponent implements OnInit {
 
   constructor() {
   	$(document).ready(function(){
-		var parentW = $('.page').width() || $(window).width();
+		var parentW = $('.abt-carousel').width() || $(window).width();
 		var img = new Image();
 		img.src = $('.poster-list').find('li').eq(0).find('img').attr('src') || '';
+
 		$(img).ready(function(){
-			var ratio = $('.page').width() / img.width;
+			var ratio = $('.abt-carousel').width() / (img.width);
 			var num = ($(window).width() - (parentW * 0.9))/2;
 			var imgHeight = Math.floor(img.height * ratio / 1.8);
-			$('.poster-next-btn').css('right','-' + num + 'px');
-			$('.poster-prev-btn').css('left','-' + num + 'px');
+			$('.poster-next-btn').css('right','0px');
+			$('.poster-prev-btn').css('left','0px');
+
+			var carWidth = (parentW * 0.9)  - 20;
+			var carHeight = imgHeight * 0.9;
+			var pWidth = (parentW * 0.9) / 2;
+			var pHeight = imgHeight * 0.9;
+
+			console.log(carWidth, carHeight, pWidth, pHeight);
+
+			$('.tablet').css('height', (carHeight*1.17414248021) + 'px').css('width', (pWidth*1.34) + 'px');
 
 			$('.poster-main').PicCarousel({
-				'width':(parentW * 0.8)  - 20,
-				'height':imgHeight * 0.9,
-				'posterWidth':(parentW * 0.9) / 2,
-				'posterHeight':imgHeight * 0.9,
+				'width':carWidth,
+				'height': carHeight,
+				'posterWidth': pWidth,
+				'posterHeight': pHeight,
 				'scale':0.8,
 				'speed':1000,
 				'autoPlay':/Mobile/.test(navigator.userAgent) ?  false : true,

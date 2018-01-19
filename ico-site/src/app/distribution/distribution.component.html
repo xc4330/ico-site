@@ -1,38 +1,30 @@
 <div class="container-fluid pie">
   <div class="stats">
     <div class="pie-box">
-      <ngx-charts-pie-chart
-        [view]="view"
-        [scheme]="colorScheme"
-        [results]="tokenDist"
-        [legend]="showLegend"
-        [explodeSlices]="explodeSlices"
-        [labels]="showLabels"
-        [doughnut]="doughnut"
-        [arcWidth]="arcWidth"
-        [tooltipDisabled]="tooltipDisabled">
-      </ngx-charts-pie-chart>
-    	<div class="pie-title">Token<br>Distribution</div>
-    	<div class="pie-stat reserve">
-    		<div class="value">20%</div>
-    		<div class="label">Reserve Fund</div>
-    	</div>
-    	<div class="pie-stat foundation">
-    		<div class="value">20%</div>
-    		<div class="label">Foundation</div>
-    	</div>
-    	<div class="pie-stat sales">
-    		<div class="value">25%</div>
-    		<div class="label">Token Sales</div>
-    	</div>
-    	<div class="pie-stat community">
-    		<div class="value">15%</div>
-    		<div class="label">Community</div>
-    	</div>
-    	<div class="pie-stat team">
-    		<div class="value">20%</div>
-    		<div class="label">Team</div>
-    	</div>
+      <div class="chart token-dist">
+        <img src="../assets/img/distribution/TokenDist.png">
+        <div class="pie-title">Token<br>Distribution</div>
+        <div class="pie-stat reserve">
+          <div class="value">20%</div>
+          <div class="label">Reserve Fund</div>
+        </div>
+        <div class="pie-stat foundation">
+          <div class="value">20%</div>
+          <div class="label">Foundation</div>
+        </div>
+        <div class="pie-stat sales">
+          <div class="value">25%</div>
+          <div class="label">Token Sales</div>
+        </div>
+        <div class="pie-stat community">
+          <div class="value">15%</div>
+          <div class="label">Community</div>
+        </div>
+        <div class="pie-stat team">
+          <div class="value">20%</div>
+          <div class="label">Team</div>
+        </div>
+      </div>
     </div>
 
     <div class="bar-stats">
@@ -73,33 +65,26 @@
 
     <div class="stats">
       <div class="pie-box">
-      <ngx-charts-pie-chart
-        [view]="view"
-        [scheme]="colorScheme"
-        [results]="financeDist"
-        [legend]="showLegend"
-        [explodeSlices]="explodeSlices"
-        [labels]="showLabels"
-        [doughnut]="doughnut"
-        [arcWidth]="arcWidth"
-        [tooltipDisabled]="tooltipDisabled">
-      </ngx-charts-pie-chart>
-      <div class="pie-title">Finance<br>Distribution</div>
-      <div class="pie-stat devops">
-        <div class="value">45%</div>
-        <div class="label">Platform Development<br>& Operations</div>
-      </div>
-      <div class="pie-stat marketing">
-        <div class="value">20%</div>
-        <div class="label">Marketing</div>
-      </div>
-      <div class="pie-stat rnd">
-        <div class="value">25%</div>
-        <div class="label">R&D</div>
-      </div>
-      <div class="pie-stat others">
-        <div class="value">15%</div>
-        <div class="label">Others, Legal</div>
+
+      <div class="chart fin-dist">
+        <img src="../assets/img/distribution/FinDist.png">
+        <div class="pie-title">Finance<br>Distribution</div>
+        <div class="pie-stat devops">
+          <div class="value">45%</div>
+          <div class="label">Platform Development<br>& Operations</div>
+        </div>
+        <div class="pie-stat marketing">
+          <div class="value">20%</div>
+          <div class="label">Marketing</div>
+        </div>
+        <div class="pie-stat rnd">
+          <div class="value">25%</div>
+          <div class="label">R&D</div>
+        </div>
+        <div class="pie-stat others">
+          <div class="value">15%</div>
+          <div class="label">Others, Legal</div>
+        </div>
       </div>
     </div>
 

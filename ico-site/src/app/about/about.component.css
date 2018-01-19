@@ -22,7 +22,6 @@ ul{
 }
 
 .screens{
-    height: 850px;
     overflow-y: hidden;
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
@@ -31,9 +30,10 @@ ul{
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-bottom: 45px;
-    padding-top: 130px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
+
 
 .image {
     max-height: 100%;
@@ -45,15 +45,13 @@ ul{
     margin: 10px auto;
 }
 
-.poster-main:after{
+.tablet{
     content: "";
     position: absolute;
     left: 49.5%;
-    top: -11%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    height: 96%;
-    width: 77%;
+    transform: translate(-49.1%, -19px);
+    height: 81%;
+    width: 61%;
     background:url(../../assets/img/carousel/iPad.png) left top no-repeat;
     background-size:100% 100%;
     z-index: 10;
@@ -66,12 +64,10 @@ ul{
 
 .poster-main .poster-list{
     width: 1000px;
-    height: 850px;
 }
 
 .poster-main .poster-list .poster-item{ 
     width: 200px;
-    height: 850px;
     position:absolute;
     overflow: show;
     left:0;
@@ -89,13 +85,6 @@ ul{
     max-width: 20px;
 }
 
-.poster-main .poster-prev-btn{
-    left:-8%; 
-}
-
-.poster-main .poster-next-btn{
-    right:-8%; 
-}
 
 @media(max-width: 1150px){
     .screens{
