@@ -12,16 +12,19 @@ export class DistributionComponent implements OnInit {
   constructor() {
     Object.assign(this, {tokenDist, financeDist});
     $(document).ready(function(){
-      var _h = $(window).height();
-      var fromTop = $('.pie.container-fluid').offset().top;
+      setTimeout(function(){
+        var _h = $(window).height();
+        var fromTop = $('.pie.container-fluid').offset().top;
 
-      $(window).scroll(function(){
-        var top = $(this).scrollTop();
+        $(window).scroll(function(){
+          var top = $(this).scrollTop();
 
-        if (top + _h > fromTop){
-          $('.bar-stats').addClass('display');
-        }
-      });
+          if (top + _h > fromTop){
+            $('.bar-stats').addClass('display');
+          }
+        });
+      }, 1500);
+      
     });
   }
   
