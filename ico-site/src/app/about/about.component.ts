@@ -10,7 +10,12 @@ export class AboutComponent implements OnInit {
 
   constructor() {
   	$(document).ready(function(){
-		var parentW = $('.abt-carousel').width() || $(window).width();
+  		if($(window).width() <= 860){
+  			var parentW =  $(window).width();
+  		}else{
+  			var parentW = $('.abt-carousel').width() || $(window).width();
+  		}
+		
 		var img = new Image();
 		img.src = $('.poster-list').find('li').eq(0).find('img').attr('src') || '';
 
@@ -25,8 +30,6 @@ export class AboutComponent implements OnInit {
 			var carHeight = imgHeight * 0.9;
 			var pWidth = (parentW * 0.9) / 2;
 			var pHeight = imgHeight * 0.9;
-
-			console.log(carWidth, carHeight, pWidth, pHeight);
 
 			$('.tablet').css('height', (carHeight*1.17414248021) + 'px').css('width', (pWidth*1.34) + 'px');
 

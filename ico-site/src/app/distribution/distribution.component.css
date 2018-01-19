@@ -254,16 +254,12 @@
     }
 
     .pie-stat.devops{
-        top: 48%;
-        right: 23%;
+        top: -8%;
+        right: -24%;
     }
 
     .bar-stats > ul{
         padding: 1em;
-    }
-
-    .fin-dist .pie-stat{
-        text-align: right;
     }
 
 }

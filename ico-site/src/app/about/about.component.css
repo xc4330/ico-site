@@ -92,15 +92,22 @@ ul{
     }
 }
 
-@media(max-width: 760px){
-    .screens{
-        justify-content: flex-start;
-        height: 200px;
-        width: 90%;
+@media(max-width: 900px){
+    .poster-prev-btn{
+        left: 10% !important;
     }
-    .image {
-        height: auto;
-        max-height: auto;
-        width: 100%;
+
+    .poster-next-btn{
+        right: 10% !important;
+    }
+}
+
+@media(max-width: 860px){
+    .tablet{
+        display: none;
+    }
+
+    .poster-btn{
+        display: none;
     }
 }
