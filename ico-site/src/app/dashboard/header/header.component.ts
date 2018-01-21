@@ -1,6 +1,7 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { NavigationLink, NavigationLinks } from '../../../data/navlink';
 import { Navigation } from 'selenium-webdriver';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-header',
@@ -12,8 +13,13 @@ export class HeaderComponent implements OnInit {
   navlinks: NavigationLink[];
   @Output() clickEvent = new EventEmitter<string>();
   isCollapsed = true;   // store state
+  languages = [
+    'en',
+    'cn'
+  ]
 
-  constructor() { }
+  constructor(private translate: TranslateService) {
+  }
 
   toggleState() { // click handler
       let bool = this.isCollapsed;
@@ -26,5 +32,8 @@ export class HeaderComponent implements OnInit {
   onLinkClicked(label:string){
     this.toggleState()
     this.clickEvent.emit(label)
+  }
+  onLanguageSelect(lang:string){
+    this.translate.use(lang)
   }
 }

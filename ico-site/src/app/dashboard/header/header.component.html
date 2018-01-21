@@ -19,9 +19,21 @@
           class="nav-item" 
           *ngFor='let navlink of navlinks'
           (click) = "onLinkClicked(navlink.label)">
-          <a *ngIf="navlink.link != '#'" class="nav-link" href={{navlink.link}}>{{navlink.label}}</a>
-          <a *ngIf="navlink.link == '#'" class="nav-link">{{navlink.label}}</a>
+          <a *ngIf="navlink.link != '#'" class="nav-link" href={{navlink.link}}>
+            {{ 'HEADER.' + navlink.label | translate }}</a>
+          <a *ngIf="navlink.link == '#'" class="nav-link">
+            {{ 'HEADER.' + navlink.label | translate }}
+          </a>
         </li>
+      </ul>
+      <ul class="language nav navbar-nav">
+        <button 
+          *ngFor='let lan of languages'
+          [ngClass]="translate.currentLang == lan ? 'language-btn-selected' : 'language-btn'"
+          (click)="onLanguageSelect(lan)"
+          >
+          {{ 'HEADER.' + lan | translate }}
+        </button>
       </ul>
     </div>
   </div>
