@@ -15,7 +15,21 @@ export class AdvantageComponent implements OnInit {
     new Feature(5,'../../../assets/icons/Competitive05.png','Accessible','Our team is cross-functional and experienced in the business of blockchain with varied backgrounds'),
   ]
 
-  constructor() { }
+  constructor() {
+    $(document).ready(function(){
+      var _h = $(window).height();
+      var circleTop = $('.circle.container-fluid').offset().top;
+
+      $(window).scroll(function(){
+        var top = $(this).scrollTop();
+
+        if (top + _h > circleTop){
+          $('.circle.container-fluid').addClass('expand');
+        }
+      });
+    });
+    
+  }
 
   ngOnInit() {
   }
