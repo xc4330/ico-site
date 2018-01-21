@@ -21,6 +21,10 @@ ul{
     list-style: none;
 }
 
+.hidden{
+    visibility: none;
+}
+
 .screens{
     overflow-y: hidden;
     overflow-x: hidden;

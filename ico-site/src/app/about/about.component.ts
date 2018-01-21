@@ -45,7 +45,9 @@ export class AboutComponent implements OnInit {
 				'verticalAlign':'top'
 			});
 
-		});	  	
+		});
+
+		$('.abt-carousel').removeClass('hidden');	  	
   	});
 
   } 
