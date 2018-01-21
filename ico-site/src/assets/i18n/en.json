@@ -1,5 +1,6 @@
 {
     "HEADER": {
+        "Morpheus Labs": "Morpheus Labs",
         "About Morpheus": "About Morpheus",
         "Solution": "Solution",
         "White Paper": "White Paper",
@@ -8,5 +9,48 @@
         "Language": "Language",
         "en": "EN",
         "cn": "CN"
+    },
+    "TIMER": {
+        "BONUS SALE": "BONUS SALE",
+        "stage starts in:": "stage starts in:",
+        "40% Bonus": "40% Bonus",
+        "DAYS": "DAYS",
+        "HOURS": "HOURS",
+        "MINUTES": "MINUTES",
+        "SECONDS": "SECONDS",
+        "Buy Token Now": "Buy Token Now",
+        "We accept BTC, ETH and other": "We accept BTC, ETH and other",
+        "SHARE WITH": "SHARE WITH"
+    },
+    "DASHBOARD":{
+        "Powerful Inclusive Full Stack Blockchain-Platform-As-a-Service for Enterprises.": "Powerful Inclusive Full Stack Blockchain-Platform-As-a-Service for Enterprises."
+    },
+    "ABOUT":{
+        "description1": "Simplifies and expedites blockchain application development, gives you the flexibility to choose between available programming languages and blockchain runtimes that better suit your needs.",
+        "description2": "You receive unparalleled benefits from an integrated collaborative development environment, workspace management, version control repository and many preconfigured tasks.",
+        "description3": "Let our platform do the heavy lifting while you focus on value-adding work such as application creation and experimenting with the blockchain technologies at a fraction of the cost and time. "
+    },
+    "PROBLEM":{
+        "header": "Problem Statements",
+        "title1": "Which distributed ledger technology?",
+        "description1": "Enterprises have difficulties selecting which blockchain technology to use. For example, Bitcoin blockchain is more suited for transfer of currencies.",
+        "title2": "What use cases?",
+        "description2": "Companies have difficulties understanding the use cases that apply to their industry and knowing how to evaluate the return on investment.",
+        "title3": "How to deploy and test?",
+        "description3": "Piecing together the blockchain nodes, storage, cloud development environment and github requires a lot of effort. It is time-consuming and resources intensive, thus excluding most companies or startups except those with deep pockets."
+    },
+    "SOLUTION":{
+        "header": "Our Solution",
+        "title1":"Try and evaluate blockchain technology",
+        "title2":"Crowdsourcing",
+        "title3":"Enterprise Grade",
+        "title4":"Ready to deploy App (from our app library)",
+        "description1":"Experiment with different types of blockchains on 1 platform. Waste no time switching between platforms, applications and providers.",
+        "description2":"Solicit new ideas or tools from your community, experts via crowd wisdom. Aggregate innovative solutions in the shortest time possible.",
+        "description3":"Scalable, secure and robust enterprise blockchain platform for rapid prototyping and easy production deployment.",
+        "description4":"Rapid Prototype to validate use cases atop select pre-deployed application from our ready to deploy blockchain applications. This reduces the time and costs to create a fail fast and safe environment."
+    },
+    "STAGE": {
+        "Early-bird Premium Bonus": "Early-bird Premium Bonus"
     }
 }
