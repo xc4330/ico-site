@@ -231,3 +231,14 @@
         width: 20%;
     }
 }
+
+@media(max-width: 610px){
+  .statistics-date{
+    bottom: -47px !important;
+    white-space: initial;
+  }
+
+  .statistics-btn{
+    bottom: -80px !important;
+  }
+}

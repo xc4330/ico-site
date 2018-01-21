@@ -58,7 +58,7 @@ ngb-carousel.carousel.slide{
     width:5%;
 }
 
-@media(max-width: 1000px){
+@media(max-width: 1024px){
     .container-fluid{
         flex-direction: column;
         justify-content: flex-start;

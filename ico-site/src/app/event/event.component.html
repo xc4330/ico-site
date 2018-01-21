@@ -5,11 +5,13 @@
   <div class="pattern-left"></div>
   <div class="pattern-right"></div>
   <div class="stages">
-    <div
-      *ngFor="let stage of stages">
-      <app-stage
-      [stage]="stage">
-      </app-stage>
+    <div class="stage-wrap">
+      <div
+        *ngFor="let stage of stages">
+        <app-stage
+        [stage]="stage">
+        </app-stage>
+      </div>
     </div>
   </div>
   
