@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-timer',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TimerComponent implements OnInit {
 
-  constructor() { }
+  constructor(private translate: TranslateService) { }
   stageTitle1: string = "Early-bird Premium Bonus";
   stageTitle2: string = "BONUS SALE";
   stageTitle3: string = "stage starts in:";
@@ -22,6 +23,20 @@ export class TimerComponent implements OnInit {
 
   ngOnInit() {
     this.getCountdownTime()
+    this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
+      this.translate.get('STAGE.Early-bird Premium Bonus').subscribe((res: string) => {
+        this.stageTitle1 = res
+      });
+      this.translate.get('TIMER.BONUS SALE').subscribe((res: string) => {
+        this.stageTitle2 = res
+      });
+      this.translate.get('TIMER.stage starts in:').subscribe((res: string) => {
+        this.stageTitle3 = res
+      });
+      this.translate.get('TIMER.40% Bonus').subscribe((res: string) => {
+        this.badgeLabel1 = res
+      });
+    });
   }
 
   getCountdownTime() {

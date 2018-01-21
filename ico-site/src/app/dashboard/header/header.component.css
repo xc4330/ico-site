@@ -3,6 +3,12 @@
   border: 0;
 }
 
+.navbar-collapse{
+  display: flex;
+  justify-content: space-between;
+}
+
+
 .navbar-brand
 {
   color: white;
@@ -67,7 +73,29 @@
   display: none;
 }
 
-@media(max-width: 1000px){
+.language{
+
+}
+
+.language-btn{
+  color: white;
+  font-size: 0.8em;
+  background: transparent;
+  border:none;
+  outline: none;
+  border-bottom: 2px solid transparent;
+}
+
+.language-btn-selected{
+  color: white;
+  font-size: 0.8em;
+  background: transparent;
+  border:none;
+  outline: none;
+  border-bottom: 2px solid white;
+}
+
+@media(max-width: 991px){
   .navbar{
     background: rgba(0, 0, 0, 1);
     border: 0;
@@ -75,4 +103,13 @@
   .nav-toggle{
     display: block;
   }
+
+  .collapse{
+    display: none!important;
+  }
+
+  .navbar-collapse{
+    display: inline;
+  }
+  
 }
