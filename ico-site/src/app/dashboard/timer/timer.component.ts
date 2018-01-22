@@ -40,7 +40,7 @@ export class TimerComponent implements OnInit {
   }
 
   getCountdownTime() {
-    let countDownDate = new Date("Jan 22, 2018 00:00:00").getTime();
+    let countDownDate = new Date("Feb 26, 2018 09:00:00").getTime();
     let x = setInterval(() => {
 
       // Get todays date and time

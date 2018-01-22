@@ -13,38 +13,38 @@ export class TimelineComponent implements OnInit {
       function showBars(){
         var data =[
             {
-              probability:60, 
-              timeline:'22 JAN - 4 FEB', 
+              probability:40, 
+              timeline:'26 FEB - 8 MAR', 
               isSale:true,
               active:true 
             },
             {
               probability:35, 
-              timeline:'5 FEB - 18 FEB', 
+              timeline:'9 MAR - 18 MAR', 
               isSale:false,
               active:true 
             },
             {
               probability:20, 
-              timeline:'19 FEB - 4 MAR', 
+              timeline:'19 MAR - 1 APR', 
               isSale:false,
               active:true 
             },
             {
-              probability:15, 
-              timeline:'5 MAR - 18 MAR', 
+              probability:10, 
+              timeline:'2 APR - 15 APR', 
               isSale:false,
               active:true 
             },
             {
               probability:0, 
-              timeline:'19 MAR - 15 APR', 
+              timeline:'16 APR - 27 MAY', 
               isSale:false,
               active:true 
             },
             {
               probability:'', 
-              timeline:'15 APR ONWARD', 
+              timeline:'27 MAY ONWARD', 
               isSale:false,
               active:true 
             }]
@@ -76,7 +76,6 @@ export class TimelineComponent implements OnInit {
 
           if(top + _h > statisticsMainTop){
             showBars();
-            console.log("!");
           }
         });
       }, 1500);
