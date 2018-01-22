@@ -24,7 +24,7 @@ export class TimerComponent implements OnInit {
   ngOnInit() {
     this.getCountdownTime()
     this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
-      this.translate.get('STAGE.Early-bird Premium Bonus').subscribe((res: string) => {
+      this.translate.get('STAGE.desc2').subscribe((res: string) => {
         this.stageTitle1 = res
       });
       this.translate.get('TIMER.BONUS SALE').subscribe((res: string) => {

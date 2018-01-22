@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Stage } from './stage.model';
+import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-stage',
@@ -8,9 +9,23 @@ import { Stage } from './stage.model';
 })
 export class StageComponent implements OnInit {
   @Input('stage') currentStage: Stage
-  constructor() { }
+  constructor(private translate: TranslateService) { }
 
   ngOnInit() {
+    this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
+      this.translate.get('STAGE.bonus' + this.currentStage.id).subscribe((res: string) => {
+        this.currentStage.title = res
+      });
+      this.translate.get('STAGE.date' + this.currentStage.id).subscribe((res: string) => {
+        this.currentStage.dateString = res
+      });
+      this.translate.get('STAGE.desc' + this.currentStage.id).subscribe((res: string) => {
+        this.currentStage.subTitle = res
+      });
+      this.translate.get('STAGE.time').subscribe((res: string) => {
+        this.currentStage.timeString = res
+      });
+    })
   }
 
 }

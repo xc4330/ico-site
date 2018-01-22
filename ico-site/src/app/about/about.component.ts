@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import * as PicCarousel from 'PicCarousel';
+import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-about',
@@ -8,7 +9,7 @@ import * as PicCarousel from 'PicCarousel';
 })
 export class AboutComponent implements OnInit {
 
-  constructor() {
+  constructor(private translate: TranslateService) {
   	$(document).ready(function(){
   		if($(window).width() <= 860){
   			var parentW =  $(window).width();

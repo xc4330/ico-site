@@ -4,7 +4,7 @@
         "About Morpheus": "关于 Morpheus",
         "Solution": "解决方案",
         "White Paper": "白皮书",
-        "Token Events": "虚拟币日程表",
+        "Token Events": "虚拟币促销活动",
         "Team": "我们的团队",
         "Language": "语言",
         "en": "英文",
@@ -50,7 +50,45 @@
         "description3":"Scalable, secure and robust enterprise blockchain platform for rapid prototyping and easy production deployment.",
         "description4":"Rapid Prototype to validate use cases atop select pre-deployed application from our ready to deploy blockchain applications. This reduces the time and costs to create a fail fast and safe environment."
     },
+    "ADVANTAGE":{
+        "header": "独一无二的优势",
+        "title1": "稳定，易于拓展",
+        "title2": "一站式解决方案",
+        "title3": "值得信赖",
+        "title4": "高效率，低成本",
+        "title5": "触手可得",
+        "description1": "Clients will be investing in a platform which is highly scalable in the cloud solution.",
+        "description2": "Quickly build and validate blockchain use cases atop select pre-deployed blockchain application. This shortens the time and lowers the costs to create a fail fast and safe environment.",
+        "description3": "Our idea and founder has been accepted into SGInnovate, Singapore Government’s hand picked startups. Staffed by the most skilled engineers and award winning team.",
+        "description4": "We stand by the quality of our products and services. We are committed to providing you with value and no unreasonable charges. Inclusion and Blockchain is our mantra.",
+        "description5": "Our team is cross-functional and experienced in the business of blockchain with varied backgrounds"
+    },
     "STAGE": {
-        "Early-bird Premium Bonus": "抢先尝鲜奖励"
+        "header":"虚拟币促销活动",
+        "bonus1": "50% 折扣 + 5% 额外奖励",
+        "bonus2": "40% 额外奖励",
+        "bonus3": "35% 额外奖励",
+        "bonus4": "20% 额外奖励",
+        "bonus5": "10% 额外奖励",
+        "desc1": "抢先尝鲜奖励",
+        "desc2": "抢先尝鲜奖励",
+        "desc3": "抢先尝鲜奖励",
+        "desc4": "预售奖励",
+        "desc5": "预售奖励",
+        "date1": "1月2号 - 1月21号",
+        "date2": "1月22号 - 2月4号",
+        "date3": "2月5号 - 2月18号",
+        "date4": "2月19号 - 3月4号",
+        "date5": "3月5号 - 3月18号",
+        "time": "上午 9:00 起"
+    },
+    "PLATFORM": {
+        "header": "关于区块链平台服务",
+        "text": "Morpheus Labs BPaaS simplifies and expedites your blockchain application development and gives you the flexibility to choose between available programming languages and blockchain runtimes that better suit your needs. You get unparalleled benefits from an integrated collaborative development environment, workspace management, version control repository and many preconfigured tasks. Let our platform do the heavy lifting while you focus on value-adding work like application creation and experiment with the blockchain technologies at a fraction of the cost and time."
+    },
+    "WHY US": {
+        "header": "为何选择 Morpheus 区块链平台服务？",
+        "text1": "Infrastructure is critical in all functioning, robust first world economies. However, in the current blockchain state of affairs, proper infrastructure is sorely lacking.",
+        "text2": "Morpheus Labs will fill this void by building a revolutionary platform that focuses on quick go-to-market strategies, and user friendliness. We empower enterprises and individuals to perform rapid prototyping and validation of business ideas at low cost."
     }
 }
