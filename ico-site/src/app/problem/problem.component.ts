@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Bubble } from '../shared/bubble/bubble.model'
+import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-problem',
@@ -7,14 +8,24 @@ import { Bubble } from '../shared/bubble/bubble.model'
   styleUrls: ['./problem.component.css']
 })
 export class ProblemComponent implements OnInit {
-  problems: Bubble[] = [
-    new Bubble('Which distributed ledger technology?','../../assets/icons/ProblemStatement01.png','Enterprises have difficulties selecting which blockchain technology to use. For example, Bitcoin blockchain is more suited for transfer of currencies','problem'),
-    new Bubble('What use cases?','../../assets/icons/ProblemStatement02.png','Enterprises have difficulties selecting which blockchain technology to use. For example, Bitcoin blockchain is more suited for payment transfers and store of value ','problem'),
-    new Bubble('How to deploy and test?','../../assets/icons/ProblemStatement03.png','Piecing together the blockchain nodes, storage, cloud development environment and github requires a lot of effort. It is time-consuming and resources intensive, thus excluding most companies or startups except those with deep pockets.','problem'),
-  ]
-  constructor() { }
+  problems: Bubble[] = []
+  constructor(private translate: TranslateService) { }
 
   ngOnInit() {
+    this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
+      this.problems = []
+      for(let i=1;i<=3;i++){
+        let problem = new Bubble('','','','problem')
+        problem.iconUrl = '../../assets/icons/ProblemStatement0'+ i +'.png'
+        this.translate.get('PROBLEM.title' + i).subscribe((res: string) => {
+          problem.title = res
+        });
+        this.translate.get('PROBLEM.description' + i).subscribe((res: string) => {
+          problem.text = res
+        });
+        this.problems.push(problem)
+      }
+    });
   }
 
 }

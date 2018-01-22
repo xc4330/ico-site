@@ -9,7 +9,14 @@ import { stages } from '../../data/events';
 })
 export class EventComponent implements OnInit {
   stages: Stage[] = stages
-  constructor() {}
+  constructor() {
+  	$(document).ready(function(){
+  		var parent = $('.stages');
+		var child = $('.stage-wrap');
+		child.css('padding-bottom', (child.outerWidth() - child.innerWidth())+'px');
+  	});
+
+  }
 
   ngOnInit() {
   }

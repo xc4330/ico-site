@@ -10,7 +10,7 @@ export const techPhases: Phase[] = [
   ]
 
   export const bizPhases: Phase[] = [
-    new Phase('1','','Q3 2016','Idea and founder been handpicked by SGInnovate (Singpaore government initiative).','past', true, false),
+    new Phase('1','','Q3 2016','Idea and founder been handpicked by SGInnovate (Singapore government initiative).','past', true, false),
     new Phase('2','','June 2017','Founding advisory team joined in August. Received and in discuss with global names on distributorship and strategic partnership. Top 5 (out of global 22 bidders) in Smart Dubai Government.','past', false, false),
     new Phase('3','','Oct 2017','Received initial Seed investment. Signed MoU on smart nation projects in middle east region and more in finalising stage. Completed Whitepaper, soft marketing launch & Pre-ICO sales in December. Government Polytechnic in Singapore in discussion of a 5-campus implementation of our solution and co-create curriculum.','current', false, false),
     new Phase('4','','Feb 2018 (Southeast Asia)','Launch token pre-sales. Official partnership campaign for Southeast Asia Region.','future', false, false),

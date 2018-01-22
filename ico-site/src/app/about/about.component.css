@@ -17,23 +17,78 @@
     text-align: center;
 }
 
+ul{
+    list-style: none;
+}
+
+.hidden{
+    visibility: none;
+}
+
 .screens{
-    height: 450px;
-    overflow-y: hidden ;
-    overflow-x: scroll ;
+    overflow-y: hidden;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-bottom: 45px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
+
 
 .image {
     max-height: 100%;
     width: auto;
 }
+
+.poster-main{
+    position: relative;
+    margin: 10px auto;
+}
+
+.tablet{
+    content: "";
+    position: absolute;
+    left: 49.5%;
+    transform: translate(-49.1%, -19px);
+    height: 81%;
+    width: 61%;
+    background:url(../../assets/img/carousel/iPad.png) left top no-repeat;
+    background-size:100% 100%;
+    z-index: 10;
+    pointer-events:none;
+} 
+
+.poster-main a,.poster-main img{
+    display:block;
+}
+
+.poster-main .poster-list{
+    width: 1000px;
+}
+
+.poster-main .poster-list .poster-item{ 
+    width: 200px;
+    position:absolute;
+    overflow: show;
+    left:0;
+    top:0;
+}
+
+.poster-main .poster-btn{ 
+    position:absolute;
+    top:40%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index:10; 
+    cursor:pointer;  
+    width: 5%;
+    max-width: 20px;
+}
+
 
 @media(max-width: 1150px){
     .screens{
@@ -41,15 +96,22 @@
     }
 }
 
-@media(max-width: 760px){
-    .screens{
-        justify-content: flex-start;
-        height: 200px;
-        width: 90%;
+@media(max-width: 900px){
+    .poster-prev-btn{
+        left: 10% !important;
     }
-    .image {
-        height: auto;
-        max-height: auto;
-        width: 100%;
+
+    .poster-next-btn{
+        right: 10% !important;
+    }
+}
+
+@media(max-width: 860px){
+    .tablet{
+        display: none;
+    }
+
+    .poster-btn{
+        display: none;
     }
 }

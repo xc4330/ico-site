@@ -1,6 +1,7 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { Logs } from 'selenium-webdriver';
 import { log } from 'util';
+import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-dashboard',
@@ -10,7 +11,7 @@ import { log } from 'util';
 export class DashboardComponent implements OnInit {
 
   @Output() navClickEvent = new EventEmitter<string>();
-  constructor() { }
+  constructor(private translate: TranslateService) { }
 
   ngOnInit() {
   }

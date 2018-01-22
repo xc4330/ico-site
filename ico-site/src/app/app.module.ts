@@ -1,6 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgxChartsModule } from '@swimlane/ngx-charts';
 
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -19,10 +23,25 @@ import { RoadmapComponent } from './roadmap/roadmap.component';
 import { PhaseComponent } from './roadmap/phase/phase.component';
 import { MemberComponent } from './team/member/member.component';
 import { BenefitsComponent } from './benefits/benefits.component';
+import { DistributionComponent } from './distribution/distribution.component';
+import { TimelineComponent } from './timeline/timeline.component';
 import { ReasonComponent } from './reason/reason.component';
 import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 import { AdvantageComponent } from './advantage/advantage.component';
 import { FeatureComponent } from './advantage/feature/feature.component';
+
+import { BountyComponent } from './bounty/bounty.component';
+import { SiteLayoutComponent } from './site-layout/site-layout.component';
+
+import { routing } from './app.routing';
+
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+
+// AoT requires an exported function for factories
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}
 
 @NgModule({
   declarations: [
@@ -43,14 +62,29 @@ import { FeatureComponent } from './advantage/feature/feature.component';
     PhaseComponent,
     MemberComponent,
     BenefitsComponent,
+    DistributionComponent,
+    TimelineComponent,
     ReasonComponent,
     AdvantageComponent,
-    FeatureComponent
+    FeatureComponent,
+    BountyComponent,
+    SiteLayoutComponent
   ],
   imports: [
     BrowserModule,
     NgbModule.forRoot(),
-    ScrollToModule.forRoot()
+    ScrollToModule.forRoot(),
+    BrowserAnimationsModule,
+    NgxChartsModule,
+    routing,
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader: {
+          provide: TranslateLoader,
+          useFactory: HttpLoaderFactory,
+          deps: [HttpClient]
+      }
+  })
   ],
   providers: [],
   bootstrap: [AppComponent]
