@@ -27,8 +27,8 @@ export let NavigationLinks: NavigationLink[] =
     label: 'Team',
     link: '#'
   },
-  // {
-  //   label: 'Bounty',
-  //   link: '#'
-  // }
+  {
+    label: 'Bounty',
+    link: '/bounty'
+  }
 ]
