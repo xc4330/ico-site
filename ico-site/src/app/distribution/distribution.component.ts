@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { tokenDist, financeDist } from '../../data/distribution-data';
+import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-distribution',
@@ -9,7 +10,7 @@ import { tokenDist, financeDist } from '../../data/distribution-data';
 
 export class DistributionComponent implements OnInit {
 
-  constructor() {
+  constructor(private translate: TranslateService) {
     Object.assign(this, {tokenDist, financeDist});
     $(document).ready(function(){
       setTimeout(function(){
