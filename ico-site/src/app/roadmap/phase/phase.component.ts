@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Phase } from './phase.model';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-phase',
@@ -9,7 +10,7 @@ import { Phase } from './phase.model';
 export class PhaseComponent implements OnInit {
   @Input() content: Phase
   
-  constructor() { }
+  constructor(private translate: TranslateService) { }
 
   ngOnInit() {
   }

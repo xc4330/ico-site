@@ -29,8 +29,8 @@
           class="nav-item" 
           *ngFor='let navlink of navlinks'
           (click) = "onLinkClicked(navlink.label)">
-          <a *ngIf="navlink.link != '#'" class="nav-link" href={{navlink.link}}>{{navlink.label}}</a>
-          <a *ngIf="navlink.link == '#'" class="nav-link">{{navlink.label}}</a>
+          <a *ngIf="navlink.link != '#'" class="nav-link" href={{navlink.link}}>{{ 'HEADER.' + navlink.label | translate }}</a>
+          <a *ngIf="navlink.link == '#'" class="nav-link">{{ 'HEADER.' + navlink.label | translate }}</a>
         </li>
       </ul>
       <div class="social-buttons ml-auto">
@@ -49,8 +49,8 @@
       </div>
     </nav>
     <div class="copyright-container">
-      <div style="width: 90%;">© Morpheus Labs. Inc | 2017 All rights reserved <br><br>
-          Investing in ICOs and digital tokens can be very rewarding, but it involves a number of risks and challenges. If you choose to invest,  you need to be aware of and accept three important considerations, 1. illiquidity , 2.Diversification, 3.Loss of Capital. This list of risk factors does not purport to be a complete enumeration or explanation of the risks. Prospective investors should review, at the very least, but not limited to, the whitepaper, team and also product roadmap in their entirety and consult with their own advisers before making any decision to invest.
+      <div style="width: 90%;">{{ 'FOOTER.legal-1' | translate }} <br><br>
+        {{ 'FOOTER.legal-2' | translate }}
         </div>
       <button 
         class="btn go-btn"
