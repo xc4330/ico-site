@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { BenefitsListItem } from './benefits.model';
 import { Bubble } from '../shared/bubble/bubble.model';
+import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-benefits',
@@ -12,43 +13,48 @@ export class BenefitsComponent implements OnInit {
   showMore: boolean = false;
   showMoreLabel: string = "Show More";
   listitems: BenefitsListItem[];
-  benefits: Bubble[] = [
-    new Bubble('Platform Subscription Payment','../../assets/icons/Benefit01.png','Payment for different tiers of services','benefit'),
-    new Bubble('Applications Usage Fee','../../assets/icons/Benefit02.png','Download to use wide range of applications in our app store with exclusive benefits. Download to customise or engage the application owner to customise for you','benefit'),
-    new Bubble('Distributorship Licensing Fee','../../assets/icons/Benefit03.png','Financial settlement for various tiers of licensing. Resources support and sharing','benefit'),
-    new Bubble('Token Swapping and Trading','../../assets/icons/Benefit04.png','Token swap among apps within the network. Traded on Cryptocurrency exchange','benefit'),
-  ]
+  benefits: Bubble[] = []
 
-  constructor() { }
+  constructor(private translate: TranslateService) { }
 
   toggleShowMore(){
     this.showMore = !this.showMore;
-    this.showMoreLabel = this.showMore ? "Show Less" : "Show More";
+    this.translate.get('BENEFIT.' + (this.showMore ? "Show Less" : "Show More")).subscribe((res: string) => {
+      this.showMoreLabel = res
+    });
   }
 
   ngOnInit() {
-    this.listitems = [
-      {
-        label: 'Main Uses of MIT:',
-        desc: ''
-      },
-      {
-        label: 'Platform Subscription Payment',
-        desc: 'Payment for different tiers of services'
-      },
-      {
-        label: 'Applications Usage Fee',
-        desc: 'Download to use wide range of applications in our app store with exclusive benefits. <br> Download to customise or engage the application owner to customise for you'
-      },
-      {
-        label: 'Distributorship Licensing Fee',
-        desc: 'Financial settlement for various tiers of licensing <br> Resources support and sharing'
-      },
-      {
-        label: 'Token Swapping and Trading',
-        desc: 'Token swap among apps within the network <br> Traded on Cryptocurrency exchange'
+    this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
+      this.benefits = []
+      for(let i=1;i<=4;i++){
+        let benefit = new Bubble('','','','benefit')
+        benefit.iconUrl = '../../assets/icons/Benefit0'+ i +'.png'
+        this.translate.get('BENEFIT.cardtitle' + i).subscribe((res: string) => {
+          benefit.title = res
+        });
+        this.translate.get('BENEFIT.cardtext' + i).subscribe((res: string) => {
+          benefit.text = res
+        });
+        this.benefits.push(benefit)
       }
-    ]
+
+      this.listitems = []
+      for(let i=1;i<=5;i++){
+        let item = new BenefitsListItem('','')
+        this.translate.get('BENEFIT.listtitle' + i).subscribe((res: string) => {
+          item.label = res
+        });
+        this.translate.get('BENEFIT.listtext' + i).subscribe((res: string) => {
+          item.desc = res
+        });
+        this.listitems.push(item)
+      }
+
+      this.translate.get('BENEFIT.' + (this.showMore ? "Show Less" : "Show More")).subscribe((res: string) => {
+        this.showMoreLabel = res
+      });
+    });
   }
 
 }

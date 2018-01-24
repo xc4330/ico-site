@@ -1,5 +1,7 @@
-export interface BenefitsListItem
+export class BenefitsListItem
 {
-  label: string,
-  desc: string
+  constructor(
+    public label: string,
+    public desc: string,
+){}
 }
