@@ -20,7 +20,7 @@ a{
 .btn-box{
   margin: 0 auto;
   text-align: center;
-  padding: 5em 0 5em 0em;
+  padding: 2em 0 2em 0em;
 }
 .btn-box .btn{
   min-width: 20%;
@@ -85,7 +85,7 @@ a{
   text-align: center;
   padding: 0 10%;
   color:#fff;
-  font-size: 14px;
+  font-size: 1em;
 }
 .intor p{
   margin: 0 0 5px;
@@ -126,7 +126,7 @@ a{
 .list-box .col{
   float: left;
   width: 44%;
-  font-size: 12px;
+  font-size: 1em;
   line-height: 18px;
   padding: 20px 3%; 
 }
@@ -158,15 +158,18 @@ a{
   padding:10px;
 }
 .li-main h3.h3{
-  font-size: 16px;
+  font-size: 2em;
   font-weight: bold;
 }
 .list-bot {
   padding-top: 5%;
   padding-bottom: 120px;
   text-align: center;
-  font-size: 16px;
+  font-size: 2em;
   color: #fff;
+}
+.list p{
+  font-size: 1.2em;
 }
 .call-action{
   text-transform: uppercase;
@@ -308,6 +311,9 @@ a{
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
+}
+.alliance.row{
+  padding: 2em;
 }
 @media only screen and (max-width: 760px) {
   .h2 {
