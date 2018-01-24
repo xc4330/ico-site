@@ -1,4 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face{
+  font-family: GLECB;
+  src: url('/assets/fonts/GLECB.TTF');
+}
+
 .nav-pills .nav-link{
     color: grey;
     background: white;
