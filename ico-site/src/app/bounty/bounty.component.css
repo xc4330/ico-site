@@ -17,15 +17,37 @@ a{
 .f-blue{
   color:#a1c6e7;
 }
-.btn-blue{
-  background-color: #00a3dc;
+.btn-box{
+  margin: 0 auto;
+  text-align: center;
+  padding: 5em 0 5em 0em;
+}
+.btn-box .btn{
+  min-width: 20%;
+  margin-right: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.btn{
   border-radius: 3px;
   padding:15px 10px;
   min-width: 30%;
   margin: 0 auto;
   color: #fff;
-  font-size: 16px;
+  font-size: 24px;
   display: inline-block;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+.btn-blue{
+  background-color: #00a3dc;
+}
+.btn-blue-2{
+  background-color: #194b77;
+}
+.btn:hover{
+  cursor: pointer;
+  transform: translateY(2px);
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.4);
 }
 .h2{
   text-align: center;
@@ -61,7 +83,7 @@ a{
 }
 .intor {
   text-align: center;
-  padding: 0 10% 10%;
+  padding: 0 10%;
   color:#fff;
   font-size: 14px;
 }
@@ -91,7 +113,7 @@ a{
   background: url(../../assets/img/bounty/frame_bg_center.png) left top repeat-y;
   background-size: 100% auto;
   vertical-align: top;
-  padding: 0 10%;
+  padding: 2em 10% 5em 10%;
 }
 .li-main,.li-head {
   width: 100%;
@@ -109,7 +131,9 @@ a{
   padding: 20px 3%; 
 }
 .li-head .col{
-  font-size: 14px;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
   text-align: center;
 }
 .list li:nth-child(even){
@@ -124,7 +148,7 @@ a{
   top:0;
   height: 100%;
   width:4px;
-  background-color: #0a243c;
+  /*background-color: #0a243c;*/
 }
 
 .list p,.li-main p{
@@ -133,12 +157,20 @@ a{
 .list th,.li-head{
   padding:10px;
 }
+.li-main h3.h3{
+  font-size: 16px;
+  font-weight: bold;
+}
 .list-bot {
   padding-top: 5%;
   padding-bottom: 120px;
   text-align: center;
   font-size: 16px;
   color: #fff;
+}
+.call-action{
+  text-transform: uppercase;
+  margin-top: 1em;
 }
 .alliance-main {
   padding-top:40px;
@@ -260,11 +292,28 @@ a{
 .mobile {
   display: none;
 }
+.pc{
+  width: 100%;
+}
+.classes{
+  font-family: arial,Helvetica,sans-serif;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  margin: 1em 0 1em 0;
+}
+.classes ul{
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
 @media only screen and (max-width: 760px) {
   .h2 {
     width: 50%;
   }
-  .btn-blue{
+  .btn{
     font-size: 14px;
     padding:10px 15px;
   }
@@ -316,6 +365,10 @@ a{
   }
   .list-bot {
     font-size: 14px;
+    margin-top: 3em;
+  }
+  .info-list{
+    padding-bottom: 3em;
   }
   .setion .decoration{
     width: 65%;

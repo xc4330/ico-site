@@ -29,6 +29,6 @@ export let NavigationLinks: NavigationLink[] =
   },
   {
     label: 'Bounty',
-    link: '#'
+    link: '/bounty'
   }
 ]

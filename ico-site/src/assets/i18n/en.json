@@ -19,7 +19,7 @@
         "HOURS": "HOURS",
         "MINUTES": "MINUTES",
         "SECONDS": "SECONDS",
-        "Buy Token Now": "Buy Token Now",
+        "Buy Token Now": "Join Now",
         "We accept BTC, ETH and other": "We accept BTC, ETH and other",
         "SHARE WITH": "SHARE WITH"
     },
@@ -77,10 +77,10 @@
         "desc4": "Pre-sales Additional Bonus",
         "desc5": "Pre-sales Additional Bonus",
         "date1": "2 Jan - 21 Jan",
-        "date2": "22 Jan - 4 Feb",
-        "date3": "5 Feb - 18th Feb",
-        "date4": "19 Feb - 4 March",
-        "date5": "5 March -18 March",
+        "date2": "26 Feb - 8 March",
+        "date3": "9 March - 18th March",
+        "date4": "19 March - 1 Apr",
+        "date5": "2 Apr -15 Apr",
         "time": "from 9:00 am"
     },
     "PLATFORM": {
