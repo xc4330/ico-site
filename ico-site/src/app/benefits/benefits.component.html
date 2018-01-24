@@ -2,9 +2,9 @@
   <img class="header-image" src='./assets/icons/BenefitBG.jpg'>
   <div class="row">
     <div class="col benefits-section">
-      <h1>Benefits of Token</h1>
+      <h1>{{ 'BENEFIT.header' | translate }}</h1>
       <p>
-        Morpheus Infrastructure Token (MIT) is designed to be used within the Morpheus BPaaS network for all services and products rendered, platform subscription, distributorship licensing and token swaps with other digital currencies or tokens.
+        {{ 'BENEFIT.summary' | translate }}
       </p>
       <div 
         class="more-text"
@@ -15,23 +15,23 @@
             </li>
           </ul>
         <p>
-            The primary use of the token is for both platform subscription and application-related usage, whereby users can use these tokens to procure any services within the platform network, and pay service providers within it. Users can switch among different subscription tiers with full flexibility. Upgrades are featured for applications that are chosen.
+            {{ 'BENEFIT.detail1' | translate }}
             <br>
             <br>
-            As more blockchain applications are curated on our app store, MIT will also allow convertibility to discount coupons for other ICOs within our network. This will translate into cost savings and promotional items in other applications.
+            {{ 'BENEFIT.detail2' | translate }}
             <br>
             <br>
-            Financial settlement and resources support between licensees and licensors, where distributorship could be easily managed, facilitates critical real-time support for any distributors or sub-distributors in any corner of the world. Easy token swapping among our app stores will also permit savings on transactional fees and more effective portfolio management for individual and corporate investors.
+            {{ 'BENEFIT.detail3' | translate }}
             <br>
             <br>
-            MIT will be traded on crypto exchanges and this offers token holders the flexibility to trade and liquidate their holdings, if they so choose. They will be able to convert to fiat currency or swap to other cryptocurrencies. Holders can capitalise on trading opportunities and maximise value appreciation of their tokens.
+            {{ 'BENEFIT.detail4' | translate }}
         </p>
       </div>
       <button
         class="btn mroe-btn" 
         (click)="toggleShowMore()">{{showMoreLabel}}</button>
       <!-- <button type="button" class="btn whitepaper-btn">Read Whitepaper</button> -->
-      <a class="btn whitepaper-btn" href="./assets/documents/WhitePaper.pdf">Read Whitepaper</a>
+      <a class="btn whitepaper-btn" href="./assets/documents/WhitePaper.pdf">{{ 'BENEFIT.Read Whitepaper' | translate }}</a>
     </div>
     <img src='./assets/icons/iphone.png' class="iphone-image">
     <div class="blue-background"></div>
