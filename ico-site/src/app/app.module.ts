@@ -30,6 +30,7 @@ import { ReasonComponent } from './reason/reason.component';
 import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 import { AdvantageComponent } from './advantage/advantage.component';
 import { FeatureComponent } from './advantage/feature/feature.component';
+import { LogosComponent } from './logos/logos.component';
 
 import { BountyComponent } from './bounty/bounty.component';
 import { SiteLayoutComponent } from './site-layout/site-layout.component';
@@ -70,7 +71,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     AdvantageComponent,
     FeatureComponent,
     BountyComponent,
-    SiteLayoutComponent
+    SiteLayoutComponent,
+    LogosComponent
+    
   ],
   imports: [
     BrowserModule,
