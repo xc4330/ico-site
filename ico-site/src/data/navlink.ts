@@ -32,3 +32,32 @@ export let NavigationLinks: NavigationLink[] =
     link: '/bounty'
   }
 ]
+
+export let BountyNavigationLinks: NavigationLink[] =
+[
+  {
+    label: 'About Morpheus',
+    link: '/#AboutMorpheus'
+  },
+  {
+    label: 'Solution',
+    link: '/#Solution'
+  },
+  {
+    label: 'White Paper',
+    link: './assets/documents/WhitePaper.pdf'
+  },
+  {
+    label: 'Token Events',
+    link: '/#TokenEvents'
+  },
+  {
+    label: 'Team',
+    link: '/#Team'
+  },
+  {
+    label: 'Bounty',
+    link: '#'
+  }
+]
+

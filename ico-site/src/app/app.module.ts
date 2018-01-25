@@ -13,6 +13,7 @@ import { AboutComponent } from './about/about.component';
 import { EventComponent } from './event/event.component';
 import { TeamComponent } from './team/team.component';
 import { HeaderComponent } from './dashboard/header/header.component';
+import { BountyHeaderComponent } from './bounty/header/header.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { StageComponent } from './event/stage/stage.component';
 import { ProblemComponent } from './problem/problem.component';
@@ -52,6 +53,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     EventComponent,
     TeamComponent,
     HeaderComponent,
+    BountyHeaderComponent,
     CarouselComponent,
     StageComponent,
     ProblemComponent,

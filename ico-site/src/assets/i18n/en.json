@@ -5,6 +5,7 @@
         "Solution": "Solution",
         "White Paper": "White Paper",
         "Token Events": "Token Events",
+        "Bounty" : "Bounty",
         "Team": "Team",
         "Bounty": "Bounty",
         "Language": "Language",
@@ -72,6 +73,7 @@
         "bonus4": "20% BONUS",
         "bonus5": "10% BONUS",
         "bonus6": "NO BONUS",
+
         "desc1": "Pre-ICO Platinum Bonus",
         "desc2": "Early-bird Premium Bonus",
         "desc3": "Early-bird Premium Bonus",
@@ -79,13 +81,15 @@
         "desc5": "Pre-sales Additional Bonus",
         "desc6": "Official Sales",
         "desc7": "Unsold Tokens Release",
+
         "date1": "2 Jan - 21 Jan",
-        "date2": "26 Feb - 8 March",
-        "date3": "9 March - 18th March",
-        "date4": "19 March - 1 Apr",
-        "date5": "2 Apr -15 Apr",
-        "date6": "16 APR - 27 MAY",
+        "date2": "26 Feb - 8 Mar",
+        "date3": "9 Mar - 18 Mar",
+        "date4": "19 Mar - 1 Apr",
+        "date5": "2 Apr - 15 Apr",
+        "date6": "16 Apr - 27 May",
         "date7": "27 MAY ONWARD",
+
         "time": "from 9:00 am"
     },
     "TIMELINE": {
