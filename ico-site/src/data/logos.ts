@@ -27,11 +27,11 @@ export var logos = {
     }
   ],
   "supported" : [
-    //{
-    //  'name'  : 'Top Fund',
-    //  'image' : '../assets/img/logos/campflex-logo.png',
-    //  'link'  : ''
-    //},
+    {
+      'name'  : 'Top Fund',
+      'image' : '../assets/img/logos/topfund.png',
+      'link'  : ''
+    },
     {
       'name'  : 'Snap Innovations',
       'image' : '../assets/img/logos/logo (2).png',
