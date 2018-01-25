@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-timeline',
@@ -8,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 
 export class TimelineComponent implements OnInit {
 
-  constructor() {
+  constructor(private translate: TranslateService) {
     $(document).ready(function(){
       function showBars(){
         var data =[
@@ -58,12 +59,12 @@ export class TimelineComponent implements OnInit {
                 $item.eq(i).addClass("statistics-sale-show");
               },1000)
             }
-            if (!data[i].probability) {
-              if (data[i].probability === 0) $item.eq(i).find('.statistics-text').text('Bonus' + data[i].probability + '%');
-              $item.eq(i).addClass("statistics-not-data");
-            } else {
-              $item.eq(i).find('.statistics-text').text('Bonus' + data[i].probability + '%');
-            }
+            // if (!data[i].probability) {
+            //   if (data[i].probability === 0) $item.eq(i).find('.statistics-text').text('Bonus' + data[i].probability + '%');
+            //   $item.eq(i).addClass("statistics-not-data");
+            // } else {
+            //   $item.eq(i).find('.statistics-text').text('Bonus' + data[i].probability + '%');
+            // }
           });
       }
 
@@ -87,7 +88,6 @@ export class TimelineComponent implements OnInit {
     console.log(event);
   }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
 }

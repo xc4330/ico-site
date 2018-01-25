@@ -1,5 +1,6 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { NavigationLink, NavigationLinks } from '../../data/navlink';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-footer',
@@ -16,7 +17,7 @@ export class FooterComponent implements OnInit {
   };
 
   @Output() navClickEvent = new EventEmitter<string>();
-  constructor() {
+  constructor(private translate: TranslateService) {
     $(window).scroll(function(){
       var top = $(this).scrollTop();
       var scrollLen = $('body').height() - $(window).height();
