@@ -69,9 +69,9 @@ export const members: Member[] = [
   export const advisors: Member[] = [
     new Member(
       '../assets/icons/Team17.png',
-      'https://www.linkedin.com/in/jaredpolites/',
+      'https://wapbaike.baidu.com/item/刘思宇/6480478',
       'Liu Shiyu',
-      'China',
+      'Greater China',
       'Professor of internet Finance (Nanking University: EMBA); Professor (Capital University of Economics and Business) & China University of Political Science and Law',
       'Founder of Top Fund Blockchain capital and advisor to Ant Finance (Alibaba), he is selected 2017 <Forbes> China top 30 under 30 Elite list and one of top blockchain influencers in China.',
       'adv'
