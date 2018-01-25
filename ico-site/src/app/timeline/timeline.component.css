@@ -242,3 +242,10 @@
     bottom: -80px !important;
   }
 }
+
+@media(max-width: 500px){
+  .statistics-sale-show[_ngcontent-c12] .statistics-col-bg[_ngcontent-c12]:after{
+    left: -15px;
+    width: calc(100% + 15px);
+  }
+}
