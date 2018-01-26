@@ -109,32 +109,32 @@
     background-color: #8de6f5;
 }
 
-.bar-stats.display .bar.sales{
-    width: 38.88888889%;
-}
-
+.bar-stats.display .bar.sales,
 .bar-stats.display .bar.community{
-    width: 23.33333333%;
+    width: 35.7142857142%;
 }
 
-.bar-stats.display .bar{
-    width: 31.111111%;
+
+.bar-stats.display .bar.reserve{
+    width: 28.5714285714%;
+}
+
+.bar-stats.display .bar.team,
+.bar-stats.display .bar.foundation,
+.bar-stats.display .bar.others{
+    width: 21.4285714286%;
 }
 
 .bar-stats.display .bar.devops{
-    width: 70%;
+    width: 50%;
 }
 
 .bar-stats.display .bar.marketing{
-    width: 38.888888888888889%;
+    width: 42.8571428571%;
 }
 
 .bar-stats.display .bar.rnd{
-    width: 31.11111111111%;
-}
-
-.bar-stats.display .bar.others{
-    width: 23.333333333%;
+    width: 28.5714285714%;
 }
 
 .desc{
@@ -162,33 +162,40 @@
     max-height: 500px;
 }
 
+.pie-stat{
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
 .pie-stat.reserve{
-    top: 3%;
-    right: -9%;
+    top: 5%;
+    right: 2%;
 }
 
 .pie-stat.foundation{
-    top: 65%;
-    right: -15%;
+    bottom: -19%;
+    left: 41%;
 }
 
 .pie-stat.sales{
-    bottom: -15%;
-    left: 40%;
+    bottom: 38%;
+    left: -5%;
 }
 
 .pie-stat.community{
-    top: 55%;
-    left: -9%;
+    top: 74%;
+    right: -4%;
 }
 
 .pie-stat.team{
-    top: 2%;
-    left: 6%;
+    top: -9%;
+    left: 17%;
 }
 
 .pie-stat.devops{
-    top: 48%;
+    top: 20%;
     right: -30%;
 }
 
@@ -199,12 +206,16 @@
 
 .pie-stat.rnd{
     top: 48%;
-    left: -15%;
+    left: -7%;
 }
 
 .pie-stat.others{
     top: -1%;
     left: 5%;
+}
+
+.long.label{
+    line-height: 1.2em;
 }
 
 .short.label{
@@ -214,31 +225,27 @@
 @media(min-width: 1440px){
 
     .pie-stat.devops{
-        top: 48%;
+        top: 20%;
         right: -26%;
     }
 
 }
 
-@media(min-width: 1540px){
+@media(min-width: 1560px){
     .pie-stat.devops{
-        top: 48%;
-        right: -20%;
+        top: 20%;
+        right: -19%;
     }
 
     .pie-stat.rnd{
         top: 48%;
         left: -2%;
     }
+}
 
-    .pie-stat.foundation{
-        top: 65%;
-        right: -5%;
-    }
-
-    .pie-stat.reserve{
-        top: 3%;
-        right: -2%;
+@media(max-width: 1440px){
+    .pie-stat.sales{
+        left: -12%;
     }
 }
 
@@ -249,11 +256,6 @@
 
     .pie-stat.devops{
         right: -33%;
-    }
-
-    .pie-stat.sales{
-        bottom: -22%;
-        left: 40%;
     }
 
     .pie-stat.marketing{
@@ -269,6 +271,31 @@
 
     .pie-stat.devops{
         right: -50%;
+    }
+
+    .pie-stat.reserve{
+        top: -5%;
+        right: -1%;
+    }
+
+    .pie-stat.foundation{
+        bottom: -24%;
+        left: 35%;
+    }
+
+    .pie-stat.sales{
+        bottom: 34%;
+        left: -19%;
+    }
+
+    .pie-stat.community{
+        top: 62%;
+        right: -16%;
+    }
+
+    .pie-stat.team{
+        top: -12%;
+        left: 10%;
     }
 
 }
@@ -289,7 +316,7 @@
     }
 
     .pie-stat.devops{
-        top: 44%;
+        top: 6%;
         right: -16%;
     }
 
@@ -308,6 +335,10 @@
         display: block;
         line-height: 1em;
     }
+
+    .pie-stat.devops{
+        right: -10%;
+    }
 }
 
 @media(max-width: 500px){
@@ -322,7 +353,7 @@
     }
 
     .chart{
-        padding: 2em;
+        padding: 1em;
     }
 }
 
@@ -343,5 +374,20 @@
         height: auto;
         max-height: auto;
         width: 100%;
+    }
+}
+
+@media(max-width: 426px){
+    .pie-stat.devops{
+        right: -27%;
+    }
+
+    .pie-stat.marketing{
+        bottom: -22%;
+    }
+
+    .pie-stat.others{
+        top: -3%;
+        left: -1%;
     }
 }

@@ -150,17 +150,17 @@
         "Community": "Community",
         "Token Sales": "Token Sales",
         "Foundation": "Foundation",
-        "Reserve Fund": "Reserve Fund",
+        "Reserve Fund": "Reserve",
 
-        "FINANCE": "Finance",
+        "FINANCE": "Financial",
         "Platform Development": "Platform Development & ",
-        "Operations": "Operations",
+        "Operations": "Operation",
         "Platform Dev": "Platform Dev & ",
         "Ops": "Ops",
-        "Marketing": "Marketing",
+        "Marketing": "Sales & Marketing",
         "Research Development": "Research Development",
         "R&D": "R&D",
-        "Others, Legal": "Others, Legal"
+        "Others, Legal": "Legal and Others"
     },
     "ROADMAP": {
         "header": "Road Map",
