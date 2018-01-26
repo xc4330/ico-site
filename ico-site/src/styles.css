@@ -5,6 +5,11 @@
   src: url('/assets/fonts/GLECB.TTF');
 }
 
+@font-face{
+  font-family: BERN;
+  src: url('/assets/fonts/BERNHC.TTF');
+}
+
 .nav-pills .nav-link{
     color: grey;
     background: white;

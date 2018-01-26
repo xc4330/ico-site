@@ -223,7 +223,7 @@
 @media(min-width: 1540px){
     .pie-stat.devops{
         top: 48%;
-        right: -15%;
+        right: -20%;
     }
 
     .pie-stat.rnd{
@@ -260,6 +260,17 @@
         bottom: -22%;
         left: 40%;
     }
+}
+
+@media(max-width: 1025px){
+    .chart{
+        width: 70%;
+    }
+
+    .pie-stat.devops{
+        right: -50%;
+    }
+
 }
 
 @media(max-width: 768px){
