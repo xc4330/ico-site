@@ -140,7 +140,7 @@
 
     },
     "DISTRIBUTION": {
-        "TOKEN": "代币分布",
+        "TOKEN": "发行方式",
         "DISTRIBUTION": "",
         "Team": "团队",
         "Community": "社区建设",
@@ -148,7 +148,7 @@
         "Foundation": "战略及深度研发基金",
         "Reserve Fund": "储备金",
 
-        "FINANCE": "资金分布",
+        "FINANCE": "运用方式",
         "Platform Development": "开发和营运",
         "Operations": "及运营",
         "Platform Dev": "开发和营运",
