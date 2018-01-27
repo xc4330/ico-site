@@ -20,7 +20,7 @@
         "HOURS": "HOURS",
         "MINUTES": "MINUTES",
         "SECONDS": "SECONDS",
-        "Buy Token Now": "Join Now",
+        "Buy Token Now": "Buy Token Now",
         "We accept BTC, ETH and other": "We accept BTC, ETH and other",
         "SHARE WITH": "SHARE WITH"
     },
@@ -286,6 +286,12 @@
         "advisor-country0": "China",
         "advisor-bg0": "Chair Professor of Internet Finance (Nanking University: EMBA); Lecturer (Capital University of Economics and Business & China University of Political Science and Law)",
         "advisor-exp0": "Founder of Top Fund Blockchain capital, he is selected 2017 <Forbes> China top 30 under 30 Elite list and one of top blockchain influencers in China."
+    },
+    "LOGO":{
+        "title1": "Cornerstone Investors",
+        "title2": "Partners & Clients",
+        "title3": "Supported by",
+        "title4": "As Seen On"
     },
     "FOOTER": {
         "legal-1":"© Morpheus Labs. Inc | 2017 All rights reserved",
