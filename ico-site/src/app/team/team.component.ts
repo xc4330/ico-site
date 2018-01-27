@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { Member } from './member/member.model';
 import { members, advisors } from '../../data/teams';
 import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
@@ -8,11 +8,12 @@ import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
   templateUrl: './team.component.html',
   styleUrls: ['./team.component.css']
 })
-export class TeamComponent implements OnInit {
+export class TeamComponent implements OnInit, AfterViewInit {
   members: Member[] = members
   advisors: Member[] = advisors
 
-  constructor(private translate: TranslateService) { }
+  constructor(private translate: TranslateService) {
+  }
 
   ngOnInit() {
     this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
@@ -45,6 +46,13 @@ export class TeamComponent implements OnInit {
           advisor.desc2 = res
         });
       })
+    });
+  }
+
+  ngAfterViewInit(){
+    $(document).ready(function(){
+      var width = $('.photo').outerWidth();
+      $('.photo').css('height', width+'px');
     });
   }
 
