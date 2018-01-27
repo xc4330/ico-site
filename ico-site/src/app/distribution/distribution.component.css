@@ -110,32 +110,37 @@
     background-color: #8de6f5;
 }
 
+/*25*/
 .bar-stats.display .bar.sales,
-.bar-stats.display .bar.community{
-    width: 35.7142857142%;
+.bar-stats.display .bar.community{ 
+    width: 71.4285714285%;
 }
 
-
-.bar-stats.display .bar.reserve{
-    width: 28.5714285714%;
+/*20*/
+.bar-stats.display .bar.reserve{ 
+    width: 57.1428571428%;
 }
 
+/*15*/
 .bar-stats.display .bar.team,
 .bar-stats.display .bar.foundation,
 .bar-stats.display .bar.others{
-    width: 21.4285714286%;
-}
-
-.bar-stats.display .bar.devops{
-    width: 50%;
-}
-
-.bar-stats.display .bar.marketing{
     width: 42.8571428571%;
 }
 
+/*35*/
+.bar-stats.display .bar.devops{ 
+    width: 100%;
+}
+
+/*30*/
+.bar-stats.display .bar.marketing{ 
+    width: 85.7142857142%;
+}
+
+/*20*/
 .bar-stats.display .bar.rnd{
-    width: 28.5714285714%;
+    width: 57.1428571428%;
 }
 
 .desc{
