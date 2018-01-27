@@ -12,6 +12,8 @@ import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
   providers: [NgbTabsetConfig]
 })
 export class RoadmapComponent implements OnInit {
+  tabHeader1: String = '';
+  tabHeader2: String = '';
   techPhases: Phase[] = techPhases;
   bizPhases: Phase[] = bizPhases;
   constructor(config: NgbTabsetConfig,private translate: TranslateService) {
@@ -44,6 +46,14 @@ export class RoadmapComponent implements OnInit {
           bizPhase.desc = res
         });
       })
+
+      // this.translate.get('ROADMAP.Technical').subscribe((res: string) => {
+      //   this.tabHeader1 = res
+      // });
+      // this.translate.get('ROADMAP.Business').subscribe((res: string) => {
+      //   this.tabHeader2 = res
+      // });
+
     });
   }
 

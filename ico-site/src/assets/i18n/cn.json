@@ -129,14 +129,14 @@
         "Show Less": "收起",
         "Read Whitepaper": "阅读白皮书",
 
-        "cardtitle1": "Platform Subscription Payment",
-        "cardtitle2": "Applications Usage Fee",
-        "cardtitle3": "Distributorship Licensing Fee",
-        "cardtitle4": "Token Swapping and Trading",
-        "cardtext1": "Payment for different tiers of services",
-        "cardtext2": "Download to use wide range of applications in our app store with exclusive benefits. Download to customise or engage the application owner to customise for you",
-        "cardtext3": "Financial settlement for various tiers of licensing. Resources support and sharing",
-        "cardtext4": "Token swap among apps within the network. Traded on Cryptocurrency exchange"
+        "cardtitle1": "平台订阅付款",
+        "cardtitle2": "应用程序使用费",
+        "cardtitle3": "分销许可费",
+        "cardtitle4": "代币交换和交易",
+        "cardtext1": "支付不同层次的服务",
+        "cardtext2": "下载以在我们的应用程序商店中使用广泛的应用程序，享有独家优惠 下载以自定义或让应用程序所有者为您定制",
+        "cardtext3": "各级许可证的财务结算。 资源支持和共享",
+        "cardtext4": "在我的网络之间支持代币兑换。 并在代币交易所开始交易"
 
     },
     "DISTRIBUTION": {
@@ -163,24 +163,24 @@
         "Technical": "技术创新",
         "Business": "商业发展",
         "Phase": "阶段",
-        "tech-title0": "Design And Version Alpha",
-        "tech-title1": "Deploy DevOps Tools",
-        "tech-title2": "Co-creation And Group Development",
-        "tech-title3": "Commercialisation Phase",
-        "tech-title4": "User Experience Enhancement",
-        "tech-title5": "Interoperability Between Blockchains",
+        "tech-title0": "设计和初代版本",
+        "tech-title1": "部署DevOps工具",
+        "tech-title2": "共同创造和集团发展",
+        "tech-title3": "商业化",
+        "tech-title4": "用户体验增强",
+        "tech-title5": "区块链之间的互操作性",
         "tech-date0": "第三季度 2017",
         "tech-date1": "一月 2018",
         "tech-date2": "四月 2018",
         "tech-date3": "第三季度 2018",
         "tech-date4": "第四季度 2018",
         "tech-date5": "2019",
-        "tech-desc0": "Develop Alpha version of Morpheus Labs BPaaS platform which is focused on the implementation of Platform Presentation Layer.",
-        "tech-desc1": "MVP with user interface (UI) and technology enhancements based on feedback from usage of Version Alpha. Deploy basic DevOps tooling, which aims to facilitate rapid development of blockchain applications and rapid prototyping.",
-        "tech-desc2": "Enhancements of DevOps tooling to support co-working and group development. We will enable microservice–based blockchain application development and allow exposure of the application services as APIs. Multichain is supported in this phase.",
-        "tech-desc3": "Enable users to manage their monthly usage of the platform, hence permitting the commercialisation of our service.",
-        "tech-desc4": "Building a new set of capabilities to empower and encourage our users to try different blockchains and find the most suitable for their product by evaluating different features of different blockchains using our platform.",
-        "tech-desc5": "Interoperability Between Blockchains",
+        "tech-desc0": "开发侧重于实现平台表示层的区块链平台服务 BPaaS平台的初代版本。",
+        "tech-desc1": "带有用户界面（UI）的最小可行的产品 (MvP) 和基于版本初代版本使用反馈的技术改进。部署基本的DevOps工具，旨在促进区块链应用程序的快速开发和快速原型开发。",
+        "tech-desc2": "DevOps工具的增强，以支持共同工作和团队发展。我们将启用基于微服务的区块链应用程序开发，并允许将应用程序服务作为API进行展示。 在这一阶段会支持Multichain。",
+        "tech-desc3": "使用户能够管理每月平台的使用情况，从而允许我们的服务商业化。",
+        "tech-desc4": "建立一套新的能力，鼓励和鼓励用户尝试不同的区块链，并通过使用我们的平台评估不同区块链的不同特性，找到最适合他们的产品。",
+        "tech-desc5": "区块链之间的互操作性。",
 
         "biz-title0": "",
         "biz-title1": "",
@@ -194,12 +194,12 @@
         "biz-date3": "二月 2018",
         "biz-date4": "六月 2018",
         "biz-date5": "未来 ",
-        "biz-desc0": "Idea and founder been handpicked by SGInnovate (Singapore government initiative.",
-        "biz-desc1": "Founding advisory team joined in August. Received and in discuss with global names on distributorship and strategic partnership. Top 5 (out of global 22 bidders) in Smart Dubai Government.",
-        "biz-desc2": "Received initial Seed investment. Signed MoU on smart nation projects in middle east region and more in finalising stage. Completed Whitepaper, soft marketing launch & Pre-ICO sales in December. Government Polytechnic in Singapore in discussion of a 5-campus implementation of our solution and co-create curriculum.",
-        "biz-desc3": "Launch token pre-sales. Official partnership campaign for Southeast Asia Region.",
-        "biz-desc4": "六月 2018','Official partnership campaign for Rest of Asia and UAE Region. Launch Blockchain Lab initiative across Southeast Asia in all established innovation labs, accelerators, co-working space, colleges and Universities.",
-        "biz-desc5": "Launch blockchain lab across rest of Asia and UAE in innovation labs, accelerators, co-working spaces, college and universities. Sales activities launch in rest of Asia and UAE."
+        "biz-desc0": "创意和创始人 被SGInnovate（新加坡政孵化器）首批挑选中进驻的其中三家 (以太坊为另一家)。",
+        "biz-desc1": "在迪拜智能政府中排名前五的（全球22个竞标者中), 收到并与全球分销商和战略合作伙伴提案。 顾问团于8月份加入。",
+        "biz-desc2": "收到初始种子投资，签署中东地区的智慧国家项目之谅解备忘录，收到日本/迪拜/马来西亚分销合同和合资企业提案，与YCH / Y3公司进行最后的讨论，与新加坡政府理工学院讨论实施和共同创建一个课程。",
+        "biz-desc3": "启动代币预售。东南亚地区官方合作运动。",
+        "biz-desc4": "启动亚洲其他地区和阿联酋地区官方合作伙伴。在东南亚和所有创新实验室，加速器，合作空间，学院和大学启动区块链实验室计划。",
+        "biz-desc5": "在亚洲和阿联酋的其他地区，在创新实验室，加速器，合作空间，大学和大学等地推出区块链实验室。销售活动在亚洲其他地区和阿联酋推出。"
     },
     "TEAM": {
         "member-header": "团队信息",
@@ -281,7 +281,13 @@
         "advisor-name0": "刘思宇",
         "advisor-country0": "中国",
         "advisor-bg0": "中国政法大学特聘导师、南京大学EMBA教育中心互联网金融主讲教授、首都经贸大学特聘教师，",
-        "advisor-exp0": "Top Fund区块链基金创始人, 入选2017《福布斯》中国30位30岁以下精英榜。中国区块链最具影响者之一"
+        "advisor-exp0": "Top Fund区块链基金创始人, 入选2017《福布斯》中国30位30岁以下精英榜。中国区块链最具影响者之一。"
+    },
+    "LOGO":{
+        "title1": "基石投资者",
+        "title2": "合作伙伴和客户",
+        "title3": "我们的支持者",
+        "title4": "在这些平台上找到我们"
     },
     "FOOTER": {
         "legal-1":"© Morpheus Labs. Inc | 2017 保留所有版权",

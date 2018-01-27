@@ -1,5 +1,5 @@
-<div class="container-fluid">
-  <h1 class="title">Cornerstone Investor</h1>
+<div class="container-fluid">=
+  <h1 class="title">{{'LOGO.title1' | translate}}</h1>
   <div class="logo-row">
     <div *ngFor="let logo of logos.cornerstone">
       <a *ngIf="logo.link != '' ; else img_only" href="{{ logo.link }}" target="_blank">
@@ -14,7 +14,7 @@
 </div>
 
 <div class="light container-fluid">
-  <h1 class="title">Partners & Clients</h1>
+  <h1 class="title">{{'LOGO.title2' | translate}}</h1>
   <div class="logo-row">
     <div *ngFor="let logo of logos.partners">
       <a *ngIf="logo.link != '' ; else img_only" href="{{ logo.link }}" target="_blank">
@@ -29,7 +29,7 @@
 </div>
 
 <div class="container-fluid">
-  <h1 class="title">Supported by</h1>
+  <h1 class="title">{{'LOGO.title3' | translate}}</h1>
   <div class="logo-row">
     <div *ngFor="let logo of logos.supported">
       <a *ngIf="logo.link != '' ; else img_only" href="{{ logo.link }}" target="_blank">
@@ -44,7 +44,7 @@
 </div>
 
 <div class="light container-fluid">
-  <h1 class="title">As Seen On</h1>
+  <h1 class="title">{{'LOGO.title4' | translate}}</h1>
   <div class="tight logo-row">
     <div *ngFor="let logo of logos.featurings">
       <a *ngIf="logo.link != '' ; else img_only" href="{{ logo.link }}" target="_blank">

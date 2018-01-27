@@ -19,10 +19,10 @@ export let NavigationLinks: NavigationLink[] =
     label: 'White Paper',
     link: './assets/documents/WhitePaper.pdf'
   },
-  {
-    label: 'Token Events',
-    link: '#'
-  },
+  // {
+  //   label: 'Token Events',
+  //   link: '#'
+  // },
   {
     label: 'Team',
     link: '#'
@@ -47,10 +47,10 @@ export let BountyNavigationLinks: NavigationLink[] =
     label: 'White Paper',
     link: './assets/documents/WhitePaper.pdf'
   },
-  {
-    label: 'Token Events',
-    link: '/#TokenEvents'
-  },
+  // {
+  //   label: 'Token Events',
+  //   link: '/#TokenEvents'
+  // },
   {
     label: 'Team',
     link: '/#Team'
