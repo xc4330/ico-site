@@ -1,7 +1,8 @@
 <div class="container-fluid">
   <h1 class="title">{{'ROADMAP.header' | translate}}</h1>
   <ngb-tabset type="pills" class="tabs-container">
-    <ngb-tab title="Technical">
+    <ngb-tab>
+      <ng-template ngbTabTitle>{{'ROADMAP.Technical' | translate}}</ng-template>
       <ng-template ngbTabContent class="tab-content">
         <div class="roadmap-container">
           <app-phase
@@ -11,7 +12,8 @@
         </div>
       </ng-template>
     </ngb-tab>
-    <ngb-tab title="Business">
+    <ngb-tab>
+      <ng-template ngbTabTitle>{{'ROADMAP.Business' | translate}}</ng-template>
       <ng-template ngbTabContent>
         <div class="roadmap-container">
           <app-phase
