@@ -31,6 +31,16 @@
 }
 
 .whitepaper-btn{
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 0;
+  margin-right: 15px;
+  color: black;
+  background: white;
+}
+
+.reg-btn{
   color: white;
   text-align: center;
   padding-left: 30px;
@@ -158,6 +168,7 @@ ul
 
   .benefits-section{
     min-height: 400px;
+    margin-bottom: 6em;
   }
 
   .blue-background{
@@ -175,11 +186,9 @@ ul
   }
 
   .whitepaper-btn{
-    color: white;
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
-    background: rgb(0, 151, 200);
     border-radius: 0;
   }
 

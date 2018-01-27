@@ -111,13 +111,13 @@
 }
 
 /*25*/
-.bar-stats.display .bar.sales,
-.bar-stats.display .bar.community{ 
+/*.bar-stats.display{ 
     width: 71.4285714285%;
-}
+}*/
 
 /*20*/
-.bar-stats.display .bar.reserve{ 
+.bar-stats.display .bar.reserve,
+.bar-stats.display .bar.sales{ 
     width: 57.1428571428%;
 }
 
@@ -134,7 +134,8 @@
 }
 
 /*30*/
-.bar-stats.display .bar.marketing{ 
+.bar-stats.display .bar.marketing,
+.bar-stats.display .bar.community{ 
     width: 85.7142857142%;
 }
 
@@ -177,28 +178,28 @@
 }
 
 .pie-stat.reserve{
-    top: 5%;
-    right: 2%;
+    top: -7%;
+    right: 7%;
 }
 
 .pie-stat.foundation{
-    bottom: -19%;
-    left: 41%;
+    bottom: -13%;
+    left: 21%;
 }
 
 .pie-stat.sales{
-    bottom: 38%;
-    left: -5%;
+    bottom: 45%;
+    left: -10%;
 }
 
 .pie-stat.community{
-    top: 74%;
-    right: -4%;
+    bottom: 3%;
+    right: 1%;
 }
 
 .pie-stat.team{
-    top: -9%;
-    left: 17%;
+    top: -12%;
+    left: 31%;
 }
 
 .pie-stat.devops{
@@ -217,8 +218,8 @@
 }
 
 .pie-stat.others{
-    top: -1%;
-    left: 5%;
+    top: -8%;
+    left: 7%;
 }
 
 .long.label{
@@ -256,7 +257,7 @@
     }
 }
 
-@media(max-width: 1242px){
+@media(max-width: 1300px){
     .pie-box{
         padding: 2em;
     }
@@ -271,7 +272,7 @@
     }
 }
 
-@media(max-width: 1025px){
+@media(max-width: 1100px){
     .chart{
         width: 70%;
     }
@@ -287,7 +288,7 @@
 
     .pie-stat.foundation{
         bottom: -24%;
-        left: 35%;
+        left: 12%;
     }
 
     .pie-stat.sales{
@@ -301,8 +302,21 @@
     }
 
     .pie-stat.team{
-        top: -12%;
-        left: 10%;
+        top: -24%;
+        left: 28%;
+    }
+
+    .pie-stat.others{
+        top: -17%;
+        left: -9%;
+    }
+
+    .pie-stat.marketing{
+        bottom: -28%;
+    }
+
+    .pie-stat.rnd{
+        left: -14%;
     }
 
 }
@@ -315,11 +329,11 @@
 
     .stats{
         width: 100%;
-        margin-bottom: 4em;
+        margin-bottom: 9em;
     }
 
     .pie-title{
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .pie-stat.devops{
@@ -329,6 +343,11 @@
 
     .bar-stats > ul{
         padding: 1em;
+    }
+
+    .pie-stat.others{
+        top: -11%;
+        left: 3%;
     }
 
 }
@@ -348,11 +367,23 @@
     }
 }
 
+@media(max-width: 560px){
+    .pie-stat.devops{
+        right: -20%;
+    }
+
+    .pie-stat.others{
+        top: -19%;
+        left: -1%;
+    }
+}
+
 @media(max-width: 500px){
     .pie-title{
-        top: -3em;
+        top: -5em;
         -webkit-transform: translate(-50%, 0%);
         transform: translate(-50%, 0%);
+        font-size: 2em;
     }
 
     .pie-box{
@@ -391,10 +422,5 @@
 
     .pie-stat.marketing{
         bottom: -22%;
-    }
-
-    .pie-stat.others{
-        top: -3%;
-        left: -1%;
     }
 }
