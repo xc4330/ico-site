@@ -218,6 +218,28 @@
             "在亚洲和阿联酋其它地区开展销售活动。"
         ]
     },
+    "GENERATION" : {
+        "header" : "发币方式和相关资料",
+        "summary" : "总共将发行10亿个摩耳甫斯基础设施代币 (简称 MiT - Morpheus Infrastructure Token) 它是基于以太坊区块链的ERC-20标准代币。其中二亿五千万个MiT在这阶段向公众发售. 向公众发售的二亿五千万个MiT代币是为了让我们有足够的资金开发平台及开拓市场，并对这些资金负责。剩下的MiT将被保存，用于公司拓展，或根据产品路线图，在将来发售。从这些活动中产生的所有收益将只用于产品，业务开发及公司营运. ",
+
+        "details-name-label" : "名称",
+        "details-name-content" : "摩耳甫斯基础设施平台",
+        "details-tokenName-label" : "代币名称",
+        "details-tokenName-content" : "摩耳甫斯基础设施代币 (MiT)",
+        "details-totalSupply-label" : "总供应量",
+        "details-totalSupply-content" : "10亿",
+        "details-tokenSales-label" : "出售" ,
+        "details-tokenSales-content" : "2亿5千万" ,
+        "details-decimals-label" : "小数",
+        "details-decimals-content" : "8",
+        "details-value-label" : "价值",
+        "details-value-content" : "10,000 MiT = 1 ETH (以目前1 ETH 为 USD 1,000 做基准)",
+
+        "foot" : "每个单位ETH发行的代币数量，根据实际ETH价格将在销售时间点开始时与之挂钩。一旦达到 25,000ETH (约2500万美元) 的上限，公开售卖都将结束。不论售出数量如何，我们的代币将在交易所上架。",
+
+        "Show More": "更多",
+        "Show Less": "收起"
+    },
     "TEAM": {
         "member-header": "团队信息",
         "member-name0": "莊沛翰",

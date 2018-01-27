@@ -1,14 +1,15 @@
 
 .container-fluid{
     display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-align-items: center;
-   align-items: start;
-   -webkit-justify-content: center;
-   justify-content: center;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: start;
+    -webkit-justify-content: center;
+    justify-content: center;
     padding-bottom: 5em;
+    padding-top: 5em;
 }
 
 .title{
