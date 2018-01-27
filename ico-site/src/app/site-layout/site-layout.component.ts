@@ -78,20 +78,6 @@ export class SiteLayoutComponent implements OnInit, AfterViewInit{
           }
         });
       }, 1500);
-
-      setTimeout(function(){
-        var _h = $(window).height();
-        var statisticsMainTop = $('.timeline.statistics-main').offset().top;
-
-        $(window).scroll(function(){
-          var top = $(this).scrollTop();
-
-          if(top + _h > statisticsMainTop){
-            showBars();
-          }
-        });
-      }, 1500);
-
     }); 
     
   }
