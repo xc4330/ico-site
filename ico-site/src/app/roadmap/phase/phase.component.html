@@ -17,7 +17,14 @@
       <span class="time">{{content.time}}</span>
     </div>
     <div class="desc">
-      {{content.desc}}
+      <span *ngIf="isArray(content.desc); else desc">
+        <ul>
+          <li *ngFor="let item of content.desc">
+            {{ item }}
+          </li>
+        </ul>
+      </span>
+      <ng-template #desc>{{content.desc}}</ng-template> 
     </div>
   </div>
 </div>

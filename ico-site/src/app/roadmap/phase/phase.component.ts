@@ -10,6 +10,14 @@ import { TranslateService } from '@ngx-translate/core';
 export class PhaseComponent implements OnInit {
   @Input() content: Phase
   
+  isArray(v){
+  	if(v instanceof Array){
+  		return true;
+  	}else{
+  		return false;
+  	}
+  }
+
   constructor(private translate: TranslateService) { }
 
   ngOnInit() {

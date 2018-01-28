@@ -140,23 +140,23 @@
 
     },
     "DISTRIBUTION": {
-        "TOKEN": "代币分布",
+        "TOKEN": "发行方式",
         "DISTRIBUTION": "",
         "Team": "团队",
-        "Community": "社区",
-        "Token Sales": "代币销售",
-        "Foundation": "基金",
-        "Reserve Fund": "保留",
+        "Community": "社区建设",
+        "Token Sales": "代币出售",
+        "Foundation": "战略及深度研发基金",
+        "Reserve Fund": "储备金",
 
-        "FINANCE": "资金分布",
-        "Platform Development": "平台开发",
+        "FINANCE": "运用方式",
+        "Platform Development": "开发和营运",
         "Operations": "及运营",
-        "Platform Dev": "平台开发",
+        "Platform Dev": "开发和营运",
         "Ops": "及运营",
-        "Marketing": "推广",
-        "Research Development": "研究",
+        "Marketing": "销售和营销",
+        "Research Development": "研究与开发",
         "R&D": "研究",
-        "Others, Legal": "其他"
+        "Others, Legal": "法律及其它"
     },
     "ROADMAP": {
         "header": "发展路线图",
@@ -194,12 +194,51 @@
         "biz-date3": "二月 2018",
         "biz-date4": "六月 2018",
         "biz-date5": "未来 ",
-        "biz-desc0": "创意和创始人 被SGInnovate（新加坡政孵化器）首批挑选中进驻的其中三家 (以太坊为另一家)。",
-        "biz-desc1": "在迪拜智能政府中排名前五的（全球22个竞标者中), 收到并与全球分销商和战略合作伙伴提案。 顾问团于8月份加入。",
-        "biz-desc2": "收到初始种子投资，签署中东地区的智慧国家项目之谅解备忘录，收到日本/迪拜/马来西亚分销合同和合资企业提案，与YCH / Y3公司进行最后的讨论，与新加坡政府理工学院讨论实施和共同创建一个课程。",
-        "biz-desc3": "启动代币预售。东南亚地区官方合作运动。",
-        "biz-desc4": "启动亚洲其他地区和阿联酋地区官方合作伙伴。在东南亚和所有创新实验室，加速器，合作空间，学院和大学启动区块链实验室计划。",
-        "biz-desc5": "在亚洲和阿联酋的其他地区，在创新实验室，加速器，合作空间，大学和大学等地推出区块链实验室。销售活动在亚洲其他地区和阿联酋推出。"
+        "biz-desc0": "被SGInnovate 孵化器 在2016年所精心挑选的首三家新创公司",
+        "biz-desc1": [
+            "八月成立顾问小组",
+            "在全球22个竞标者中，被迪拜政府(智慧城市工程) 筛选为排名前5位"
+        ],
+        "biz-desc2": [
+            "接受种子投资",
+            "新加坡本地理工学院讨论如何实共同创建课程。",
+            "Proline Integrated intelligence (土耳其本地大型系统集成商)签署商业备忘录，合作为土耳其智能国家开发第一个国家机场项目",
+            "收到提案，将在日本, 马来西亚及迪拜合资成立子公司及分销管道"
+        ],
+        "biz-desc3": [
+            "启动官方代币出售",
+            "东南亚地区官方销售合作活动"
+        ],
+        "biz-desc4": [
+            "为亚洲和阿联酋其他地区开展官方销售合作活动",
+            "在在东南亚各地所有的创新实验室、加速器、协同工作场所、学院和大学中，推出区块链实验室。"
+        ],
+        "biz-desc5": [
+            "在亚洲和阿联酋其他地区的创新实验室、加速器、合作空间、学院和大学中推出区块链实验室。",
+            "在亚洲和阿联酋其它地区开展销售活动。"
+        ]
+    },
+    "GENERATION" : {
+        "header" : "发币方式和相关资料",
+        "summary" : "总共将发行10亿个摩耳甫斯基础设施代币 (简称 MiT - Morpheus Infrastructure Token) 它是基于以太坊区块链的ERC-20标准代币。其中二亿五千万个MiT在这阶段向公众发售. 向公众发售的二亿五千万个MiT代币是为了让我们有足够的资金开发平台及开拓市场，并对这些资金负责。剩下的MiT将被保存，用于公司拓展，或根据产品路线图，在将来发售。从这些活动中产生的所有收益将只用于产品，业务开发及公司营运. ",
+
+        "details-name-label" : "名称",
+        "details-name-content" : "摩耳甫斯基础设施平台",
+        "details-tokenName-label" : "代币名称",
+        "details-tokenName-content" : "摩耳甫斯基础设施代币 (MiT)",
+        "details-totalSupply-label" : "总供应量",
+        "details-totalSupply-content" : "10亿",
+        "details-tokenSales-label" : "出售" ,
+        "details-tokenSales-content" : "2亿5千万" ,
+        "details-decimals-label" : "小数",
+        "details-decimals-content" : "8",
+        "details-value-label" : "价值",
+        "details-value-content" : "10,000 MiT = 1 ETH (以目前1 ETH 为 USD 1,000 做基准)",
+
+        "foot" : "每个单位ETH发行的代币数量，根据实际ETH价格将在销售时间点开始时与之挂钩。一旦达到 25,000ETH (约2500万美元) 的上限，公开售卖都将结束。不论售出数量如何，我们的代币将在交易所上架。",
+
+        "Show More": "更多",
+        "Show Less": "收起"
     },
     "TEAM": {
         "member-header": "团队信息",

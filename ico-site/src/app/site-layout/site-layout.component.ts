@@ -27,16 +27,18 @@ export class SiteLayoutComponent implements OnInit, AfterViewInit{
   }	
 
   ngAfterViewInit() {
-    if($(window).width() <= 860){
-      var parentW =  $(window).width();
-    }else{
-      var parentW = $('.abt-carousel').width() || $(window).width();
-    }
-  
-    var $img = $('.poster-list').find('li').eq(0).find('img');
 
-    if($img){
-        $(document).ready(function(){
+    $(document).ready(function(){
+      if($(window).width() <= 860){
+        var parentW =  $(window).width();
+      }else{
+        var parentW = $('.abt-carousel').width() || $(window).width();
+      }
+    
+      var $img = $('.poster-list').find('li').eq(0).find('img');
+
+      setTimeout(function(){
+        if($img){
           var ratio = $('.abt-carousel').width() / ($img.width());
           var num = ($(window).width() - (parentW * 0.9))/2;
           var imgHeight = Math.floor($img.height() * ratio / 1.8);
@@ -61,9 +63,22 @@ export class SiteLayoutComponent implements OnInit, AfterViewInit{
             'delay':2000,
             'verticalAlign':'top'
           });
+        }
+      }, 1500);
 
-        }); 
-    }
+      setTimeout(function(){
+        var _h = $(window).height();
+        var fromTop = $('.pie.container-fluid').offset().top;
+
+        $(window).scroll(function(){
+          var top = $(this).scrollTop();
+
+          if (top + _h > fromTop){
+            $('.bar-stats').addClass('display');
+          }
+        });
+      }, 1500);
+    }); 
     
   }
 }

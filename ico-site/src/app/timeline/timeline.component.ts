@@ -85,7 +85,6 @@ export class TimelineComponent implements OnInit {
   }
   
   onSelect(event) {
-    console.log(event);
   }
 
   ngOnInit() {}
