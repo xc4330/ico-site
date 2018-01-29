@@ -226,7 +226,7 @@
     },
     "GENERATION" : {
         "header" : "Token Generation Event (TGE) Structure",
-        "summary" : "A total of 1 Billion MiT will be minted. 250 million MiT issued to the public in this Token Generation Event. The release of the 250 million MiT is to generate sufficient funding for us and to hold us accountable for the funds. The remaining MiT will be used for business expansions and will only be released for sales according to the product roadmap. All proceeds generated from these events will be used only for product and business development.",
+        "summary" : "A total of 1 Billion MiT will be minted. 250 million MiT will be issued to the public in this Token Generation Event. The release of the 250 million MiT is to generate sufficient funding for us and to hold us accountable for the funds. The remaining MiT will be used for business expansions and will only be released for sales according to the product roadmap. All proceeds generated from these events will be used only for product and business development.",
 
         "details-name-label" : "Name",
         "details-name-content" : "Morpheus Infrastructure Platform",
