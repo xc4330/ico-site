@@ -64,6 +64,15 @@ export const members: Member[] = [
       'Senior full stack developer (UX) with experience in delivering multi-million applications with global clients from banking, retail and manufacturing; a Blockchain Enthusiast.',
       'team'
     ),
+    new Member(
+      '../assets/icons/Team18.png',
+      'https://www.linkedin.com/in/clarazhou', 
+      'Clara Zhou',
+      'China',
+      'Zhejiang Yuexiu University of Foreign Languages',
+      'With extensive experience in English - Chinese translation, and season in community building, technical news & article write up. A blockchain Enthusiast with excellent PR & marketing skills.',
+      'team'
+    )
   ]
 
   export const advisors: Member[] = [
