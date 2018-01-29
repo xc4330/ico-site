@@ -16,7 +16,7 @@ export const members: Member[] = [
       'Branson Lee',
       'Singapore/Malaysia/Korea',
       'B.Comp Eng (Nanyang Technology University, Singapore); Finance Tech (Massachusetts Institute of Technology).',
-      'Ex-Co member of Singapore Fintech Association heading the Talent Committee, an active speaker for Blockchain events & consultant for corps & gov, he worked with C-Suite Exe on various strategic partnerships.      ',
+      'Ex-Co member of Singapore Fintech Association heading the Talent Committee, an active speaker for Blockchain events & consultant for corps & gov, he worked with C-Suite Exe on various strategic partnerships.',
       'team'
     ),
     new Member(
@@ -35,6 +35,15 @@ export const members: Member[] = [
       'Singapore/China',
       'B.Applied Mathematics (Tianjin University), EMBA (Rutgers Business School), Finance Tech (Massachusetts Institute of Technology)',
       'Over 20 years in software development and tech innovation. Implemented a blockchain business application in production using HyperLedger Fabric V1.0, the first in the world.',
+      'team'
+    ),
+    new Member(
+      '../assets/icons/Team18.png',
+      '', 
+      'Xiao Lei',
+      'Greater China/Hong Kong',
+      '',
+      'An active Blockchain Blogger in China with 10 years of international banking experience as higher management across Asia. Led dozens projects including cross-border payment solution with Alibaba.',
       'team'
     ),
     new Member(
@@ -65,7 +74,7 @@ export const members: Member[] = [
       'team'
     ),
     new Member(
-      '../assets/icons/Team18.png',
+      '../assets/icons/Team19.png',
       'https://www.linkedin.com/in/clarazhou', 
       'Clara Zhou',
       'China',
