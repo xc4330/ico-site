@@ -39,7 +39,7 @@ export const members: Member[] = [
     ),
     new Member(
       '../assets/icons/Team18.png',
-      '', 
+      'https://www.linkedin.com/in/lei-xiao-cfa-1a633133', 
       'Xiao Lei',
       'Greater China/Hong Kong',
       '',
