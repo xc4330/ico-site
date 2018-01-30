@@ -213,6 +213,7 @@
         ],
         "biz-desc3": [
             "Launch official Token Sales Event.", 
+            "Collaboration with Y3 technology on building tracking PoC",
             "Official sales partnership campaign for Southeast Asia region."
         ],
         "biz-desc4": [
@@ -226,7 +227,7 @@
     },
     "GENERATION" : {
         "header" : "Token Generation Event (TGE) Structure",
-        "summary" : "A total of 1 Billion MiT will be minted. 250 million MiT issued to the public in this Token Generation Event. The release of the 250 million MiT is to generate sufficient funding for us and to hold us accountable for the funds. The remaining MiT will be used for business expansions and will only be released for sales according to the product roadmap. All proceeds generated from these events will be used only for product and business development.",
+        "summary" : "A total of 1 Billion MiT will be minted. 250 million MiT will be issued to the public in this Token Generation Event. The release of the 250 million MiT is to generate sufficient funding for us and to hold us accountable for the funds. The remaining MiT will be used for business expansions and will only be released for sales according to the product roadmap. All proceeds generated from these events will be used only for product and business development.",
 
         "details-name-label" : "Name",
         "details-name-content" : "Morpheus Infrastructure Platform",
@@ -268,21 +269,31 @@
         "member-country3": "Singapore/China",
         "member-bg3": "B.Applied Mathematics (Tianjin University), EMBA (Rutgers Business School), Finance Tech (Massachusetts Institute of Technology)",
         "member-exp3": "Over 20 years in software development and tech innovation. Implemented a blockchain business application in production using HyperLedger Fabric V1.0, the first in the world.",
+
+        "member-name4": "Xiao Lei",
+        "member-country4": "Greater China/Hong Kong",
+        "member-bg4": "Master’s Degree in ICMA at Reading University in 2006",
+        "member-exp4": "An active Blockchain Blogger in China with 10 years of international banking experience as higher management across Asia. Led dozens projects including cross-border payment solution with Alibaba.",
         
-        "member-name4": "Eddy Low",
-        "member-country4": "Malaysia/Japan",
-        "member-bg4": "B.Multimedia Design (The One Academy of Malaysia)",
-        "member-exp4": "Over 10 years of specialised in strategy & design. He creates better user interface & user experience in design to generate better marketing & sales to the global banking clients.",
+        "member-name5": "Eddy Low",
+        "member-country5": "Malaysia/Japan",
+        "member-bg5": "B.Multimedia Design (The One Academy of Malaysia)",
+        "member-exp5": "Over 10 years of specialised in strategy & design. He creates better user interface & user experience in design to generate better marketing & sales to the global banking clients.",
         
-        "member-name5": "Edward Loke",
-        "member-country5": "Singapore",
-        "member-bg5": "B.Info System Tech & Design (Singapore University of technology and Design, Singapore)",
-        "member-exp5": "Delivered multiple applications for big clients from financial institutions & banks. A full stack developer & a advocate of Agile Development; a Blockchain Enthusiast.",
+        "member-name6": "Edward Loke",
+        "member-country6": "Singapore",
+        "member-bg6": "B.Info System Tech & Design (Singapore University of technology and Design, Singapore)",
+        "member-exp6": "Delivered multiple applications for big clients from financial institutions & banks. A full stack developer & a advocate of Agile Development; a Blockchain Enthusiast.",
         
-        "member-name6": "Eric Xu Cong",
-        "member-country6": "Singapore/China",
-        "member-bg6": "B.Info System (National University of Singapore, Singapore)",
-        "member-exp6": "Senior full stack developer (UX) with experience in delivering multi-million applications with global clients from banking, retail and manufacturing; a Blockchain Enthusiast.",
+        "member-name7": "Eric Xu Cong",
+        "member-country7": "Singapore/China",
+        "member-bg7": "B.Info System (National University of Singapore, Singapore)",
+        "member-exp7": "Senior full stack developer (UX) with experience in delivering multi-million applications with global clients from banking, retail and manufacturing; a Blockchain Enthusiast.",
+        
+        "member-name8": "Clara Zhou",
+        "member-country8": "China",
+        "member-bg8": "Zhejiang Yuexiu University of Foreign Languages",
+        "member-exp8": "With extensive experience in English - Chinese translation, and season in community building, technical news & article write up. A blockchain Enthusiast with excellent PR & marketing skills.",
 
         "advisor-header": "Founding Advisors",
 
