@@ -75,6 +75,41 @@ export var logos = {
       'name'  : 'Deal Street Asia',
       'image' : '../assets/img/logos/dealstreet-720x720.png',
       'link'  : 'https://www.dealstreetasia.com/stories/morpheus-labs-raises-funds-at-2m-valuation-25m-ico-90477/'
+    },
+    {
+      'name'  : 'Influencive',
+      'image' : '../assets/img/logos/influencive.png',
+      'link'  : 'https://www.influencive.com/morpheus-labs-potential-dominate-blockchain-era/'
+    },
+    {
+      'name'  : 'The Drum',
+      'image' : '../assets/img/logos/the_drum.png',
+      'link'  : 'http://www.thedrum.com/profile/news/281678/some-insight-morpheus-labs-potential-disrupt-the-blockchain-industry%201/30/178'
+    },
+    {
+      'name'  : '天天快报',
+      'image' : '../assets/img/logos/qq.png',
+      'link'  : 'https://kuaibao.qq.com/s/20180129A0ZZZL00?refer=kb_sec_share'
+    },
+    {
+      'name'  : '今日头条',
+      'image' : '../assets/img/logos/toutiao.png',
+      'link'  : 'https://www.toutiao.com/i6516421811100451331/?wxshare_count=2&pbid=6515233400638948878'
+    },
+    {
+      'name'  : '凤凰新闻',
+      'image' : '../assets/img/logos/ifeng.png',
+      'link'  : 'https://share.iclient.ifeng.com/news/shareNews?fromType=vampire&forward=1&aid=sub_47197129&ch=&aman=&gud=&ch=#backhead#backhead'
+    },
+    {
+      'name'  : '搜狐财经',
+      'image' : '../assets/img/logos/sohu.png',
+      'link'  : 'http://www.sohu.com/a/219659789_382178'
+    },
+    {
+      'name'  : '一点资讯',
+      'image' : '../assets/img/logos/yidianzixun.png',
+      'link'  : 'https://www.yidianzixun.com/article/0IFkhqYp?share_count=2'
     }
   ] 
 };
