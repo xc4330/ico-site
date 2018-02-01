@@ -110,6 +110,16 @@ export var logos = {
       'name'  : '一点资讯',
       'image' : '../assets/img/logos/yidianzixun.png',
       'link'  : 'https://www.yidianzixun.com/article/0IFkhqYp?share_count=2'
+    },
+    {
+      'name'  : 'HackathonPost',
+      'image' : '../assets/img/logos/hackathonpost.png',
+      'link'  : 'http://hackathonpost.com/business/thebridgejp/7438'
+    },
+    {
+      'name'  : 'ICO Hikaku',
+      'image' : '../assets/img/logos/icohikaku.png',
+      'link'  : 'https://www.icohikaku.com/168927/'
     }
   ] 
 };

@@ -28,7 +28,7 @@
 }
 
 .tight.logo-row > div{
-    min-width: 20%;
+    min-width: 16.6666666667%;
 }
 
 img{
@@ -52,6 +52,12 @@ img{
 .logo:hover{
     filter: none;
     -webkit-filter: grayscale(0%);
+}
+
+@media(max-width: 1810px){
+    .tight.logo-row > div{
+        min-width: 25%;
+    }
 }
 
 @media(max-width: 1300px){
