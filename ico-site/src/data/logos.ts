@@ -40,11 +40,6 @@ export var logos = {
       'link'  : 'http://www.snapinnovations.com/'
     },
     {
-      'name'  : 'SFA',
-      'image' : '../assets/img/logos/01_Logo_Original_Horizontal.png',
-      'link'  : 'https://singaporefintech.org/'
-    },
-    {
       'name'  : 'IPI',
       'image' : '../assets/img/logos/IPI_MasterLogoColAW.png',
       'link'  : 'https://www.ipi-singapore.org/'
@@ -53,6 +48,13 @@ export var logos = {
       'name'  : 'NEM',
       'image' : '../assets/img/logos/download.png',
       'link'  : 'https://nem.io/'
+    }
+  ],
+  "member_of" : [
+    {
+      'name'  : 'SFA',
+      'image' : '../assets/img/logos/01_Logo_Original_Horizontal.png',
+      'link'  : 'https://singaporefintech.org/'
     },
     {
       'name'  : 'ACCESS',

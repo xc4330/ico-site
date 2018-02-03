@@ -54,9 +54,26 @@ img{
     -webkit-filter: grayscale(0%);
 }
 
+.subgroup{
+    margin-top: -2em;
+}
+
+.sub-logos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
 @media(max-width: 1810px){
     .tight.logo-row > div{
         min-width: 25%;
+    }
+}
+
+@media(max-width: 1350px){
+    .subgroup{
+        margin-top: 1em;
     }
 }
 
@@ -72,6 +89,14 @@ img{
     }
     .tight.logo-row > div{
         width: 50%;
+    }
+
+    .sub-logos{
+        flex-direction: column;
+    }
+
+    .sub-logos > div{
+        margin: 2em 0 2em 0;
     }
 }
 
