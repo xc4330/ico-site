@@ -19,8 +19,7 @@ export class HeaderComponent implements OnInit {
     'cn'
   ]
 
-  constructor(private translate: TranslateService, private _router: Router) {
-    this.router = _router;
+  constructor(private translate: TranslateService, private router: Router) {
   }
 
   toggleState() { // click handler
@@ -37,6 +36,7 @@ export class HeaderComponent implements OnInit {
       this.navlinks = NavigationLinks;
     }
   }
+
   onLinkClicked(label:string){
     this.toggleState()
     this.clickEvent.emit(label)
