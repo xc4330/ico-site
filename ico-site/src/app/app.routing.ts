@@ -32,6 +32,7 @@ import { AdvantageComponent } from './advantage/advantage.component';
 import { FeatureComponent } from './advantage/feature/feature.component';
 
 import { BountyComponent } from './bounty/bounty.component';
+import { FaqComponent } from './faq/faq.component';
 
 const appRoutes: Routes = [
     
@@ -44,8 +45,10 @@ const appRoutes: Routes = [
         ]
     },
 
-    //no layout routes
+    //independent routes
     { path: 'bounty', component: BountyComponent},
+    { path: 'faq', component: FaqComponent},
+    { path: 'FAQ', component: FaqComponent},
 
     // otherwise redirect to home
     { path: '**', redirectTo: '' }

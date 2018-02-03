@@ -13,7 +13,6 @@ import { AboutComponent } from './about/about.component';
 import { EventComponent } from './event/event.component';
 import { TeamComponent } from './team/team.component';
 import { HeaderComponent } from './dashboard/header/header.component';
-import { BountyHeaderComponent } from './bounty/header/header.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { StageComponent } from './event/stage/stage.component';
 import { ProblemComponent } from './problem/problem.component';
@@ -34,6 +33,7 @@ import { FeatureComponent } from './advantage/feature/feature.component';
 import { LogosComponent } from './logos/logos.component';
 
 import { BountyComponent } from './bounty/bounty.component';
+import { FaqComponent } from './faq/faq.component';
 import { SiteLayoutComponent } from './site-layout/site-layout.component';
 
 import { routing } from './app.routing';
@@ -55,7 +55,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     EventComponent,
     TeamComponent,
     HeaderComponent,
-    BountyHeaderComponent,
     CarouselComponent,
     StageComponent,
     ProblemComponent,
@@ -73,6 +72,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     AdvantageComponent,
     FeatureComponent,
     BountyComponent,
+    FaqComponent,
     SiteLayoutComponent,
     LogosComponent
     

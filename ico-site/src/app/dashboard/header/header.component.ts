@@ -1,7 +1,8 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
-import { NavigationLink, NavigationLinks } from '../../../data/navlink';
+import { NavigationLink, NavigationLinks, BountyNavigationLinks, FaqLinks } from '../../../data/navlink';
 import { Navigation } from 'selenium-webdriver';
 import { TranslateService } from '@ngx-translate/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -18,7 +19,8 @@ export class HeaderComponent implements OnInit {
     'cn'
   ]
 
-  constructor(private translate: TranslateService) {
+  constructor(private translate: TranslateService, private _router: Router) {
+    this.router = _router;
   }
 
   toggleState() { // click handler
@@ -27,7 +29,13 @@ export class HeaderComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.navlinks = NavigationLinks;
+    if(this.router.url === '/faq' || this.router.url === '/FAQ'){
+      this.navlinks = FaqLinks;
+    }else if (this.router.url === '/bounty'){
+      this.navlinks = BountyNavigationLinks;
+    }else{
+      this.navlinks = NavigationLinks;
+    }
   }
   onLinkClicked(label:string){
     this.toggleState()
