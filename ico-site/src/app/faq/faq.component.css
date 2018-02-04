@@ -47,3 +47,18 @@ section h1{
 .content.list{
   padding: 1em 1em 0 1em;
 }
+
+code{
+  color: #4150bd;
+  font-size: 1.2em;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+@media(max-width: 768px){
+  .question-box{
+    width: 100%;
+    padding: 2em;
+    margin-bottom: 1em;
+  }
+}
