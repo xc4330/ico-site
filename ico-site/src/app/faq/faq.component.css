@@ -9,7 +9,7 @@ section h1{
   margin-bottom: 2em;
 }
 
-.item div{
+.question.item div{
   display: inline-block;
 }
 
@@ -17,13 +17,17 @@ section h1{
   width: 80%;
   margin: 0 auto;
   padding: 1em 0em 0em 3em;
-  margin-bottom: 2em;
+  margin-bottom: 2.5em;
 }
 
 .q-a{
   color: rgb(0,150,197);
   font-weight: bold;
   font-size: 1.5em;
+}
+
+.question .q-a{
+  padding-right: 0.5em;
 }
 
 .question{
@@ -35,17 +39,24 @@ section h1{
 }
 
 .answer{
-  font-size: 1rem;
   color: #666;
   padding-top: .5em;
-  padding-left: 2em;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-start;
 }
 
 .content.list{
   padding: 1em 1em 0 1em;
+}
+
+.ans-content{
+  font-size: 1.2em;
+  padding-left: 1em;
+  padding-top: .2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 code{
