@@ -161,6 +161,23 @@ ul
   }
 }
 
+.wallet-addr-box{
+  padding: 1em;
+  border: 2px solid #0096c5;
+  margin-top: 1.5em;
+}
+
+code{
+  color: #4150bd;
+  font-size: 1.2em;
+}
+
+@media(max-width: 1145px) and (min-width: 1020px){
+  code{
+    font-size: .9em;  
+  }
+}
+
 @media (max-width: 1020px) {
   .iphone-image{
     display: none
@@ -199,3 +216,9 @@ ul
 
 }
 
+@media(max-width: 530px){
+  code{
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+}

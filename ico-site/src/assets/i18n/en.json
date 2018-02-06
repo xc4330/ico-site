@@ -8,6 +8,7 @@
         "Bounty" : "Bounty",
         "Team": "Team",
         "Bounty": "Bounty",
+        "FAQ": "FAQ",
         "Language": "Language",
         "en": "EN",
         "cn": "CN"
@@ -175,7 +176,7 @@
         "tech-title3": "Commercialisation Phase",
         "tech-title4": "User Experience Enhancement",
         "tech-title5": "Interoperability Between Blockchains",
-        "tech-date0": "Q3 2017",
+        "tech-date0": "Q3 2016",
         "tech-date1": "Jan 2018",
         "tech-date2": "April 2018",
         "tech-date3": "Q3 2018",
