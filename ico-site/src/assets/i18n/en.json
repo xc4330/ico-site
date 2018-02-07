@@ -10,6 +10,7 @@
         "Bounty": "Bounty",
         "FAQ": "FAQ",
         "Language": "Language",
+        "whitepaper" : "./assets/documents/WhitePaper.pdf",
         "en": "EN",
         "cn": "CN"
     },

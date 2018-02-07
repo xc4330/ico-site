@@ -19,7 +19,9 @@
           class="nav-item" 
           *ngFor='let navlink of navlinks'
           (click) = "onLinkClicked(navlink.label)">
-          <a *ngIf="navlink.link != '#'" class="nav-link" href={{navlink.link}}>
+          <a *ngIf="navlink.link == 'whitepaper'" class="nav-link" href="{{ 'HEADER.' + navlink.link | translate }}">
+            {{ 'HEADER.' + navlink.label | translate }}</a>
+          <a *ngIf="navlink.link != '#' && navlink.link != 'whitepaper'" class="nav-link" href="{{navlink.link}}">
             {{ 'HEADER.' + navlink.label | translate }}</a>
           <a *ngIf="navlink.link == '#'" class="nav-link">
             {{ 'HEADER.' + navlink.label | translate }}
