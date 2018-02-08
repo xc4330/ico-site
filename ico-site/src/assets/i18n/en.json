@@ -244,7 +244,9 @@
         "details-value-label" : "Value",
         "details-value-content" : "10,000 MiT = 1 ETH (Based on current 1 ETH = USD 1,000)",
 
-        "foot" : "The number of tokens issued per unit ETH, will be pegged when the individual phases start based on the actual ETH price. Once the cap of 25,000 ETH (equivalent to USD 25M amount) is reached, the TGE will be closed. Our token will be listed in exchanges upon token events closed, irregardless of the final amount raised. We will be announcing these exchanges in time to come.",
+        "foot-1" : "The number of tokens issued per unit ETH, ",
+        "foot-emp" : "will be pegged when the individual phases start based on the actual ETH price",
+        "foot-3" : ". Once the cap of 25,000 ETH (equivalent to USD 25M amount) is reached, the TGE will be closed. Our token will be listed in exchanges upon token events closed, irregardless of the final amount raised. We will be announcing these exchanges in time to come.",
 
         "Show More": "Show More",
         "Show Less": "Show Less"
