@@ -95,6 +95,57 @@
   border-bottom: 2px solid white;
 }
 
+.close{
+  position: absolute;
+  right: 1em;
+  top: .5em;
+  color: #0097c8;
+  font-size: 2em;
+}
+
+.close:hover{
+  cursor: pointer;
+}
+
+::ng-deep .modal-content{
+  min-height: 500px;
+  padding: 2em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+}
+
+::ng-deep .whitepaper-buttons{
+  display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+::ng-deep .wp-btn{
+  border-radius: 0;
+  width: 200px;
+  margin-top: 1em;
+  border-color: #0097c8;
+  color: #0097c8;
+}
+
+::ng-deep .wp-btn:hover,
+::ng-deep .wp-btn:active{
+  border-color: #0097c8 !important;
+  background: #0097c8 !important;
+  color: white !important;
+}
+
+::ng-deep .whitepaper-select{
+  max-width: 50%;
+}
+
 @media(max-width: 991px){
   .navbar{
     background: rgba(0, 0, 0, 1);

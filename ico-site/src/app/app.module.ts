@@ -6,6 +6,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 
+import { ModalModule } from 'ngx-bootstrap/modal';
+
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { TimerComponent } from './dashboard/timer/timer.component';
@@ -82,6 +84,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     NgbModule.forRoot(),
     ScrollToModule.forRoot(),
     BrowserAnimationsModule,
+    ModalModule.forRoot(),
     NgxChartsModule,
     routing,
     HttpClientModule,

@@ -49,7 +49,7 @@ export let BountyNavigationLinks: NavigationLink[] =
   },
   {
     label: 'White Paper',
-    link: './assets/documents/WhitePaper.pdf'
+    link: 'whitepaper'
   },
   // {
   //   label: 'Token Events',
@@ -81,7 +81,7 @@ export let FaqLinks: NavigationLink[] =
   },
   {
     label: 'White Paper',
-    link: './assets/documents/WhitePaper.pdf'
+    link: 'whitepaper'
   },
   // {
   //   label: 'Token Events',
