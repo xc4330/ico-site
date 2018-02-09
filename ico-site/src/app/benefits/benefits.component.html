@@ -31,7 +31,7 @@
         class="btn mroe-btn" 
         (click)="toggleShowMore()">{{showMoreLabel}}</button>
       <!-- <button type="button" class="btn whitepaper-btn">Read Whitepaper</button> -->
-      <a class="btn mroe-btn whitepaper-btn" href="./assets/documents/WhitePaper.pdf" target="_blank">{{ 'BENEFIT.Read Whitepaper' | translate }}</a>
+      <a class="btn mroe-btn whitepaper-btn" (click)="openModal(template)">{{ 'BENEFIT.Read Whitepaper' | translate }}</a>
       <a class="btn reg-btn" href="https://goo.gl/forms/gIYLP2JB2Ft3QQ4q1" target="_blank">{{ 'BENEFIT.Register Now' | translate }}</a>
     </div>
     <img src='./assets/icons/iphone.png' class="iphone-image">
@@ -46,3 +46,16 @@
 
   </div>
 </div>
+
+<ng-template #template> 
+  <div class="whitepaper-select">
+    <h3 class="modal-title pull-left">Whitepaper</h3>
+    <h6 style="color: #606060">Select language</h6>
+    <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <div class="whitepaper-buttons">
+      <a *ngFor="let whitepaper of whitepapers" href="{{ whitepaper.link }}" class="btn btn-outline-primary btn-lg wp-btn">{{ whitepaper.lang }}</a>
+    </div>
+  </div>
+</ng-template>
