@@ -36,7 +36,7 @@ import { LogosComponent } from './logos/logos.component';
 
 import { BountyComponent } from './bounty/bounty.component';
 import { FaqComponent } from './faq/faq.component';
-import { SiteLayoutComponent } from './site-layout/site-layout.component';
+import { SiteLayoutComponent, ModalContentComponent } from './site-layout/site-layout.component';
 
 import { routing } from './app.routing';
 
@@ -76,7 +76,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     BountyComponent,
     FaqComponent,
     SiteLayoutComponent,
-    LogosComponent
+    LogosComponent,
+    ModalContentComponent
     
   ],
   imports: [
@@ -95,6 +96,9 @@ export function HttpLoaderFactory(http: HttpClient) {
           deps: [HttpClient]
       }
   })
+  ],
+  entryComponents: [
+    ModalContentComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

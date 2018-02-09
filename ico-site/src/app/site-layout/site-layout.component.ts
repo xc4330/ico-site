@@ -1,6 +1,10 @@
-import { Component, OnInit, Injectable, AfterViewInit  } from '@angular/core';
+import { Component, OnInit, Injectable, AfterViewInit } from '@angular/core';
 import { ScrollToModule, ScrollToService, ScrollToConfigOptions  } from '@nicky-lenaers/ngx-scroll-to';
 import * as PicCarousel from 'PicCarousel';
+import { BsModalService } from 'ngx-bootstrap/modal';
+import { BsModalRef } from 'ngx-bootstrap/modal/bs-modal-ref.service';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-site-layout',
@@ -10,8 +14,9 @@ import * as PicCarousel from 'PicCarousel';
 
 @Injectable()
 export class SiteLayoutComponent implements OnInit, AfterViewInit{
+  modalRef: BsModalRef;
   title = 'app';
-  constructor(private _scrollToService: ScrollToService){}
+  constructor(private _scrollToService: ScrollToService, private modalService: BsModalService){}
   
   public triggerScrollTo(target:string) {
     console.log(target)
@@ -24,6 +29,7 @@ export class SiteLayoutComponent implements OnInit, AfterViewInit{
   }
 
   ngOnInit() {
+    this.modalRef = this.modalService.show(ModalContentComponent, {class: 'modal-lg'});
   }	
 
   ngAfterViewInit() {
@@ -80,5 +86,29 @@ export class SiteLayoutComponent implements OnInit, AfterViewInit{
       }, 1500);
     }); 
     
+  }
+}
+
+@Component({
+  selector: 'modal-content',
+  template: `
+      <div class="modal-msg">
+    <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <h3 class="modal-title pull-left"><strong>Making it better</strong></h3><br><br>
+    <p>Dear Investor,</p>
+    <p>We are grateful for your support and interest in our ICO. You may be wondering about the delay in the email of investor forms, and we would like to assure you that our team is investing significant time and effort to ensure the security of the token issuance is robust and you will have the peace of of mind during the entire ICO process.</p>
+    <p>As we are also handling a huge volume of emails, there may be some delays earlier in our response. We seek your understanding as we strive to address your query and concerns with due care and diligence.</p>
+    <p>Yours truly,<br>
+Pei-Han & Morpheus Team</p>
+  </div>
+  `
+})
+ 
+export class ModalContentComponent implements OnInit {
+  constructor(public bsModalRef: BsModalRef) {}
+ 
+  ngOnInit() {
   }
 }

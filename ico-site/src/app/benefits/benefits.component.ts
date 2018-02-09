@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, TemplateRef } from '@angular/core';
 import { BenefitsListItem } from './benefits.model';
 import { Bubble } from '../shared/bubble/bubble.model';
 import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
@@ -12,7 +12,7 @@ import { BsModalRef } from 'ngx-bootstrap/modal/bs-modal-ref.service';
   styleUrls: ['./benefits.component.scss']
 })
 export class BenefitsComponent implements OnInit {
-
+  modalRef: BsModalRef;
   showMore: boolean = false;
   showMoreLabel: string = "Show More";
   listitems: BenefitsListItem[];
