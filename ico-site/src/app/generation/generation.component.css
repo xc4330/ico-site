@@ -36,6 +36,20 @@ button
   margin-right: 1em;
 }
 
+.label-wallet-value{
+  font-weight: bold;
+  color: red;
+}
+
+.label-wallet-chunks{
+  font-weight: bold;
+}
+
+.label-wallet-masked-chunks{
+  font-weight: bold;
+  color: gray !important;
+}
+
 .content{
   margin-left: 3em;
 }
@@ -46,11 +60,11 @@ button
 }
 
 table tr > td{
-  padding: .25em;
+  padding: .2em;
 }
 
 table tr > td:first-child{
-  width: 25%;
+  width:25%;
 }
 
 p{
@@ -60,7 +74,7 @@ p{
 @media(max-width: 500px){
   .content{
     margin-left: 0em;
-  } 
+  }
 
   table tr{
     border-top: 1px solid #aaaaaa;

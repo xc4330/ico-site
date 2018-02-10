@@ -35,10 +35,10 @@ import { BountyComponent } from './bounty/bounty.component';
 import { FaqComponent } from './faq/faq.component';
 
 const appRoutes: Routes = [
-    
-    //Site routes goes here 
-    { 
-        path: '', 
+
+    //Site routes goes here
+    {
+        path: '',
         component: SiteLayoutComponent,
         children: [
           { path: '', component: SiteLayoutComponent, pathMatch: 'full'}
@@ -49,7 +49,6 @@ const appRoutes: Routes = [
     { path: 'bounty', component: BountyComponent},
     { path: 'faq', component: FaqComponent},
     { path: 'FAQ', component: FaqComponent},
-
     // otherwise redirect to home
     { path: '**', redirectTo: '' }
 ];

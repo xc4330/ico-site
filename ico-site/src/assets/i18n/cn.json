@@ -234,11 +234,19 @@
         "details-decimals-label" : "小数",
         "details-decimals-content" : "8",
         "details-value-label" : "价值",
-        "details-value-content" : "10,000 MiT = 1 ETH (以目前1 ETH 为 USD 1,000 做基准)",
+        "details-value-content" : "8,000 MiT = 1 ETH (以目前1 ETH 为 USD 8000 做基准)",
+        "details-token-label" :  "我们的钱包地址",
+        "details-token-address-frist-chunk" : "0x682e0f",
+        "details-token-address-masked-chunk" : "###################################",
+        "details-token-address-second-chunk" : "a22320a7",
+
+        "note-1" : "请注意，您可以在我们发给你的电子邮件中看到我们的完整的钱包地址。",
+        "note-emp" : "如果您在我们的名单中，但是您没有收到我们的电子邮件，请立即发邮件给我们 ",
+        "note-3" : "token@mopheuslabs.io",
 
         "foot-1" : "每个单位ETH发行的代币数量，",
         "foot-emp" : "根据实际ETH价格将在销售时间点开始时与之挂钩",
-        "foot-3" : "。一旦达到 25,000ETH (约2500万美元) 的上限，公开售卖都将结束。不论售出数量如何，我们的代币将在交易所上架。",
+        "foot-3" : "。一旦达到 31,250ETH (约2500万美元) 的上限，公开售卖都将结束。不论售出数量如何，我们的代币将在交易所上架。",
 
         "Show More": "更多",
         "Show Less": "收起"
@@ -271,7 +279,7 @@
         "member-bg5": "多媒体设计学士学位 (立万国际艺术学院, 马来西亚)",
         "member-bg6": "资讯工程及设技学士 (新加坡技术和设计大学)",
         "member-bg7": "资讯工程学士 (新加坡国立大学)",
-        
+
         "member-exp0": "连续创业者，有融资数百万美元的经验，并把他的一家新创公司扶植到百万美元的营业额。 他的区块链平台被政府选为孵化首批, 也是多家区块链/科技初创公司顾问。",
         "member-exp1": "新加坡金融科技协会的前任核心会员，负责人才委员会. 活跃区块链演讲者及提供大学和政府谘询服务，拥有和公司C管理层开展各种战略合作的丰富经验。",
         "member-exp2": "在金融服务应用程序开发和IT管理方面有超过16年的经验，有大型电子化转型项目经验丰富。 欧洲裕信銀行集团全球首席信息官; 是活跃区块链技术/物联网/金融科技初创公司的顾问。",
