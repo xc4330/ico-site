@@ -6,6 +6,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 
+import { ModalModule } from 'ngx-bootstrap/modal';
+
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { TimerComponent } from './dashboard/timer/timer.component';
@@ -34,7 +36,7 @@ import { LogosComponent } from './logos/logos.component';
 
 import { BountyComponent } from './bounty/bounty.component';
 import { FaqComponent } from './faq/faq.component';
-import { SiteLayoutComponent } from './site-layout/site-layout.component';
+import { SiteLayoutComponent, ModalContentComponent } from './site-layout/site-layout.component';
 
 import { routing } from './app.routing';
 
@@ -74,7 +76,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     BountyComponent,
     FaqComponent,
     SiteLayoutComponent,
-    LogosComponent
+    LogosComponent,
+    ModalContentComponent
     
   ],
   imports: [
@@ -82,6 +85,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     NgbModule.forRoot(),
     ScrollToModule.forRoot(),
     BrowserAnimationsModule,
+    ModalModule.forRoot(),
     NgxChartsModule,
     routing,
     HttpClientModule,
@@ -92,6 +96,9 @@ export function HttpLoaderFactory(http: HttpClient) {
           deps: [HttpClient]
       }
   })
+  ],
+  entryComponents: [
+    ModalContentComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

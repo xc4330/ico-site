@@ -1,7 +1,10 @@
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter, TemplateRef } from '@angular/core';
 import { NavigationLink, NavigationLinks, BountyNavigationLinks, FaqLinks } from '../../../data/navlink';
+import { Whitepapers } from '../../../data/whitepapers';
 import { Navigation } from 'selenium-webdriver';
 import { TranslateService } from '@ngx-translate/core';
+import { BsModalService } from 'ngx-bootstrap/modal';
+import { BsModalRef } from 'ngx-bootstrap/modal/bs-modal-ref.service';
 import { Router } from '@angular/router';
 
 @Component({
@@ -10,8 +13,9 @@ import { Router } from '@angular/router';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-
+  modalRef: BsModalRef;
   navlinks: NavigationLink[];
+  whitepapers = Whitepapers;
   @Output() clickEvent = new EventEmitter<string>();
   isCollapsed = true;   // store state
   languages = [
@@ -19,7 +23,11 @@ export class HeaderComponent implements OnInit {
     'cn'
   ]
 
-  constructor(private translate: TranslateService, private router: Router) {
+  constructor(private translate: TranslateService, private router: Router, private modalService: BsModalService) {
+  }
+
+  openModal(template: TemplateRef<any>) {
+    this.modalRef = this.modalService.show(template, {class: 'modal-lg'});
   }
 
   toggleState() { // click handler

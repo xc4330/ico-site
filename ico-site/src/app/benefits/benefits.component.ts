@@ -1,7 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, TemplateRef } from '@angular/core';
 import { BenefitsListItem } from './benefits.model';
 import { Bubble } from '../shared/bubble/bubble.model';
 import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
+import { Whitepapers } from '../../data/whitepapers';
+import { BsModalService } from 'ngx-bootstrap/modal';
+import { BsModalRef } from 'ngx-bootstrap/modal/bs-modal-ref.service';
 
 @Component({
   selector: 'app-benefits',
@@ -9,13 +12,18 @@ import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
   styleUrls: ['./benefits.component.scss']
 })
 export class BenefitsComponent implements OnInit {
-
+  modalRef: BsModalRef;
   showMore: boolean = false;
   showMoreLabel: string = "Show More";
   listitems: BenefitsListItem[];
   benefits: Bubble[] = []
+  whitepapers = Whitepapers;
 
-  constructor(private translate: TranslateService) { }
+  constructor(private translate: TranslateService, private modalService: BsModalService) { }
+
+  openModal(template: TemplateRef<any>) {
+    this.modalRef = this.modalService.show(template, {class: 'modal-lg'});
+  }
 
   toggleShowMore(){
     this.showMore = !this.showMore;

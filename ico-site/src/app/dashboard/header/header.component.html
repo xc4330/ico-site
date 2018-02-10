@@ -19,7 +19,9 @@
           class="nav-item" 
           *ngFor='let navlink of navlinks'
           (click) = "onLinkClicked(navlink.label)">
-          <a *ngIf="navlink.link != '#'" class="nav-link" href={{navlink.link}}>
+          <a *ngIf="navlink.link == 'whitepaper'" class="nav-link" (click)="openModal(template)">
+            {{ 'HEADER.' + navlink.label | translate }}</a>
+          <a *ngIf="navlink.link != '#' && navlink.link != 'whitepaper'" class="nav-link" href="{{navlink.link}}">
             {{ 'HEADER.' + navlink.label | translate }}</a>
           <a *ngIf="navlink.link == '#'" class="nav-link">
             {{ 'HEADER.' + navlink.label | translate }}
@@ -38,3 +40,16 @@
     </div>
   </div>
 </nav>
+
+<ng-template #template> 
+  <div class="whitepaper-select">
+    <h3 class="modal-title pull-left">Whitepaper</h3>
+    <h6 style="color: #606060">Select language</h6>
+    <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <div class="whitepaper-buttons">
+      <a *ngFor="let whitepaper of whitepapers" href="{{ whitepaper.link }}" class="btn btn-outline-primary btn-lg wp-btn">{{ whitepaper.lang }}</a>
+    </div>
+  </div>
+</ng-template>
