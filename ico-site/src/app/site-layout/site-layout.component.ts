@@ -29,7 +29,7 @@ export class SiteLayoutComponent implements OnInit, AfterViewInit{
   }
 
   ngOnInit() {
-    this.modalRef = this.modalService.show(ModalContentComponent, {class: 'modal-lg'});
+    /* this.modalRef = this.modalService.show(ModalContentComponent, {class: 'modal-lg'}); */
   }	
 
   ngAfterViewInit() {
