@@ -98,7 +98,7 @@ export class SiteLayoutComponent implements OnInit, AfterViewInit{
     </button>
     <h3 class="modal-title pull-left"><strong>Making it better</strong></h3><br><br>
     <p>Dear Investor,</p>
-    <p>We are grateful for your support and interest in our ICO. You may be wondering about the delay in the email of investor forms, and we would like to assure you that our team is investing significant time and effort to ensure the security of the token issuance is robust and you will have the peace of of mind during the entire ICO process.</p>
+    <p>We are grateful for your support and interest in our ICO. You may be wondering about the delay in communication, and we would like to assure you that our team is investing significant time and effort to ensure the security of the token issuance is robust and you will have the peace of of mind during the entire ICO process.</p>
     <p>As we are also handling a huge volume of emails, there may be some delays earlier in our response. We seek your understanding as we strive to address your query and concerns with due care and diligence.</p>
     <p>Yours truly,<br>
 Pei-Han & Morpheus Team</p>
@@ -107,7 +107,7 @@ Pei-Han & Morpheus Team</p>
 })
  
 export class ModalContentComponent implements OnInit {
-  constructor(public bsModalRef: BsModalRef) {}
+  constructor(public modalRef: BsModalRef) {}
  
   ngOnInit() {
   }
