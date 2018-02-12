@@ -81,6 +81,15 @@ export const members: Member[] = [
       'Zhejiang Yuexiu University of Foreign Languages',
       'With extensive experience in English - Chinese translation, and season in community building, technical news & article write up. A blockchain Enthusiast with excellent PR & marketing skills.',
       'team'
+    ),
+    new Member(
+      '../assets/icons/Team20.png',
+      '', 
+      'Hanna Bae',
+      'South Korea',
+      'M. Professional Accounting, Brisbane, Queensland University of Technology; B.Comms., Public Relations, Melbourne, RMIT University',
+      'Hanna is fluent in both the language of business and communications. She has had great experience in online marketing and public relations. Her most recent experience in management consulting and accounting has equipped her to be better understanding of business operations and numbers. She’s a huge believer of blockchain technology and thinks that this will change the future for the better.',
+      'team'
     )
   ]
 

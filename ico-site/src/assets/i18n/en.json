@@ -214,7 +214,7 @@
             "Received proposal for distributorship and JV in Japan, Malaysia and Dubai."
         ],
         "biz-desc3": [
-            "Launch official Token Sales Event.",
+            "Launch official Token Sales Event.", 
             "Collaboration with Y3 technology on building tracking PoC",
             "Official sales partnership campaign for Southeast Asia region."
         ],
@@ -242,19 +242,11 @@
         "details-decimals-label" : "Decimals",
         "details-decimals-content" : "8",
         "details-value-label" : "Value",
-        "details-value-content" : "8,000 MiT = 1 ETH (Based on current 1 ETH = USD 800)",
-        "details-token-label" :  "Wallet Address to Send Funds",
-        "details-token-address-frist-chunk" : "0x682e0f",
-        "details-token-address-masked-chunk" : "###################################",
-        "details-token-address-second-chunk" : "a22320a7",
-
-        "note-1" : "Please note, the full address can be found in our email to you.",
-        "note-emp" : "If you did not receive the email but have whitelisted yourself, please send us an email immediately at ",
-        "note-3" : "token@mopheuslabs.io",
+        "details-value-content" : "10,000 MiT = 1 ETH (Based on current 1 ETH = USD 1,000)",
 
         "foot-1" : "The number of tokens issued per unit ETH, ",
         "foot-emp" : "will be pegged when the individual phases start based on the actual ETH price",
-        "foot-3" : ". Once the cap of 31,250 ETH (equivalent to USD 25M amount) is reached, the TGE will be closed. Our token will be listed in exchanges upon token events closed, irregardless of the final amount raised. We will be announcing these exchanges in time to come.",
+        "foot-3" : ". Once the cap of 25,000 ETH (equivalent to USD 25M amount) is reached, the TGE will be closed. Our token will be listed in exchanges upon token events closed, irregardless of the final amount raised. We will be announcing these exchanges in time to come.",
 
         "Show More": "Show More",
         "Show Less": "Show Less"
@@ -286,26 +278,31 @@
         "member-country4": "Greater China/Hong Kong",
         "member-bg4": "Master’s Degree in ICMA at Reading University in 2006",
         "member-exp4": "An active Blockchain Blogger in China with 10 years of international banking experience as higher management across Asia. Led dozens projects including cross-border payment solution with Alibaba.",
-
+        
         "member-name5": "Eddy Low",
         "member-country5": "Malaysia/Japan",
         "member-bg5": "B.Multimedia Design (The One Academy of Malaysia)",
         "member-exp5": "Over 10 years of specialised in strategy & design. He creates better user interface & user experience in design to generate better marketing & sales to the global banking clients.",
-
+        
         "member-name6": "Edward Loke",
         "member-country6": "Singapore",
         "member-bg6": "B.Info System Tech & Design (Singapore University of technology and Design, Singapore)",
         "member-exp6": "Delivered multiple applications for big clients from financial institutions & banks. A full stack developer & a advocate of Agile Development; a Blockchain Enthusiast.",
-
+        
         "member-name7": "Eric Xu Cong",
         "member-country7": "Singapore/China",
         "member-bg7": "B.Info System (National University of Singapore, Singapore)",
         "member-exp7": "Senior full stack developer (UX) with experience in delivering multi-million applications with global clients from banking, retail and manufacturing; a Blockchain Enthusiast.",
-
+        
         "member-name8": "Clara Zhou",
         "member-country8": "China",
         "member-bg8": "Zhejiang Yuexiu University of Foreign Languages",
         "member-exp8": "With extensive experience in English - Chinese translation, and season in community building, technical news & article write up. A blockchain Enthusiast with excellent PR & marketing skills.",
+        
+        "member-name9": "Hannah Bae",
+        "member-country9": "South Korea",
+        "member-bg9": "M. Professional Accounting, Brisbane, Queensland University of Technology; B.Comms., Public Relations, Melbourne, RMIT University",
+        "member-exp9": "Hanna is fluent in both the language of business and communications. She has had great experience in online marketing and public relations. Her most recent experience in management consulting and accounting has equipped her to be better understanding of business operations and numbers. She’s a huge believer of blockchain technology and thinks that this will change the future for the better.",
 
         "advisor-header": "Founding Advisors",
 
