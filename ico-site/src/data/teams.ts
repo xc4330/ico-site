@@ -81,6 +81,15 @@ export const members: Member[] = [
       'Zhejiang Yuexiu University of Foreign Languages',
       'With extensive experience in English - Chinese translation, and season in community building, technical news & article write up. A blockchain Enthusiast with excellent PR & marketing skills.',
       'team'
+    ),
+    new Member(
+      '../assets/icons/Team20.png',
+      '', 
+      'Hanna Bae',
+      'South Korea',
+      'M. Professional Accounting, Brisbane, Queensland University of Technology; B.Comms., Public Relations, Melbourne, RMIT University',
+      'Great experience in online marketing and public relations.',
+      'team'
     )
   ]
 
