@@ -365,5 +365,108 @@
     "FOOTER": {
         "legal-1":"© Morpheus Labs. Inc | 2017 All rights reserved",
         "legal-2":"Investing in ICOs and digital tokens can be very rewarding, but it involves a number of risks and challenges. If you choose to invest,  you need to be aware of and accept three important considerations, 1. illiquidity , 2.Diversification, 3.Loss of Capital. This list of risk factors does not purport to be a complete enumeration or explanation of the risks. Prospective investors should review, at the very least, but not limited to, the whitepaper, team and also product roadmap in their entirety and consult with their own advisers before making any decision to invest."
+    },
+    "FAQ": {
+        "title": "Frequently Asked Questions (FAQ)",
+
+        "Q1": "What is the main website for this ICO?",
+        "A1": "https://token.morpheuslabs.io/",
+
+        "Q2": "Where to download the ICO White Paper (English)?",
+        "A2": "https://token.morpheuslabs.io/assets/documents/WhitePaper.pdf",
+
+        "Q3": "Which country is this ICO from?",
+        "A3": "Singapore",
+
+        "Q4": "Who are the core team members?",
+        "A4": "See \"Our Team\" in the main website",
+
+        "Q5": "Who are the advisors?",
+        "A5": "See \"Founding Advisors\" in the main website",
+
+        "Q6": "Are the team members associated with any established Blockchain or Cryptocurrency Assocations?",
+        "A6": "Yes, with ACCESS (Singapore Cryptocurrency and Blockchain Industry Association) https://www.access-sg.org and SFA (Singapore Fintech Association) https://singaporefintech.org",
+
+        "Q7": "What is your current investment offer and offers in next phases?",
+        "A7": "We are currently at private placement stage and we will announce our offers to public when we go live in next phase, please follow us closely.",
+
+        "Q8": "What is your timeline for your next phase? What is possibility for the respective token sale phase to close earlier?",
+        "A8-1": "Our Event timeline is as follows:",
+        "A8-bullet-1": "Private Placement (26th Jan - 25th Feb)",
+        "A8-bullet-2": "Early Bird (26th Feb - 18th Mar)",
+        "A8-bullet-3": "Pre Sales (19th Mar - 15th April)",
+        "A8-bullet-4": "Official Sales (16th April - 13th May)",
+        "A8-2": "Looking at our current take up rate, it is highly possible to close all stages earlier than expected. Register interest here:",
+        "A8-3": "https://tinyurl.com/goomlwl",
+
+        "Q9": "When will your MITx price be calculated and is it calculated on ETH or USD?",
+        "A9": "We will check and take in actual ETH price when sales executed (1st day of Funding start)",
+
+        "Q10": "When can I get my bonus tokens and what is the lock up period like?",
+        "A10-1": "You will get tokens immediately after you have successfully transfered ETH from your wallet to Morpheus wallet. You will only receive bonus approximate 1 month after token event has closed. We aim to process your bonus as soon as possible.",
+        "A10-2": "E.g. With 50ETH, you will get 400,000MITx immediately and 50% bonus of 400,000MITx approximately 1 month after token event has closed.",
+        "A10-3": "50% of total tokens including bonus can be sold immediately when the token event has closed and when we list MITx on exchange.",
+        "A10-4": "Next 50% can be sold as below:",
+        "A10-bullet-1": "1st day of 7th month 5%",
+        "A10-bullet-2": "1st day of 8th month 5%",
+        "A10-bullet-3": "1st day of 9th month 10%",
+        "A10-bullet-4": "1st day of 10th month 10%",
+        "A10-bullet-5": "1st day of 11 months 10%",
+        "A10-bullet-6": "1st day of 12 months 10%",
+
+        "Q11": "Do you have any allocations for different phases of the token sales?",
+        "A11-1": "Yes, we have and the breakdown is as below:",
+        "A11-bullet-1": "Private Placement: 30% (Cap)",
+        "A11-bullet-2": "Early Bird: 30% (Cap)",
+        "A11-bullet-3": "Pre Sales: 30% (Cap)",
+        "A11-bullet-4": "Official Sales: 10% (Cap)",
+
+        "Q12": "You have a 30% token reservation for community. What is this for?",
+        "A12": "Our main business model is B2B and as a infrastructure hub, we will need to build a strong community not only with retail users but also business partners such as, distributorship, strategic alliance, Joint ventures, listing on major exchanges, establish strong presence in Greater China region, marketing & events, bounty and more.",
+
+        "Q13": "Do you have any plans or strategy to protect MITx token value?",
+        "A13": "Having great confidence in our business and line of business deals coming in, we will limit to 5% of token issuance per year if necessary.",
+
+        "Q14": "Can you share your current business progress?",
+        "A14": "Currently we have received proposals to set up subsidiary and presence in China, Japan, Malaysia and Dubai. For Japan and Malaysia, we are in midst of setting up our R&D and additional techical team. This should be up by end February. For China, we all know it is a big market. As such, we are taking a more strategics approach where resources could be intensive. Finally, for Dubai, we are still in negotiation with an interested party. Further to this, we are also in project scoping stage with Proline integrated Intelligence (Smart nation - Airport) and Y3 technologies on Supply chain",
+
+        "Q15": "Can you share your current Technical progress?",
+        "A15": "We are conducting enhancements on our MvP, we aim to complete our app store by mid Feb and continue with our roadmap milestone targeting the first commercial release in Q3, 2018.",
+
+        "Q16a": "Is there a video to see the core team members?",
+        "A16a": "The MorpheusLab team pitched in the Business Angel Network BANSEA, the oldest angel investing network in Southeast Asia on 1st Feb 2018. Branson (co-founder of MorpheusLab) and the others (Pei-han, Bruce and Dorcel) were also in the room with over 80 business angels, Youtube video:",
+        "A16a-link": "https://youtu.be/g5QfY-SRn-U",
+
+        "Q16b": "Where to locate the accompanied slides for the above video?",
+        "A16b": "http://ye.sg/download/ML/20180201_B1pitch",
+
+        "Q17": "May I know the Communty Managers in your team?",
+        "A17": "Sure. We have the main community managers for different markets, Clara Zhou (clara@morpheuslabs.io) for Great China region with chinese; Hanna Bae (hanna@morpheuslabs.io) for Korean market. Do not hestate to ask them if you are interested in our project.",
+
+        "Q18": "What is the email to contact the ICO core team?",
+        "A18": "token@morpheuslabs.io",
+
+        "Q19": "Tell me more about your private sales",
+        "A19": "Private sales start 11th Feb 2018 - 00:00 (GMT+8) and ends on 16th Feb 2018 - 23.59 (GMT+8). Private placement phase is for accredited investors & for amounts above $50K USD. We are now sending out emails with our wallet address by batches. You have to complete your contribution by 16th Feb 2018 23.59 (GMT+8), after which your allocation of tokens will not be guaranteed.",
+
+        "Q20": "What is the wallet address to send funds to? (Showing only the prefix and suffix of the address)?",
+        "A20-addr": "0x682e0f ################################### a22320a7",
+        "A20": "This info can also be found under \"Token Generation Event (TGE) Structure\" in the official website: https://token.morpheuslabs.io",
+
+        "Q21": "I received a private telegram message asking me to send my funds to his or her address, what should I do it?",
+        "A21": "When in doubt, either (a) email token@morpheuslabs.io to clarify and/or (b) ask this question in the public Telegram channel so that the admins can detect if scammers have appeared",
+
+        "Q22": "What is lock in period mechanic and liquidity?",
+        "A22-1": "Liquidity. ",
+        "A22-2": "We understand investors want to be able to trade the tokens but listing on reputable exchanges comes with many requirements. One of which is that our token must be ERC-20 Compliant. As such, our smart contract has been written in a way that we conform to the ERC-20 standard. However, that also means we have to forgo another factor, which is to issue a lock-in condition on the sale of these tokens when it hits your wallets. ",
+        "A22-3": "Our rationale behind this:",
+        "A22-bullet-1": "Investors want to be able to trade their tokens as soon as possible.",
+        "A22-bullet-2": "Bonus will be processed approximately 1 month after the ICO event closed via air dropping. We have exchanges lined up and market makers arranged to stablise the price.",
+        "A22-bullet-3": "We believe buyers would not sell their tokens (without receiving bonus) unless they selling at profit.",
+        "A22-bullet-4": "All buyers are contractually bound not to sell all their tokens with a lock in period. If selling is discovered, their bonus will be forfeited.",
+        "A22-bullet-5": "The forfeited bonus will be redistributed to all investors.",
+
+        "Q23": "When can I transfer MITx Tokens received to other wallets?",
+        "A23": "You can only transfer MITx Tokens after 15th April."
     }
 }
