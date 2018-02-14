@@ -5,6 +5,6 @@ export var Whitepapers = [
 	},
 	{
 		'lang' : '中文',
-		'link' : './assets/documents/WhitePaperCN_02.pdf'
+		'link' : './assets/documents/WhitePaperCN.pdf'
 	}
 ];
