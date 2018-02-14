@@ -15,7 +15,7 @@
     "TIMER": {
         "BONUS SALE": "额外奖励促销",
         "stage starts in:": "离促销开始还有:",
-        "30% Bonus": "30%额外奖励",
+        "30% Bonus": "35%额外奖励",
         "DAYS": "天",
         "HOURS": "小时",
         "MINUTES": "分钟",
@@ -92,7 +92,7 @@
     "TIMELINE": {
         "header": "发售日程表",
         "current": "抢先尝鲜奖励",
-        "time": "2月26日 09:00:00 - 3月8日",
+        "time": "2月26日 09:00:00 (GMT+8) - 3月8日",
         "join-btn": "加入抢先尝鲜",
         "buy-btn": "购买代币"
     },
