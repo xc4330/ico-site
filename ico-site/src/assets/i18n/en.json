@@ -17,13 +17,13 @@
     "TIMER": {
         "BONUS SALE": "BONUS SALE",
         "stage starts in:": "stage starts in:",
-        "40% Bonus": "40% Bonus",
+        "30% Bonus": "30% Bonus",
         "DAYS": "DAYS",
         "HOURS": "HOURS",
         "MINUTES": "MINUTES",
         "SECONDS": "SECONDS",
         "Buy Token Now": "Buy Token Now",
-        "We accept BTC, ETH and other": "We accept BTC, ETH and other",
+        "We accept BTC, ETH and other": "We accept ETH",
         "SHARE WITH": "SHARE WITH"
     },
     "DASHBOARD":{
@@ -70,7 +70,7 @@
     "STAGE": {
         "header": "Token Events",
         "bonus1": "50% OFF + 5% BONUS",
-        "bonus2": "40% BONUS",
+        "bonus2": "35% BONUS",
         "bonus3": "35% BONUS",
         "bonus4": "20% BONUS",
         "bonus5": "10% BONUS",
@@ -85,19 +85,19 @@
         "desc7": "Unsold Tokens Release",
 
         "date1": "2 Jan - 21 Jan",
-        "date2": "26 Feb - 8 Mar",
+        "date2": "24 Feb - 9 Mar",
         "date3": "9 Mar - 18 Mar",
-        "date4": "19 Mar - 1 Apr",
+        "date4": "10 Mar - 23 Mar",
         "date5": "2 Apr - 15 Apr",
-        "date6": "16 Apr - 27 May",
+        "date6": "24 Mar - 15 Apr",
         "date7": "27 MAY ONWARD",
 
-        "time": "from 9:00 am"
+        "time": "from 00:00AM (GMT+8)"
     },
     "TIMELINE": {
         "header": "Token Timeline",
         "current": "EARLY BIRD PREMIUM BONUS",
-        "time": "26 February 09:00:00 - 8 March 2018",
+        "time": "24 February 00:00:00 - 9 March 2018",
         "join-btn": "Join Early Bird Sale",
         "buy-btn": "Buy Token"
     },
@@ -112,9 +112,9 @@
     },
     "BENEFIT": {
         "header": "Benefits of Token",
-        "summary": "Morpheus Infrastructure Token (MIT) is designed to be used within the Morpheus BPaaS network for all services and products rendered, platform subscription, distributorship licensing and token swaps with other digital currencies or tokens.",
+        "summary": "Morpheus Infrastructure Token (MITx) is designed to be used within the Morpheus BPaaS network for all services and products rendered, platform subscription, distributorship licensing and token swaps with other digital currencies or tokens.",
 
-        "listtitle1":"Main Uses of MIT:",
+        "listtitle1":"Main Uses of MITx:",
         "listtitle2":"Platform Subscription Payment",
         "listtitle3":"Applications Usage Fee",
         "listtitle4":"Distributorship Licensing Fee",
@@ -127,9 +127,9 @@
         "listtext5":"Token swap among apps within the network <br> Traded on Cryptocurrency exchange",
 
         "detail1": "The primary use of the token is for both platform subscription and application-related usage, whereby users can use these tokens to procure any services within the platform network, and pay service providers within it. Users can switch among different subscription tiers with full flexibility. Upgrades are featured for applications that are chosen.",
-        "detail2": "As more blockchain applications are curated on our app store, MIT will also allow convertibility to discount coupons for other ICOs within our network. This will translate into cost savings and promotional items in other applications.",
+        "detail2": "As more blockchain applications are curated on our app store, MITx will also allow convertibility to discount coupons for other ICOs within our network. This will translate into cost savings and promotional items in other applications.",
         "detail3": "Financial settlement and resources support between licensees and licensors, where distributorship could be easily managed, facilitates critical real-time support for any distributors or sub-distributors in any corner of the world. Easy token swapping among our app stores will also permit savings on transactional fees and more effective portfolio management for individual and corporate investors.",
-        "detail4": "MIT will be traded on crypto exchanges and this offers token holders the flexibility to trade and liquidate their holdings, if they so choose. They will be able to convert to fiat currency or swap to other cryptocurrencies. Holders can capitalise on trading opportunities and maximise value appreciation of their tokens.",
+        "detail4": "MITx will be traded on crypto exchanges and this offers token holders the flexibility to trade and liquidate their holdings, if they so choose. They will be able to convert to fiat currency or swap to other cryptocurrencies. Holders can capitalise on trading opportunities and maximise value appreciation of their tokens.",
 
         "Show More": "Show More",
         "Show Less": "Show Less",
@@ -229,12 +229,12 @@
     },
     "GENERATION" : {
         "header" : "Token Generation Event (TGE) Structure",
-        "summary" : "A total of 1 Billion MiT will be minted. 250 million MiT will be issued to the public in this Token Generation Event. The release of the 250 million MiT is to generate sufficient funding for us and to hold us accountable for the funds. The remaining MiT will be used for business expansions and will only be released for sales according to the product roadmap. All proceeds generated from these events will be used only for product and business development.",
+        "summary" : "A total of 1 Billion MITx will be minted. 250 million MITx will be issued to the public in this Token Generation Event. The release of the 250 million MITx is to generate sufficient funding for us and to hold us accountable for the funds. The remaining MITx will be used for business expansions and will only be released for sales according to the product roadmap. All proceeds generated from these events will be used only for product and business development.",
 
         "details-name-label" : "Name",
         "details-name-content" : "Morpheus Infrastructure Platform",
         "details-tokenName-label" : "Token Name",
-        "details-tokenName-content" : "MiT (Morpheus Infrastructure Token)",
+        "details-tokenName-content" : "MITx (Morpheus Infrastructure Token)",
         "details-totalSupply-label" : "Total Supply",
         "details-totalSupply-content" : "1,000,000,000 (1B)",
         "details-tokenSales-label" : "Token Sales" ,
@@ -242,7 +242,7 @@
         "details-decimals-label" : "Decimals",
         "details-decimals-content" : "8",
         "details-value-label" : "Value",
-        "details-value-content" : "10,000 MiT = 1 ETH (Based on current 1 ETH = USD 1,000)",
+        "details-value-content" : "10,000 MITx = 1 ETH (Based on current 1 ETH = USD 1,000)",
 
         "foot-1" : "The number of tokens issued per unit ETH, ",
         "foot-emp" : "will be pegged when the individual phases start based on the actual ETH price",
