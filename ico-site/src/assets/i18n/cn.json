@@ -106,10 +106,10 @@
         "text2": "摩耳甫斯实验室将通过构建一个专注于可快速上市战略和用户体验的革命性平台来填补这个空白。 我们使企业和个人能够以低成本快速实现原型和验证业务构想。"
     },
     "BENEFIT": {
-        "header": "MIT代币的独特优势",
-        "summary": "摩耳甫斯实验室基础设施代币（简称MiT）旨在用于摩耳甫斯实验室的 区块链平台服务 及其网络中提供的所有服务和产品，平台订阅，分销许可和与其他数字货币或令代币跟代币间的互换。",
+        "header": "MITx代币的独特优势",
+        "summary": "摩耳甫斯实验室基础设施代币（简称MITx）旨在用于摩耳甫斯实验室的 区块链平台服务 及其网络中提供的所有服务和产品，平台订阅，分销许可和与其他数字货币或令代币跟代币间的互换。",
 
-        "listtitle1":"MiT (Morpheus Imfrastruture Token) 的主要用途：",
+        "listtitle1":"MITx (Morpheus Infrastructure Token) 的主要用途：",
         "listtitle2":"平台订阅付款",
         "listtitle3":"应用程序使用费",
         "listtitle4":"分销许可费",
@@ -122,9 +122,9 @@
         "listtext5":"网络之间的代币交换 <br> 在加密货币交易所交易",
 
         "detail1": "代币的主要用途是平台订阅和与应用程序相关的使用，用户可以使用这些代币来获取平台网络中的任何服务，并向服务提供商付费。用户可以在不同的订阅层之间切换，具有很大的灵活性升级适用于所选的应用程序。",
-        "detail2": "随着更多的区块链应用程序在我们的应用程序商店上架，MiT也将允许兑换为我们的网络内的其他ICO折扣优惠券。这将转化为其他应用程序中的成本节约和促销项目。",
+        "detail2": "随着更多的区块链应用程序在我们的应用程序商店上架，MITx也将允许兑换为我们的网络内的其他ICO折扣优惠券。这将转化为其他应用程序中的成本节约和促销项目。",
         "detail3": "许可证持有者和许可证颁发者之间的财务结算和资源支持，可以轻松管理分销渠道，为世界任何角落的任何分销商或分销商提供重要的实时支持。在我们的应用程序商店之间轻松交换代币也可以节省交易费用，并为个人和公司投资者提供更有效的投资组合管理。",
-        "detail4": "MiT将在加密货币所进行交易，这使得代币持有者可以灵活地交易和清算他们的持股，如果他们愿意的话。他们将能够转换为法定货币或交换到其他加密货币。持有者可以利用交易机会并使其代币的价值最大化。",
+        "detail4": "MITx将在加密货币所进行交易，这使得代币持有者可以灵活地交易和清算他们的持股，如果他们愿意的话。他们将能够转换为法定货币或交换到其他加密货币。持有者可以利用交易机会并使其代币的价值最大化。",
 
         "Show More": "更多",
         "Show Less": "收起",
@@ -221,12 +221,12 @@
     },
     "GENERATION" : {
         "header" : "发币方式和相关资料",
-        "summary" : "总共将发行10亿个摩耳甫斯基础设施代币 (简称 MiT - Morpheus Infrastructure Token) 它是基于以太坊区块链的ERC-20标准代币。其中二亿五千万个MiT在这阶段向公众发售. 向公众发售的二亿五千万个MiT代币是为了让我们有足够的资金开发平台及开拓市场，并对这些资金负责。剩下的MiT将被保存，用于公司拓展，或根据产品路线图，在将来发售。从这些活动中产生的所有收益将只用于产品，业务开发及公司营运. ",
+        "summary" : "总共将发行10亿个摩耳甫斯基础设施代币 (简称 MITx - Morpheus Infrastructure Token) 它是基于以太坊区块链的ERC-20标准代币。其中二亿五千万个MITx在这阶段向公众发售. 向公众发售的二亿五千万个MITx代币是为了让我们有足够的资金开发平台及开拓市场，并对这些资金负责。剩下的MITx将被保存，用于公司拓展，或根据产品路线图，在将来发售。从这些活动中产生的所有收益将只用于产品，业务开发及公司营运. ",
 
         "details-name-label" : "名称",
         "details-name-content" : "摩耳甫斯基础设施平台",
         "details-tokenName-label" : "代币名称",
-        "details-tokenName-content" : "摩耳甫斯基础设施代币 (MiT)",
+        "details-tokenName-content" : "摩耳甫斯基础设施代币 (MITx)",
         "details-totalSupply-label" : "总供应量",
         "details-totalSupply-content" : "10亿",
         "details-tokenSales-label" : "出售" ,
@@ -234,11 +234,11 @@
         "details-decimals-label" : "小数",
         "details-decimals-content" : "8",
         "details-value-label" : "价值",
-        "details-value-content" : "8,000 MiT = 1 ETH (以目前1 ETH 为 USD 8000 做基准)",
+        "details-value-content" : "8,000 MITx = 1 ETH (以目前1 ETH 为 USD 8000 做基准)",
         "details-token-label" :  "我们的钱包地址",
-        "details-token-address-frist-chunk" : "0x682e0f",
+        "details-token-address-frist-chunk" : "0x2d8377",
         "details-token-address-masked-chunk" : "###################################",
-        "details-token-address-second-chunk" : "a22320a7",
+        "details-token-address-second-chunk" : "A25a304",
 
         "note-1" : "请注意，您可以在我们发给你的电子邮件中看到我们的完整的钱包地址。",
         "note-emp" : "如果您在我们的名单中，但是您没有收到我们的电子邮件，请立即发邮件给我们 ",
