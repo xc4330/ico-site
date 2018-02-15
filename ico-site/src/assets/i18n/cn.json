@@ -109,7 +109,7 @@
         "header": "MITx代币的独特优势",
         "summary": "摩耳甫斯实验室基础设施代币（简称MITx）旨在用于摩耳甫斯实验室的 区块链平台服务 及其网络中提供的所有服务和产品，平台订阅，分销许可和与其他数字货币或令代币跟代币间的互换。",
 
-        "listtitle1":"MITx (Morpheus Imfrastruture Token) 的主要用途：",
+        "listtitle1":"MITx (Morpheus Infrastructure Token) 的主要用途：",
         "listtitle2":"平台订阅付款",
         "listtitle3":"应用程序使用费",
         "listtitle4":"分销许可费",
@@ -236,9 +236,9 @@
         "details-value-label" : "价值",
         "details-value-content" : "8,000 MITx = 1 ETH (以目前1 ETH 为 USD 8000 做基准)",
         "details-token-label" :  "我们的钱包地址",
-        "details-token-address-frist-chunk" : "0x682e0f",
+        "details-token-address-frist-chunk" : "0x2d8377",
         "details-token-address-masked-chunk" : "###################################",
-        "details-token-address-second-chunk" : "a22320a7",
+        "details-token-address-second-chunk" : "A25a304",
 
         "note-1" : "请注意，您可以在我们发给你的电子邮件中看到我们的完整的钱包地址。",
         "note-emp" : "如果您在我们的名单中，但是您没有收到我们的电子邮件，请立即发邮件给我们 ",
@@ -427,7 +427,7 @@
         "A19": "私募从 2018年2月11日北京时间零点至 2018年2月16日北京时间23时59分 结束。 私募阶段的对象是已认可的投资者，金额超过5万美元。目前，我们分批将我们的钱包地址通过电子邮件形式发送。您必须在 2018年2月16日 北京时间23时59分之前完成您的认缴款, 否则将无法保留您的代币配额。",
 
         "Q20": "付款的钱包地址指的是哪个？（仅显示地址的前部分和后部分）",
-        "A20-addr": "0x682e0f ################################### a22320a7",
+        "A20-addr": "0x2d8377 ################################### A25a304",
         "A20": "这个也可以在官网（https://token.morpheuslabs.io）上的“发币方式和相关资料”找到",
 
         "Q21": "我收到一条电报（telegram）上让我给他/她地址付款的信息，我应该怎么做？",

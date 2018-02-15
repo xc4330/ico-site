@@ -25,8 +25,8 @@
   <div class="container-fluid">
     <nav class="nav">
       <ul class="nav-links" >
-        <li 
-          class="nav-item" 
+        <li
+          class="nav-item"
           *ngFor='let navlink of navlinks'
           (click) = "onLinkClicked(navlink.label)">
           <a *ngIf="navlink.link != '#'" class="nav-link" href={{navlink.link}}>{{ 'HEADER.' + navlink.label | translate }}</a>
@@ -34,6 +34,9 @@
         </li>
       </ul>
       <div class="social-buttons ml-auto">
+        <a href="http://t.me/morpheuslabs">
+          <img src="./assets/icons/SocialMedia05.png">
+        </a>
         <a href="mailto:info@morpheuslabs.io">
           <img src="./assets/icons/SocialMedia01.png">
         </a>
@@ -52,7 +55,7 @@
       <div style="width: 90%;">{{ 'FOOTER.legal-1' | translate }} <br><br>
         {{ 'FOOTER.legal-2' | translate }}
         </div>
-      <button 
+      <button
         class="btn go-btn"
         (click)="onLinkClicked('Dashboard')">
       </button>
