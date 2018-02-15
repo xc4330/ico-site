@@ -13,7 +13,7 @@ export class TimerComponent implements OnInit {
   stageTitle2: string = "BONUS SALE";
   stageTitle3: string = "stage starts in:";
 
-  badgeLabel1: string = "40% Bonus";
+  badgeLabel1: string = "30% Bonus";
   badgeLabel2: string = "";
 
   days: string = '00';
@@ -33,14 +33,14 @@ export class TimerComponent implements OnInit {
       this.translate.get('TIMER.stage starts in:').subscribe((res: string) => {
         this.stageTitle3 = res
       });
-      this.translate.get('TIMER.40% Bonus').subscribe((res: string) => {
+      this.translate.get('TIMER.30% Bonus').subscribe((res: string) => {
         this.badgeLabel1 = res
       });
     });
   }
 
   getCountdownTime() {
-    let countDownDate = new Date("Feb 26, 2018 09:00:00").getTime();
+    let countDownDate = new Date("Feb 24, 2018 09:00:00").getTime();
     let x = setInterval(() => {
 
       // Get todays date and time

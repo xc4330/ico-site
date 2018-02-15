@@ -8,14 +8,14 @@
         "Team": "我们的团队",
         "Bounty": "赏金计划",
         "Language": "语言",
-        "whitepaper" : "./assets/documents/WhitePaperCN_02.pdf",
+        "whitepaper" : "./assets/documents/WhitePaperCN.pdf",
         "en": "英文",
         "cn": "中文"
     },
     "TIMER": {
         "BONUS SALE": "额外奖励促销",
         "stage starts in:": "离促销开始还有:",
-        "40% Bonus": "40%额外奖励",
+        "30% Bonus": "35%额外奖励",
         "DAYS": "天",
         "HOURS": "小时",
         "MINUTES": "分钟",
@@ -68,7 +68,7 @@
     "STAGE": {
         "header":"代币促销活动",
         "bonus1": "50% 折扣 + 5% 额外奖励",
-        "bonus2": "40% 额外奖励",
+        "bonus2": "35% 额外奖励",
         "bonus3": "35% 额外奖励",
         "bonus4": "20% 额外奖励",
         "bonus5": "10% 额外奖励",
@@ -81,18 +81,18 @@
         "desc6": "正式发售",
         "desc7": "剩余代币发售",
         "date1": "1月2日 - 1月21日",
-        "date2": "1月22日 - 2月4日",
+        "date2": "2月24日 - 3月9日",
         "date3": "2月5日 - 2月18日",
-        "date4": "2月19日 - 3月4日",
+        "date4": "3月10日 - 3月23日",
         "date5": "3月5日 - 3月18日",
-        "date6": "4月16日 - 5月27日",
+        "date6": "3月24日 - 4月15日",
         "date7": "5月27日起",
-        "time": "上午 9:00 起"
+        "time": "from 00:00AM (GMT+8)"
     },
     "TIMELINE": {
         "header": "发售日程表",
         "current": "抢先尝鲜奖励",
-        "time": "2月26日 09:00:00 - 3月8日",
+        "time": "2月26日 09:00:00 (GMT+8) - 3月8日",
         "join-btn": "加入抢先尝鲜",
         "buy-btn": "购买代币"
     },
@@ -350,5 +350,109 @@
     "FOOTER": {
         "legal-1":"© Morpheus Labs. Inc | 2017 保留所有版权",
         "legal-2":"Investing in ICOs and digital tokens can be very rewarding, but it involves a number of risks and challenges. If you choose to invest,  you need to be aware of and accept three important considerations, 1. illiquidity , 2.Diversification, 3.Loss of Capital. This list of risk factors does not purport to be a complete enumeration or explanation of the risks. Prospective investors should review, at the very least, but not limited to, the whitepaper, team and also product roadmap in their entirety and consult with their own advisers before making any decision to invest."
+    },
+    "FAQ": {
+        "title": "Frequently Asked Questions (FAQ)",
+
+        "Q1": "哪个是公开发售(ICO)的官方网站？",
+        "A1": "https://token.morpheuslabs.io/",
+
+        "Q2": "可以从哪里下载中文白皮书呢？",
+        "A2": "https://token.morpheuslabs.io/assets/documents/WhitePaperCN.pdf",
+
+        "Q3": "公开发售(ICO)的国家是哪里？",
+        "A3": "新加坡。",
+
+        "Q4": "哪些是核心团队人员？",
+        "A4": "请在主页上“团队信息”上查阅。",
+
+        "Q5": "顾问团队有哪些？",
+        "A5": "请在主页上“专家顾问”上查阅。",
+
+        "Q6": "团队成员是否与已建立的区块链或加密货币组织机构密切联系？",
+        "A6": " 是的，其中就有新加坡加密货币及区块链行业协会（ACCESS）https://www.access-sg.org 和 新加坡金融科技协会（SFA) https://singaporefintech.org。",
+
+        "Q7": "请问你们目前的募资阶段以及下一阶段的计划？",
+        "A7": "我们正处于私募阶段，随后将在下一阶段公布我们的标价，请密切关注。",
+
+        "Q8": "能告知你们下一阶段的计划表吗？那相应的代币发售会提早结束吗？",
+        "A8-1": "我们的销售计划如下：",
+        "A8-bullet-1": " 私募 (1月26日 - 2月23日)",
+        "A8-bullet-2": "抢先 (2月24日 - 3月9日)",
+        "A8-bullet-3": "预售(3月10日 - 3月23日)",
+        "A8-bullet-4": "正式发售(3月24日 - 4月15日)",
+        "A8-2": "从我们目前的投资额来看，很有可能比预期更早地完成所有阶段。感兴趣的请从这里注册:",
+        "A8-3": "https://tinyurl.com/goomlwl",
+
+        "Q9": "您的代币MITx价格将什么定价？是以ETH还是USD计算的？",
+        "A9": "我们将在销售开始时（资金启动的第一天）核算并以实时ETH价格收取。",
+
+        "Q10": "我在什么时候能收到额外代币（bonus）？锁定期又是什么时候？",
+        "A10-1": "From Early bird onwards, you will get all tokens (include bonus) immediately after you have successfully transfered ETH from your wallet to Morpheus wallet.",
+        "A10-2": "E.g. With 50ETH, you will get 400,000MITx immediately and 140,000MITx (35% bonus) immediately total tokens including bonus can be moved around after 15th April, 2018",
+
+        "Q11": "你们有对不同阶段的代币发售进行分配安排吗？",
+        "A11-1": "是的，我们对此作如下分配：",
+        "A11-bullet-1": "私募: 30%",
+        "A11-bullet-2": "抢先: 30%",
+        "A11-bullet-3": "预售: 30%",
+        "A11-bullet-4": "正式发售: 10%",
+
+        "Q12": "你们30%的代币保留为社区之用，那是什么的用途？",
+        "A12": "我们的主要业务模式是B2B，作为一个基础设施枢纽，我们需要建立一个强大的社区，不仅包括零售用户，而且还要建立分销，战略联盟，合资企业，重要交易所上市等业务伙伴，并且在组建大中华地区，营销活动，赏金等等。",
+
+        "Q13": "请问有哪些让代币MITx保值的计划吗？",
+        "A13": "我们对自身业务和一系列业务交易非常有信心，计划使用10％的年度利润来回购我们的代币，并在必要时每年限制代币5％的发行量。",
+
+        "Q14": "可以分享下目前的业务进展吗？",
+        "A14": "目前我们已收到在中国，日本，马来西亚和迪拜设立分公司和代表处的合作意向。 对于日本和马来西亚，我们正着力研发中心和另一技术团队的筹备。 这估计在2月底之前明确下来。 对我们来说，我们都知道中国是一个相当大的市场。 因此，在资源密集的情况下，我们正在采取更具战略性的方法。 最后，我们对于迪拜还在与其相关单位进行谈判。 除此之外，我们还与土耳其本地大型系统集成商Proline integrated Intelligence将在土耳其第一个智能国家机场项目上开展合作，供应链项目使用Y3技术推进。",
+
+        "Q15": "可以分享下目前的技术进展吗？",
+        "A15": "我们正在对我们的MvP进行改进，我们的目标是在2月中旬完成我们的应用商店，并继续我们的路线图里程碑，目标是在2018年第三季度推出第一个商业版本。",
+
+        "Q16a": "对你们核心成员的了解不够，有在哪里公开宣传过吗？",
+        "A16a": "2018年2月1日，MorpheusLab团队在东南亚最为成熟的天使投资联盟BANSEA投入使用。Branson（MorpheusLab的联合创始人）和Pei-han，Bruce和Dorcel，在场超过80位商业天使投资人，请看Youtube 视频: ",
+        "A16a-link": "https://youtu.be/g5QfY-SRn-U",
+
+        "Q16b": "请问哪里可以找到上述视频的相关资料（PPT页面）？18:请问可以怎么联系到ICO负责人员？",
+        "A16b": "http://ye.sg/download/ML/20180201_B1pitch",
+
+        "Q17": "我想了解下你们目前的社区经理有哪些？",
+        "A17": "当然可以。目前我们针对不同的市场有相关的社区经理，Clara Zhou（clara@morpheuslabs.io) 主要负责大中华地区，Hanna Bae (hanna@morpheuslabs.io) 主要负责韩国地区。 如果你对我们项目感兴趣不用迟疑去问他们。",
+
+        "Q18": "请问可以通过哪个邮箱联系到ICO负责人员吗？",
+        "A18": "token@morpheuslabs.io",
+
+        "Q19": "让我了解一下你们的私募（阶段）吧！",
+        "A19": "私募从 2018年2月11日北京时间零点至 2018年2月16日北京时间23时59分 结束。 私募阶段的对象是已认可的投资者，金额超过5万美元。目前，我们分批将我们的钱包地址通过电子邮件形式发送。您必须在 2018年2月16日 北京时间23时59分之前完成您的认缴款, 否则将无法保留您的代币配额。",
+
+        "Q20": "付款的钱包地址指的是哪个？（仅显示地址的前部分和后部分）",
+        "A20-addr": "0x2d8377 ################################### A25a304",
+        "A20": "这个也可以在官网（https://token.morpheuslabs.io）上的“发币方式和相关资料”找到",
+
+        "Q21": "我收到一条电报（telegram）上让我给他/她地址付款的信息，我应该怎么做？",
+        "A21": "怀疑之际，要么向 Token@morpheuslabs.io 发邮件去确认，要么同时在公开电报（telegram）群里发问，那么我们的管理人员就可以查明是否有骗子出现。",
+
+        "Q22": "锁定机制和流动性是什么？",
+        "A22-1": "流动性。",
+        "A22-2": "我们清楚知道投资者希望能够进行代币交易。但在信誉良好的交易所上市有很多要求，其中一个就是我们的代币必须符合ERC-20标准。因此，我们确切以ERC-20标准去编写智能合约。但是，这也意味着我们不得不放弃另一要素，即在这些代币出售时给您的钱包产生锁定条件。 ",
+        "A22-3": "我们的理由是：",
+        "A22-bullet-1": "投资者希望能够尽快交易代币。",
+        "A22-bullet-2": "额外代币（bonus）将在ICO活动结束后约1个月内通过空投安排处理。我们有数几家等待上市的交易所和做市商安排稳定价格。",
+        "A22-bullet-3": "我们不认为买家在没有收到额外代币（bonus）会选择出售，除非有利可图。",
+        "A22-bullet-4": "所有买方都有合约约束，不得在锁定期间卖出所有的代币。如果发现销售，他们的额外代币（bonus）将被没收。",
+        "A22-bullet-5": "没收的额外代币（bonus）将重新分配给投资者。",
+
+        "Q23": "When can I transfer MITx Tokens received to other wallets?",
+        "A23": "You can only transfer MITx Tokens after 15th April.",
+
+        "Q24": "What stage are you at now (as of 15 Feb 2018)?",
+        "A24-1": "The first batch of our Private Sales has started, running from the 11th Feb 2018 - 00:00 (GMT+8) and end on 16th Feb 2018 - 23:59 (GMT+8). You have to complete your contribution by 16th Feb 2018 - 23:59 (GMT+8), after which your allocation of tokens will not be guaranteed.",
+        "A24-2": "The next batch of the Private Sale will be processed on the 17th Feb 2018 - 00:00 (GMT+8).",
+        "A24-3": "Early Bird Sale is currently scheduled to start on the 26th of February - 00:00(GMT+8). However, as we understand that many investors are waiting for the Early Bird Sale to open up, and there’s a possibility to move the day forward! We’ll definitely notify all of you via Emails and Telegram.",
+        "A24-4": "For those who have submitted Whitelists, we are thoroughly going through them one by one and sending out confirmation emails by batches. In the email, we will state the Sales Stage and the Bonus amount you are invited to participate for.",
+
+        "Q25": "What is the official Telegram Channel?",
+        "A25": "https://t.me/morpheuslabs"
     }
 }
