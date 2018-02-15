@@ -377,10 +377,10 @@
 
         "Q8": "能告知你们下一阶段的计划表吗？那相应的代币发售会提早结束吗？",
         "A8-1": "我们的销售计划如下：",
-        "A8-bullet-1": " 私募 (1月26日 - 2月25日)",
-        "A8-bullet-2": "抢先 (26th Feb - 18th Mar)",
-        "A8-bullet-3": "预售(19th Mar - 15th April)",
-        "A8-bullet-4": "正式发售(16th April - 13th May)",
+        "A8-bullet-1": " 私募 (1月26日 - 2月23日)",
+        "A8-bullet-2": "抢先 (2月24日 - 3月9日)",
+        "A8-bullet-3": "预售(3月10日 - 3月23日)",
+        "A8-bullet-4": "正式发售(3月24日 - 4月15日)",
         "A8-2": "从我们目前的投资额来看，很有可能比预期更早地完成所有阶段。感兴趣的请从这里注册:",
         "A8-3": "https://tinyurl.com/goomlwl",
 
@@ -388,16 +388,8 @@
         "A9": "我们将在销售开始时（资金启动的第一天）核算并以实时ETH价格收取。",
 
         "Q10": "我在什么时候能收到额外代币（bonus）？锁定期又是什么时候？",
-        "A10-1": "You will get tokens immediately after you have successfully transfered ETH from your wallet to Morpheus wallet. You will only receive bonus approximate 1 month after token event has closed. We aim to process your bonus as soon as possible.",
-        "A10-2": "E.g. With 50ETH, you will get 400,000MITx immediately and 50% bonus of 400,000MITx approximately 1 month after token event has closed.",
-        "A10-3": "50% of total tokens including bonus can be sold immediately when the token event has closed and when we list MITx on exchange.",
-        "A10-4": "Next 50% can be sold as below:",
-        "A10-bullet-1": "1st day of 7th month 5%",
-        "A10-bullet-2": "1st day of 8th month 5%",
-        "A10-bullet-3": "1st day of 9th month 10%",
-        "A10-bullet-4": "1st day of 10th month 10%",
-        "A10-bullet-5": "1st day of 11 months 10%",
-        "A10-bullet-6": "1st day of 12 months 10%",
+        "A10-1": "From Early bird onwards, you will get all tokens (include bonus) immediately after you have successfully transfered ETH from your wallet to Morpheus wallet.",
+        "A10-2": "E.g. With 50ETH, you will get 400,000MITx immediately and 140,000MITx (35% bonus) immediately total tokens including bonus can be moved around after 15th April, 2018",
 
         "Q11": "你们有对不同阶段的代币发售进行分配安排吗？",
         "A11-1": "是的，我们对此作如下分配：",
@@ -452,6 +444,15 @@
         "A22-bullet-5": "没收的额外代币（bonus）将重新分配给投资者。",
 
         "Q23": "When can I transfer MITx Tokens received to other wallets?",
-        "A23": "You can only transfer MITx Tokens after 15th April."
+        "A23": "You can only transfer MITx Tokens after 15th April.",
+
+        "Q24": "What stage are you at now (as of 15 Feb 2018)?",
+        "A24-1": "The first batch of our Private Sales has started, running from the 11th Feb 2018 - 00:00 (GMT+8) and end on 16th Feb 2018 - 23:59 (GMT+8). You have to complete your contribution by 16th Feb 2018 - 23:59 (GMT+8), after which your allocation of tokens will not be guaranteed.",
+        "A24-2": "The next batch of the Private Sale will be processed on the 17th Feb 2018 - 00:00 (GMT+8).",
+        "A24-3": "Early Bird Sale is currently scheduled to start on the 26th of February - 00:00(GMT+8). However, as we understand that many investors are waiting for the Early Bird Sale to open up, and there’s a possibility to move the day forward! We’ll definitely notify all of you via Emails and Telegram.",
+        "A24-4": "For those who have submitted Whitelists, we are thoroughly going through them one by one and sending out confirmation emails by batches. In the email, we will state the Sales Stage and the Bonus amount you are invited to participate for.",
+
+        "Q25": "What is the official Telegram Channel?",
+        "A25": "https://t.me/morpheuslabs"
     }
 }

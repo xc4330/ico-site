@@ -36,6 +36,13 @@
           >
           {{ 'HEADER.' + lan | translate }}
         </button>
+        <button 
+          *ngIf="router.url === '/faq'"
+          [ngClass]="translate.currentLang == 'kr' ? 'language-btn-selected' : 'language-btn'"
+          (click)="onLanguageSelect('kr')"
+          >
+          {{ 'HEADER.kr' | translate }}
+        </button>
       </ul>
     </div>
   </div>
