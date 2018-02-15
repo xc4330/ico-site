@@ -236,8 +236,8 @@
         "details-value-label" : "价值",
         "details-value-content" : "8,000 MITx = 1 ETH (以目前1 ETH 为 USD 8000 做基准)",
         "details-token-label" :  "我们的钱包地址",
-        "details-token-address-frist-chunk" : "0x2d8377",
-        "details-token-address-masked-chunk" : "###################################",
+        "details-token-address-frist-chunk" : "0x2d837",
+        "details-token-address-masked-chunk" : "#####################",
         "details-token-address-second-chunk" : "A25a304",
 
         "note-1" : "请注意，您可以在我们发给你的电子邮件中看到我们的完整的钱包地址。",

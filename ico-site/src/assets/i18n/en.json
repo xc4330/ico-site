@@ -23,7 +23,7 @@
         "HOURS": "HOURS",
         "MINUTES": "MINUTES",
         "SECONDS": "SECONDS",
-        "Buy Token Now": "Buy Token Now",
+        "Buy Token Now": "Register Now",
         "We accept BTC, ETH and other": "We accept ETH",
         "SHARE WITH": "SHARE WITH"
     },
@@ -249,8 +249,8 @@
         "details-value-label" : "Value",
         "details-value-content" : "8,000 MITx = 1 ETH (Based on current 1 ETH = USD 800)",
         "details-token-label" :  "Wallet Address to Send Funds",
-        "details-token-address-frist-chunk" : "0x2d8377",
-        "details-token-address-masked-chunk" : "###################################",
+        "details-token-address-frist-chunk" : "0x2d837",
+        "details-token-address-masked-chunk" : "#####################",
         "details-token-address-second-chunk" : "A25a304",
 
         "note-1" : "Please note, the full address can be found in our email to you.",
