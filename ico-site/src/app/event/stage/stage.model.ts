@@ -6,5 +6,7 @@ export class Stage {
         public dateString: string,
         public timeString: string,
         public status: string,
+        public startDate :string,
+        public endDate :string,
     ){}
   }

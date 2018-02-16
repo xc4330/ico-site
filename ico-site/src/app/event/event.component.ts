@@ -11,6 +11,22 @@ import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
 export class EventComponent implements OnInit {
   stages: Stage[] = stages
   constructor(private translate: TranslateService) {
+    let hasOngoing = false;
+    let now = new Date().getTime();
+
+    for(let stage in stages){
+      let thisStart = new Date(stages[stage].startDate).getTime();
+      let thisEnd = new Date(stages[stage].endDate).getTime();
+
+      if(now <= thisEnd && now >= thisStart){
+        stages[stage].status = 'ongoing';
+      }else if(now > thisEnd){
+        stages[stage].status = 'ended';
+      }else{
+        stages[stage].status = 'new';
+      }
+    }
+
   	$(document).ready(function(){
   		var parent = $('.stages');
 		var child = $('.stage-wrap');
