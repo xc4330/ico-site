@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
+import { PopoverModule } from 'ngx-bootstrap/popover';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
@@ -42,6 +44,7 @@ import { routing } from './app.routing';
 
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { ProgressComponent } from './progress/progress.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -77,7 +80,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     FaqComponent,
     SiteLayoutComponent,
     LogosComponent,
-    ModalContentComponent
+    ModalContentComponent,
+    ProgressComponent
     
   ],
   imports: [
@@ -86,6 +90,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     ScrollToModule.forRoot(),
     BrowserAnimationsModule,
     ModalModule.forRoot(),
+    ProgressbarModule.forRoot(),
+    PopoverModule.forRoot(),
     NgxChartsModule,
     routing,
     HttpClientModule,
