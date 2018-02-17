@@ -104,9 +104,12 @@ progressbar{
 	border-bottom-color: white;
 }
 
-
 .light.popover .popover-arrow.arrow:before{
 	border-bottom-color: rgba(0,0,0,.25);
+}
+
+.current.popover{
+	z-index: 3;
 }
 
 .wlist-wrap{
@@ -138,4 +141,52 @@ h1.count{
 	border-bottom: 1px solid #AFAFAF;
 	padding: .5em;
 	margin-bottom: .5em;
+}
+
+@media(max-width: 630px){
+	.popover{
+		padding: .2em;
+	}
+
+	.popover-header{
+		font-size: .7em;
+	}
+
+	.popover-body{
+		font-size: 1em;
+	}	
+
+	h1.count{
+		font-size: 2.75em;
+	}
+
+	.stat h2{
+		font-size: 1em;
+	}
+
+}
+
+@media(max-width: 430px){
+	.popover{
+		padding: .2em;
+	}
+
+	.popover-header{
+		font-size: .7em;
+	}
+
+	.popover-body{
+		font-size: 1em;
+	}	
+
+	h1.count{
+		font-size: 2em;
+	}
+
+	.wlist-wrap{
+		width: 100%;
+		box-shadow: unset;
+		padding: 1em;
+	}
+
 }
