@@ -12,6 +12,8 @@ import { progress } from '../../data/progress';
 export class ProgressComponent implements OnInit {
   max: number = progress.target;
   dynamic: number = progress.current;
+  whitelistCount: number = progress.registered;
+  timestamp: string = progress.updated;
 
   constructor() {}
 

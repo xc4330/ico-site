@@ -23,6 +23,7 @@
 	background-color: #e0e0e0;
 	border-radius: 1em;
 	margin: 0 auto;
+	margin-top: 1.5em;
 }
 
 progressbar{
@@ -35,6 +36,7 @@ progressbar{
 ::ng-deep .progress-bar{
 	-webkit-box-shadow:inset 1px 1px 1px 1px rgba(0,0,0,.3);
 	box-shadow:inset 1px 1px 1px 1px rgba(0,0,0,.3);
+	background-color: #4cbef5;
 }
 
 .popovers{
@@ -105,4 +107,35 @@ progressbar{
 
 .light.popover .popover-arrow.arrow:before{
 	border-bottom-color: rgba(0,0,0,.25);
+}
+
+.wlist-wrap{
+	width: 80%;
+	background: white;
+	padding: 2em 2em 3em 2em;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.wlist-count{
+	text-align: center;
+	color: #9f9f9f;
+	width: 70%;
+	margin: 0 auto;
+}
+
+h1.count{
+	font-weight: bold;
+	color: #4cbef5;
+	font-size: 3.5em;
+}
+
+.stat h2{
+	font-size: 1.75em;
+	color: #9f9f9f;
+}
+
+.stat{
+	border-bottom: 1px solid #AFAFAF;
+	padding: .5em;
+	margin-bottom: .5em;
 }
