@@ -22,21 +22,21 @@ export class ProgressComponent implements OnInit {
 
   ngAfterViewInit() {
   	function movePopOvers(){
-		var barWidth = parseInt($('.progress').width());
-		var progressWidth = parseInt($('.progress-bar').width());
-		var popWidth = $('.light.popover').width();
-		var dist = barWidth - popWidth; 
-		var curDist = 'calc(' + progressWidth + 'px - 1.8em)';
+  		var barWidth = parseInt($('.progress').width());
+  		var progressWidth = parseInt($('.progress-bar').width());
+  		var popWidth = $('.light.popover').width();
+  		var dist = barWidth - popWidth; 
+  		var curDist = 'calc(' + progressWidth + 'px - 1.8em)';
 
-		$('.light.popover').css('left', dist+'px');
-		$('.current.popover').css('left', curDist);
+  		$('.light.popover').css('left', dist+'px');
+  		$('.current.popover').css('left', curDist);
   	}
 
   	movePopOvers();
 
   	$(window).resize(function(){
-  		movePopOvers(
-  	}));
+  		movePopOvers();
+  	});
 
   }
 
