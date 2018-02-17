@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
+import { timeline } from '../../../data/timeline';
 
 @Component({
   selector: 'app-timer',
@@ -22,9 +23,10 @@ export class TimerComponent implements OnInit {
   seconds: string = '00';
 
   ngOnInit() {
-    this.getCountdownTime()
+    let stage = this.getCountdownTime();
+    stage = 'STAGE.' + stage;
     this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
-      this.translate.get('STAGE.desc2').subscribe((res: string) => {
+      this.translate.get(stage).subscribe((res: string) => {
         this.stageTitle1 = res
       });
       this.translate.get('TIMER.BONUS SALE').subscribe((res: string) => {
@@ -40,7 +42,20 @@ export class TimerComponent implements OnInit {
   }
 
   getCountdownTime() {
-    let countDownDate = new Date("Feb 24, 2018 09:00:00").getTime();
+    let now = new Date().getTime();
+    let countDownDate = new Date("Feb 24, 2018 00:00:00").getTime();
+    let stage = 'desc6';
+
+    for(let phase in timeline){
+      let phaseDate = new Date(phase).getTime();
+
+      if(now < phaseDate){
+        countDownDate = phaseDate;
+        stage = timeline[phase].title;
+        break;
+      }
+    }
+
     let x = setInterval(() => {
 
       // Get todays date and time
@@ -70,6 +85,8 @@ export class TimerComponent implements OnInit {
         clearInterval(x);
       }
     }, 1000);
+
+    return stage;
   }
 
 }

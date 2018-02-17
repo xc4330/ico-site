@@ -152,6 +152,10 @@
         height: 600px;
     }
 
+    .brand-container{
+        display: none;
+    }
+
     .pattern-left, .pattern-right {
         display: none;
     }
