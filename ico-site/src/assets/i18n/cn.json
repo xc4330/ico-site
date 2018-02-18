@@ -234,7 +234,7 @@
         "details-decimals-label" : "小数",
         "details-decimals-content" : "8",
         "details-value-label" : "价值",
-        "details-value-content" : "8,000 MITx = 1 ETH (以目前1 ETH 为 USD 800 做基准)",
+        "details-value-content" : "8,000 MITx = 1 ETH",
         "details-token-label" :  "我们的钱包地址",
         "details-token-address-frist-chunk" : "0x2d837",
         "details-token-address-masked-chunk" : "#####################",
@@ -244,9 +244,9 @@
         "note-emp" : "如果您在我们的名单中，但是您没有收到我们的电子邮件，请立即发邮件给我们 ",
         "note-3" : "token@mopheuslabs.io",
 
-        "foot-1" : "每个单位ETH发行的代币数量，",
-        "foot-emp" : "根据实际ETH价格将在销售时间点开始时与之挂钩",
-        "foot-3" : "。一旦达到 31,250ETH (约2500万美元) 的上限，公开售卖都将结束。不论售出数量如何，我们的代币将在交易所上架。",
+        "foot-1" : "",
+        "foot-emp" : "",
+        "foot-3" : "一旦达到 2500万美元的上限，公开售卖都将结束。不论售出数量如何，我们的代币将在交易所上架。",
 
         "Show More": "更多",
         "Show Less": "收起"
