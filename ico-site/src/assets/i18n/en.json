@@ -247,7 +247,7 @@
         "note-emp" : "If you did not receive the email but have whitelisted yourself, please send us an email immediately at ",
         "note-3" : "token@mopheuslabs.io",
         "details-value-label" : "Value",
-        "details-value-content" : "8,000 MITx = 1 ETH (Based on current 1 ETH = USD 800)",
+        "details-value-content" : "8,000 MITx = 1 ETH",
         "details-token-label" :  "Wallet Address to Send Funds",
         "details-token-address-frist-chunk" : "0x2d837",
         "details-token-address-masked-chunk" : "#####################",
@@ -257,9 +257,9 @@
         "note-emp" : "If you did not receive the email but have whitelisted yourself, please send us an email immediately at ",
         "note-3" : "token@mopheuslabs.io",
 
-        "foot-1" : "The number of tokens issued per unit ETH, ",
-        "foot-emp" : "will be pegged when the individual phases start based on the actual ETH price",
-        "foot-3" : ". Once the cap of 31,250 ETH (equivalent to USD 25M amount) is reached, the TGE will be closed. Our token will be listed in exchanges upon token events closed, irregardless of the final amount raised. We will be announcing these exchanges in time to come.",
+        "foot-1" : "",
+        "foot-emp" : "",
+        "foot-3" : "Once the cap of USD 25M is reached, the TGE will be closed. Our token will be listed in exchanges upon token events closed, irregardless of the final amount raised. We will be announcing these exchanges in time to come.",
 
         "Show More": "Show More",
         "Show Less": "Show Less"
@@ -413,11 +413,11 @@
         "A8-3": "https://tinyurl.com/goomlwl",
 
         "Q9": "When will your MITx price be calculated and is it calculated on ETH or USD?",
-        "A9": "We will check and take in actual ETH price when sales executed (1st day of Funding start)",
+        "A9": "We will check and take in actual ETH price when sales executed (1st day of Funding start). MITx price is 8,000 MITx = 1 ETH",
 
         "Q10": "When can I get my bonus tokens and what is the lock up period like?",
         "A10-1": "From Early bird onwards, you will get all tokens (include bonus) immediately after you have successfully transfered ETH from your wallet to Morpheus wallet.",
-        "A10-2": "E.g. With 50ETH, you will get 400,000MITx immediately and 140,000MITx (35% bonus) immediately total tokens including bonus can be moved around after 15th April, 2018",
+        "A10-2": "E.g. During early bird stage, with 50 ETH, you will get 400,000 MITx and 140,000 MITx (35% bonus) immediately. Total tokens including bonus can be moved around after 15th April, 2018.",
 
         "Q11": "Do you have any allocations for different phases of the token sales?",
         "A11-1": "Yes, we have and the breakdown is as below:",
