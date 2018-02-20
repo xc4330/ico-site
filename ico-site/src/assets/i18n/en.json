@@ -416,8 +416,8 @@
         "A9": "We will check and take in actual ETH price when sales executed (1st day of Funding start). MITx price is 8,000 MITx = 1 ETH",
 
         "Q10": "When can I get my bonus tokens and what is the lock up period like?",
-        "A10-1": "From Early bird onwards, you will get all tokens (include bonus) immediately after you have successfully transfered ETH from your wallet to Morpheus wallet.",
-        "A10-2": "E.g. During early bird stage, with 50 ETH, you will get 400,000 MITx and 140,000 MITx (35% bonus) immediately. Total tokens including bonus can be moved around after 15th April, 2018.",
+        "A10-1": "You will receive all your tokens (plus bonuses if applicable) immediately after you have successfully sent in your funds to the wallet address. Private placement phase has a different bonus vesting period as it is processed manually. However, ALL tokens and bonuses will be sent before the end of the token sale event.",
+        "A10-2": "ALL tokens including bonus  will be unlocked after 15th April, 2018.",
 
         "Q11": "Do you have any allocations for different phases of the token sales?",
         "A11-1": "Yes, we have and the breakdown is as below:",

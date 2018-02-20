@@ -388,8 +388,10 @@
         "A9": "我们将在销售开始时（资金启动的第一天）核算并以实时ETH价格收取。",
 
         "Q10": "我在什么时候能收到额外代币（bonus）？锁定期又是什么时候？",
-        "A10-1": "From Early bird onwards, you will get all tokens (include bonus) immediately after you have successfully transfered ETH from your wallet to Morpheus wallet.",
-        "A10-2": "E.g. With 50ETH, you will get 400,000MITx immediately and 140,000MITx (35% bonus) immediately total tokens including bonus can be moved around after 15th April, 2018",
+        "A10-1": "一旦您成功将ETH从钱包转移到Morpheus钱包后您将立即获得所有代币（包括bonus）。但是私募阶段的bonus分发是人工处理的，所以可能需要久一点的时间。 但我们保证您一定会在代币销售结束前收到所有的代币包括bonus。
+
+所有的代币包括bonus可以在2018年4月15日之后交易解锁。",
+        "A10-2": "所有的代币包括bonus可以在2018年4月15日之后交易解锁。",
 
         "Q11": "你们有对不同阶段的代币发售进行分配安排吗？",
         "A11-1": "是的，我们对此作如下分配：",
