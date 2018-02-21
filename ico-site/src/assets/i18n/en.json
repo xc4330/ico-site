@@ -452,7 +452,7 @@
         "A18": "token@morpheuslabs.io",
 
         "Q19": "Tell me more about your private sales",
-        "A19": "Private sales starts 11th Feb 2018 - 00:00 (GMT+8) and ends on 23rd Feb 2018 - 23.59 (GMT+8). Private placement phase is for accredited investors & for contribution more than 62.5 ETH. We are now sending out emails with our wallet address by batches. You have to complete your contribution by 23rh Feb 2018 23.59 (GMT+8), after which your allocation of tokens will not be guaranteed.",
+        "A19": "Private sales starts 11th Feb 2018 - 00:00 (GMT+8) and ends on 23rd Feb 2018 - 23.59 (GMT+8). Private placement phase is for accredited investors & for contribution more than 62.5 ETH. We are now sending out emails with our wallet address by batches. You have to complete your contribution by 23rd Feb 2018 23.59 (GMT+8), after which your allocation of tokens will not be guaranteed.",
 
         "Q20": "What is the wallet address to send funds to? (Showing only the prefix and suffix of the address)?",
         "A20-addr": "0x2d8377 ################################### A25a304",
