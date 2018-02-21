@@ -443,8 +443,8 @@
         "A22-bullet-4": "所有买方都有合约约束，不得在锁定期间卖出所有的代币。",
         "A22-bullet-5": " ",
 
-        "Q23": "When can I transfer MITx Tokens received to other wallets?",
-        "A23": "You can only transfer MITx Tokens after 15th April.",
+        "Q23": "什么时候我可以转账我的MITx的代币?",
+        "A23": "你要等到4月15日后才可以转账你的MITx代币.",
 
         "Q24": "What stage are you at now (as of 15 Feb 2018)?",
         "A24-1": "The first batch of our Private Sales has started, running from the 11th Feb 2018 - 00:00 (GMT+8) and end on 16th Feb 2018 - 23:59 (GMT+8). You have to complete your contribution by 16th Feb 2018 - 23:59 (GMT+8), after which your allocation of tokens will not be guaranteed.",
@@ -452,7 +452,7 @@
         "A24-3": "Early Bird Sale is currently scheduled to start on the 24th of February - 00:00(GMT+8). However, as we understand that many investors are waiting for the Early Bird Sale to open up, and there’s a possibility to move the day forward! We’ll definitely notify all of you via Emails and Telegram.",
         "A24-4": "For those who have submitted Whitelists, we are thoroughly going through them one by one and sending out confirmation emails by batches. In the email, we will state the Sales Stage and the Bonus amount you are invited to participate for.",
 
-        "Q25": "What is the official Telegram Channel?",
+        "Q25": "MITx 的Telegram的官方网页是什么?",
         "A25": "https://t.me/morpheuslabs"
       }
     }
