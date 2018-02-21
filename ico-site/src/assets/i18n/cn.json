@@ -1,5 +1,5 @@
 {
-    "HEADER": {
+  "HEADER": {
         "Morpheus Labs": "摩耳甫斯创新实验室",
         "About Morpheus": "关于摩耳甫斯",
         "Solution": "解决方案",
@@ -92,7 +92,7 @@
     "TIMELINE": {
         "header": "发售日程表",
         "current": "抢先尝鲜奖励",
-        "time": "2月26日 09:00:00 (GMT+8) - 3月8日",
+        "time": "2月24日 09:00:00 (GMT+8) - 3月8日",
         "join-btn": "加入抢先尝鲜",
         "buy-btn": "购买代币"
     },
@@ -377,7 +377,7 @@
 
         "Q8": "能告知你们下一阶段的计划表吗？那相应的代币发售会提早结束吗？",
         "A8-1": "我们的销售计划如下：",
-        "A8-bullet-1": " 私募 (1月26日 - 2月23日)",
+        "A8-bullet-1": " 私募 (2月11日 - 2月23日)",
         "A8-bullet-2": "抢先 (2月24日 - 3月9日)",
         "A8-bullet-3": "预售(3月10日 - 3月23日)",
         "A8-bullet-4": "正式发售(3月24日 - 4月15日)",
@@ -391,7 +391,7 @@
         "A10-1": "一旦您成功将ETH从钱包转移到Morpheus钱包后您将立即获得所有代币（包括bonus）。但是私募阶段的bonus分发是人工处理的，所以可能需要久一点的时间。 但我们保证您一定会在代币销售结束前收到所有的代币包括bonus。
 
 所有的代币包括bonus可以在2018年4月15日之后交易解锁。",
-        "A10-2": "所有的代币包括bonus可以在2018年4月15日之后交易解锁。",
+        "A10-2": "所有的代币包括bonus可以在2018年4月15日之后解锁。",
 
         "Q11": "你们有对不同阶段的代币发售进行分配安排吗？",
         "A11-1": "是的，我们对此作如下分配：",
@@ -426,7 +426,7 @@
         "A18": "token@morpheuslabs.io",
 
         "Q19": "让我了解一下你们的私募（阶段）吧！",
-        "A19": "私募从 2018年2月11日北京时间零点至 2018年2月16日北京时间23时59分 结束。 私募阶段的对象是已认可的投资者，金额超过5万美元。目前，我们分批将我们的钱包地址通过电子邮件形式发送。您必须在 2018年2月16日 北京时间23时59分之前完成您的认缴款, 否则将无法保留您的代币配额。",
+        "A19": "私募从 2018年2月11日北京时间零点至 2018年2月23日北京时间23时59分 结束。 私募阶段的对象是已认可的投资者，贡献超过62.5ETH。目前，我们分批将我们的钱包地址通过电子邮件形式发送。您必须在 2018年2月23日 北京时间23时59分之前完成您的认缴款, 否则将无法保留您的代币配额。",
 
         "Q20": "付款的钱包地址指的是哪个？（仅显示地址的前部分和后部分）",
         "A20-addr": "0x2d8377 ################################### A25a304",
@@ -451,10 +451,10 @@
         "Q24": "What stage are you at now (as of 15 Feb 2018)?",
         "A24-1": "The first batch of our Private Sales has started, running from the 11th Feb 2018 - 00:00 (GMT+8) and end on 16th Feb 2018 - 23:59 (GMT+8). You have to complete your contribution by 16th Feb 2018 - 23:59 (GMT+8), after which your allocation of tokens will not be guaranteed.",
         "A24-2": "The next batch of the Private Sale will be processed on the 17th Feb 2018 - 00:00 (GMT+8).",
-        "A24-3": "Early Bird Sale is currently scheduled to start on the 26th of February - 00:00(GMT+8). However, as we understand that many investors are waiting for the Early Bird Sale to open up, and there’s a possibility to move the day forward! We’ll definitely notify all of you via Emails and Telegram.",
+        "A24-3": "Early Bird Sale is currently scheduled to start on the 24th of February - 00:00(GMT+8). However, as we understand that many investors are waiting for the Early Bird Sale to open up, and there’s a possibility to move the day forward! We’ll definitely notify all of you via Emails and Telegram.",
         "A24-4": "For those who have submitted Whitelists, we are thoroughly going through them one by one and sending out confirmation emails by batches. In the email, we will state the Sales Stage and the Bonus amount you are invited to participate for.",
 
         "Q25": "What is the official Telegram Channel?",
         "A25": "https://t.me/morpheuslabs"
+      }
     }
-}
