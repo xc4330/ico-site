@@ -442,8 +442,8 @@
         "A22-bullet-1": "投资者希望能够尽快交易代币。",
         "A22-bullet-2": "我们有数几家等待上市的交易所和做市商安排稳定价格。",
         "A22-bullet-3": "我们不认为买家在没有收到额外代币（bonus）会选择出售，除非有利可图。",
-        "A22-bullet-4": "所有买方都有合约约束，不得在锁定期间卖出所有的代币。如果发现销售，他们的额外代币（bonus）将被没收。",
-        "A22-bullet-5": "没收的额外代币（bonus）将重新分配给投资者。",
+        "A22-bullet-4": "所有买方都有合约约束，不得在锁定期间卖出所有的代币。",
+        "A22-bullet-5": " ",
 
         "Q23": "When can I transfer MITx Tokens received to other wallets?",
         "A23": "You can only transfer MITx Tokens after 15th April.",
