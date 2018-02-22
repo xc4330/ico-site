@@ -405,9 +405,9 @@
 
         "Q8": "What is your timeline for your next phase? What is possibility for the respective token sale phase to close earlier?",
         "A8-1": "Our Event timeline is as follows:",
-        "A8-bullet-1": "Private Placement (26th Jan - 23th Feb)",
+        "A8-bullet-1": "Private Placement (11th Feb - 23rd Feb)",
         "A8-bullet-2": "Early Bird (24th Feb - 9th Mar)",
-        "A8-bullet-3": "Pre Sales (10th Mar - 23th Mar)",
+        "A8-bullet-3": "Pre Sales (10th Mar - 23rd Mar)",
         "A8-bullet-4": "Official Sales (24th Mar - 15th Apr)",
         "A8-2": "Looking at our current take up rate, it is highly possible to close all stages earlier than expected. Register interest here:",
         "A8-3": "https://tinyurl.com/goomlwl",
@@ -452,7 +452,7 @@
         "A18": "token@morpheuslabs.io",
 
         "Q19": "Tell me more about your private sales",
-        "A19": "Private sales start 11th Feb 2018 - 00:00 (GMT+8) and ends on 16th Feb 2018 - 23.59 (GMT+8). Private placement phase is for accredited investors & for amounts above $50K USD. We are now sending out emails with our wallet address by batches. You have to complete your contribution by 16th Feb 2018 23.59 (GMT+8), after which your allocation of tokens will not be guaranteed.",
+        "A19": "Private sales starts 11th Feb 2018 - 00:00 (GMT+8) and ends on 23rd Feb 2018 - 23.59 (GMT+8). Private placement phase is for accredited investors & for contribution more than 62.5 ETH. We are now sending out emails with our wallet address by batches. You have to complete your contribution by 23rd Feb 2018 23.59 (GMT+8), after which your allocation of tokens will not be guaranteed.",
 
         "Q20": "What is the wallet address to send funds to? (Showing only the prefix and suffix of the address)?",
         "A20-addr": "0x2d8377 ################################### A25a304",
@@ -475,9 +475,9 @@
         "A23": "You can only transfer MITx Tokens after 15th April.",
 
         "Q24": "What stage are you at now (as of 15 Feb 2018)?",
-        "A24-1": "The first batch of our Private Sales has started, running from the 11th Feb 2018 - 00:00 (GMT+8) and end on 16th Feb 2018 - 23:59 (GMT+8). You have to complete your contribution by 16th Feb 2018 - 23:59 (GMT+8), after which your allocation of tokens will not be guaranteed.",
+        "A24-1": "The first batch of our Private Sales has started, running from 11th Feb 2018 - 00:00 (GMT+8) and end on 16th Feb 2018 - 23:59 (GMT+8). You have to complete your contribution by 16th Feb 2018 - 23:59 (GMT+8), after which your allocation of tokens will not be guaranteed.",
         "A24-2": "The next batch of the Private Sale will be processed on the 17th Feb 2018 - 00:00 (GMT+8).",
-        "A24-3": "Early Bird Sale is currently scheduled to start on the 26th of February - 00:00(GMT+8). However, as we understand that many investors are waiting for the Early Bird Sale to open up, and there’s a possibility to move the day forward! We’ll definitely notify all of you via Emails and Telegram.",
+        "A24-3": "Early Bird Sale is currently scheduled to start on the 24th of February - 00:00(GMT+8). However, as we understand that many investors are waiting for the Early Bird Sale to open up, and there’s a possibility to move the day forward! We’ll definitely notify all of you via Emails and Telegram.",
         "A24-4": "For those who have submitted Whitelists, we are thoroughly going through them one by one and sending out confirmation emails by batches. In the email, we will state the Sales Stage and the Bonus amount you are invited to participate for.",
 
         "Q25": "What is the official Telegram Channel?",
