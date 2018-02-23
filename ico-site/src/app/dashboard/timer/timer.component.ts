@@ -43,7 +43,7 @@ export class TimerComponent implements OnInit {
 
   getCountdownTime() {
     let now = new Date().getTime();
-    let countDownDate = new Date("Feb 24, 2018 00:00:00").getTime();
+    let countDownDate = new Date("Mar 9, 2018 23:59:59").getTime();
     let stage = 'desc6';
 
     for(let phase in timeline){
