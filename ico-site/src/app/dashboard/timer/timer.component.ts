@@ -16,6 +16,7 @@ export class TimerComponent implements OnInit {
 
   badgeLabel1: string = "30% Bonus";
   badgeLabel2: string = "";
+  badgeClass: string = "";
 
   days: string = '00';
   hours: string = '00';
@@ -24,8 +25,11 @@ export class TimerComponent implements OnInit {
 
   ngOnInit() {
     let stage = this.getCountdownTime();
+
     stage = 'STAGE.' + stage;
     this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
+      this.badgeClass = (this.translate.currentLang == 'en') ? '' : 'adjust';
+
       this.translate.get(stage).subscribe((res: string) => {
         this.stageTitle1 = res
       });
