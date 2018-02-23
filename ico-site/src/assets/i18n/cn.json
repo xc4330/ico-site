@@ -14,15 +14,15 @@
     },
     "TIMER": {
         "BONUS SALE": "额外奖励促销",
-        "stage starts in:": "离促销开始还有:",
+        "stage starts in:": "离促销结束还有:",
         "30% Bonus": "35%额外奖励",
         "DAYS": "天",
         "HOURS": "小时",
         "MINUTES": "分钟",
         "SECONDS": "秒",
         "Buy Token Now": "购买代币",
-        "We accept BTC, ETH and other": "我们接受比特币，以太坊和其他付费方式",
-        "SHARE WITH": "转发分享"
+        "We accept BTC, ETH and other": "我们接受以太坊",
+        "SHARE WITH": "访问我们"
     },
     "DASHBOARD":{
         "Powerful Inclusive Full Stack Blockchain-Platform-As-a-Service for Enterprises.": "为企业量身打造的专业一站式区块链平台服务。"
