@@ -92,9 +92,9 @@
     "TIMELINE": {
         "header": "发售日程表",
         "current": "抢先尝鲜奖励",
-        "time": "2月24日 09:00:00 (GMT+8) - 3月8日",
+        "time": "2月24日 00:00:00 (GMT+8) - 3月9日",
         "join-btn": "加入抢先尝鲜",
-        "buy-btn": "购买代币"
+        "buy-btn": "马上注册"
     },
     "PLATFORM": {
         "header": "关于区块链平台服务",
@@ -232,7 +232,7 @@
         "details-tokenSales-label" : "出售" ,
         "details-tokenSales-content" : "2亿5千万" ,
         "details-decimals-label" : "小数",
-        "details-decimals-content" : "8",
+        "details-decimals-content" : "18",
         "details-value-label" : "价值",
         "details-value-content" : "8,000 MITx = 1 ETH",
         "details-token-label" :  "我们的钱包地址",
