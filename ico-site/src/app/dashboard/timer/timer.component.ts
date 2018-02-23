@@ -48,9 +48,10 @@ export class TimerComponent implements OnInit {
 
     for(let phase in timeline){
       let phaseDate = new Date(phase).getTime();
+      let phaseEnd = new Date(timeline[phase].end).getTime();
 
-      if(now < phaseDate){
-        countDownDate = phaseDate;
+      if(now <= phaseEnd && now >= phaseDate){
+        countDownDate = phaseEnd;
         stage = timeline[phase].title;
         break;
       }
