@@ -241,7 +241,7 @@
         "details-tokenSales-label" : "Token Sales" ,
         "details-tokenSales-content" : "250,000,000 (250M)" ,
         "details-decimals-label" : "Decimals",
-        "details-decimals-content" : "8",
+        "details-decimals-content" : "18",
 
         "note-1" : "Please note, the full address can be found in our email to you.",
         "note-emp" : "If you did not receive the email but have whitelisted yourself, please send us an email immediately at ",
