@@ -1,5 +1,6 @@
 export class Member {
     constructor(
+        public id: string,
         public photoUrl: string, 
         public profileUrl: string,
         public name: string,
