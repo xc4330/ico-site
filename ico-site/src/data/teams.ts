@@ -103,6 +103,15 @@ export const members: Member[] = [
       'Founder of Top Fund Blockchain capital and advisor to Ant Finance (Alibaba), he is selected 2017 <Forbes> China top 30 under 30 Elite list and one of top blockchain influencers in China.',
       'adv'
     ),
+    new Member(
+      '../assets/icons/Team21.png',
+      'https://www.linkedin.com/in/kunio-okuda-464816148',
+      'Kunio Okuda',
+      'Japan',
+      '',
+      'An investor in cryptographic currency and also an entrepreneur. He is one of top influencer in Japan and skilled in ICO analysis.Currently involved in OmiseGO, Cindicator, GazeCoin, Swissborg, Lucyd and more.',
+      'adv'
+    ),
     new Member
       ('../assets/icons/Team14.png',
       'https://www.linkedin.com/in/prof-simon-choi-2621005/',
@@ -121,6 +130,15 @@ export const members: Member[] = [
       'Co-founder of BANSEA Fund One, where served as the Chair in its Investment Committee Board. The co-inventor of IP Blockchain, has over 20 IT related patents and thousands of inventions.',
       'adv'
     ),
+    new Member
+    ('../assets/icons/Team22.png',
+    '',
+    'Khal Achkar',
+    'Australia/Melbourne',
+    'Mst Eng Mgt, American University',
+    'Season entrepreneur with experience in various sectors and successfully driven several complex multi-million dollar projects to completion, achieving excellent financial outcomes. With area of expertise in BlockChain into business integration and Public Speaking, Presentations, Corporate Communications, and Cross-Functional Leadership. He is one of most prominent ICO advisor in Australia.',
+    'adv'
+  ),
     new Member(
       '../assets/icons/Team06.png',
       'https://www.linkedin.com/in/choon-hong-lok-83b9b14/',
