@@ -366,6 +366,7 @@ h2.BERN, GLECB,
 }
 .classes h2{
   margin: 1em;
+  font-family: BERN, GLECB, serif !important;
 }
 .classes ul{
   columns: 4;
@@ -384,6 +385,93 @@ h2.BERN, GLECB,
 .alliance.row{
   padding: 2em;
 }
+
+.bounty-allocation-container, .bounty-rules-container{
+  color: white;
+  padding: 40px;
+  margin: 0em 0 1em 0;
+  border-bottom: 2px solid #1e364b;
+}
+
+.bounty-allocation-container>h4, .bounty-rules-container>h4{
+  font-size: 1.8em;
+  font-family: BERN, GLECB, serif !important;
+  letter-spacing: .01em;
+}
+
+.bounty-allocation-container>.row>.col{
+  display: list-item; 
+  list-style-type: disc;
+  list-style-position: inside;
+  padding: 0;
+}
+
+.bounty-rules-container>.row{
+  display: list-item; 
+  list-style-type: disc;
+  list-style-position: inside;
+  padding: 0;
+}
+
+.campaign-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.campaign-name-container {
+  grid-column-start: 1;
+}
+
+.campaign-name-container>h3 {
+  font-size: 1.8em;
+  font-family: BERN, GLECB, serif !important;
+  letter-spacing: .01em;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center; */
+  padding-left: 5%;
+}
+
+.campaign-content-container {
+  grid-column-start: 2;
+  padding-top: 6px;
+  padding-left: 10px;
+}
+
+.campaign-content-container>h4{
+  font-size: 1rem
+}
+
+.campaign-content-container>.row{
+  display: list-item; 
+  list-style-type: disc;
+  list-style-position: inside;
+  padding: 0;
+  color: rgba(147,204,254,1);
+  margin-bottom: 4px;
+}
+
+.campaign-content-container strong{
+  color: rgba(232,246,144,1)
+}
+
+.campaign-content-container>p>strong{
+  color: white !important
+}
+
+.btn-container>.btn{
+  font-family: arial,Helvetica,sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  box-shadow:none;
+  border: 2px solid white;
+  margin: 20px 20px 20px 0;
+  border-radius: 0;
+  padding: 8px;
+}
+
+
 @media only screen and (max-width: 760px) {
   .h2 {
     width: 50%;
