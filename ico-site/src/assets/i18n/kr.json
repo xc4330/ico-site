@@ -30,6 +30,7 @@
         "Powerful Inclusive Full Stack Blockchain-Platform-As-a-Service for Enterprises.": "Powerful Inclusive Full Stack Blockchain-Platform-As-a-Service for Enterprises."
     },
     "ABOUT":{
+        "header": "About Morpheus",
         "description1": "Simplifies and expedites blockchain application development, gives you the flexibility to choose between available programming languages and blockchain runtimes that better suit your needs.",
         "description2": "You receive unparalleled benefits from an integrated collaborative development environment, workspace management, version control repository and many preconfigured tasks.",
         "description3": "Let our platform do the heavy lifting while you focus on value-adding work such as application creation and experimenting with the blockchain technologies at a fraction of the cost and time. "
