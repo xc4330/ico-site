@@ -23,9 +23,9 @@ export var logos = {
       'link'  : 'http://www.gazeru.co.jp/'
     },
     {
-      'name'  : 'Contact',
-      'image' : '../assets/img/logos/w9n10oNP.png',
-      'link'  : 'http://www.contecuae.com/'
+      'name'  : 'MW',
+      'image' : '../assets/img/logos/momentum_color.png',
+      'link'  : 'https://momentum.asia'
     },
     {
       'name'  : 'MagicQ',
