@@ -194,8 +194,8 @@
 }
 
 .pie-stat.community{
-    bottom: 3%;
-    right: 1%;
+    bottom: 5%;
+    right: -10%;
 }
 
 .pie-stat.team{
@@ -299,7 +299,7 @@
 
     .pie-stat.community{
         top: 62%;
-        right: -16%;
+        right: -20%;
     }
 
     .pie-stat.team{
